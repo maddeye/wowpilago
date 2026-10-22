@@ -1,0 +1,72 @@
+{
+  "status": "PASS_NATIVE_DISPOSABLE_CHARACTER_DELETE",
+  "combined_lifecycle_evidence": "docs/verification/native-lifecycle.json",
+  "verification": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python .local/native-delete-case/audit_after.py --check",
+  "scope": "Actual stock build12340 character creation and physical DELETE confirmation. One fresh Human Warrior only. No world entry or received rewards.",
+  "fixture": {
+    "guid": 43,
+    "name": "Apdeltarget",
+    "account": 7,
+    "binding": 32,
+    "seed": "09248790844363649196",
+    "slot": 1,
+    "level": 1,
+    "xp": 0,
+    "world_entries": 0,
+    "received_rewards": 0,
+    "new_stock_rows_preserved": 60,
+    "new_enabled_checks_preserved": 213
+  },
+  "manifest": {
+    "producer": "Actual isolated current APWorld Generate/Main output",
+    "report": ".local/native-delete-preparation/report.json",
+    "sha256": "c313e31f8ae6ff143b7c07f823c584c5bd789f982873e7a2df642456fb0f1613",
+    "canonical_sha256": "e249308f9b46ce3c282fa606df75c60e3063f5ad81703c9de374b28ccd86ce77",
+    "ap_server_started": false
+  },
+  "binding": "Actual production Store.bind while only the fresh fixture was offline at level1. Status was explicitly disconnected before native deletion. No arbitrary receipt, check or progression writes.",
+  "observed": {
+    "deleted_character_absent": true,
+    "new_binding_archived_and_detached": true,
+    "manifest_progress_stock_and_allowlists_preserved": true,
+    "original42_character_rows_exact": true,
+    "all_old_items_inventory_spells_achievements_AP_history_exact": true,
+    "frozen11_exact": true,
+    "old_AP_save_sha256": "9276a39d4ae2599d58434427684efba9e7f1fa07cac24e4bb88cd6c2539114b7",
+    "only_auth7_session_key_and_last_login_allowed": true,
+    "postdelete_production_Store_constructor_rejected": true
+  },
+  "cleanup": {
+    "all42_characters_offline_before_owned_close": true,
+    "account7_online_on_selection_before_close": true,
+    "all7_accounts_naturally_offline_after_close": true,
+    "launcher_exit": 0,
+    "forced": false,
+    "record": ".local/v2-client/evidence/run-yjllb8a7/cleanup.json",
+    "custody": ".local/native-delete-case/closure.json"
+  },
+  "audit": ".local/native-delete-case/audit.json",
+  "audit_sha256": "e0b6dd997d4f89710fadbf80d4f662a376e1983eeea811bcf4403c02ba932ead",
+  "snapshot_sha256": {
+    "before": "b059c5d9f4ecc9111ebe0cf3acf898ef1cfa0857813c9eb3b6b9e78a8c8fd42a",
+    "created": "5a082ce68b542a0dc88bf9e39052809f964a9c5fc415183cb95d33c42599a7fe",
+    "bound": "d133c2642168383e1010ef82376521197d42d05f65dae3b3fc3a9847ad4c4db2",
+    "deleted": "cc49ef40fe80e96a2457bb96965730a9f4c0943a75877d9410a1abd09d5803ef",
+    "after": "06bd760ea1847f3b1fb1853653575cbb601ae2d534f3f0ec5a20d2eda92fba0c"
+  },
+  "screenshots": [
+    ".local/native-delete-case/05-before-create.png",
+    ".local/native-delete-case/06-created-list.png",
+    ".local/native-delete-case/07-delete-confirm.png",
+    ".local/native-delete-case/08-before-confirm.png",
+    ".local/native-delete-case/09-after-delete.png"
+  ],
+  "world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+  "trigger": "mod_archipelago_archive_character",
+  "limits": [
+    "No original character was deleted or entered the world.",
+    "Native receipt history was empty. Nonempty receipt/effect/rollback/replacement evidence remains separate isolated InnoDB proof.",
+    "No crash, deadlock, lost-COMMIT acknowledgement, soft deletion or restoration proof.",
+    "This does not close other purchase/crash, all-check-type, playthrough or release requirements."
+  ]
+}

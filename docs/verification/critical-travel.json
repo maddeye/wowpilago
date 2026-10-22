@@ -1,0 +1,22 @@
+{
+  "status": "PASS_GENERATION_CRITICAL_TRAVEL_GRAPH",
+  "requirement": "39eac8b86ad9",
+  "implementation": "apworld/wowpilago/__init__.py create_regions",
+  "core_regions": ["Menu", "selected profile starting region", "Azeroth", "Outland", "Northrend"],
+  "critical_edges": "Selected start through abstract ordinary Azeroth travel, cap60 plus Outland Access Dark Portal, faction-specific cap70 plus Northrend Access boat/zeppelin, reachable return edges.",
+  "quest_chains": "Actual catalog parents and inherited prerequisite feasibility are retained; no synthetic completion-order events.",
+  "parent_packaged_test_log": ".local/critical-travel-implementation/parent-apworld-tests.txt",
+  "parent_tests": 34,
+  "parent_process_exit": 0,
+  "location_rule_comparisons": 1403776,
+  "supported_profiles": 52,
+  "parent_preservation": ".local/critical-travel-implementation/parent-preservation.json",
+  "catalog_and_frozen_room_files_unchanged": 120,
+  "fixed_seed_profile_slot_records_identical": 52,
+  "numbered_ids_and_catalog_semantics_changed": false,
+  "default_human_items": 213,
+  "default_human_gold_consumable": [49, 36],
+  "victory_requires_only_seven_caps_in_logic": true,
+  "native_runtime_or_saved_room_modified": false,
+  "limits": "Generation feasibility and abstract critical travel topology only. Not native transport execution, observed quest completion order, geographic pacing, literal300-item content or real level80 gameplay."
+}

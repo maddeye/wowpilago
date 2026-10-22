@@ -1,0 +1,32 @@
+test_ability_id_rejected (test_reward_catalog.RewardCatalogTests.test_ability_id_rejected) ... ok
+test_bad_dbc_rejected (test_reward_catalog.RewardCatalogTests.test_bad_dbc_rejected) ... ok
+test_bank_levels_and_baseline_requirements (test_reward_catalog.RewardCatalogTests.test_bank_levels_and_baseline_requirements) ... ok
+test_class_role_policy (test_reward_catalog.RewardCatalogTests.test_class_role_policy) ... ok
+test_classic_spell_bonuses_and_triggered_effects (test_reward_catalog.RewardCatalogTests.test_classic_spell_bonuses_and_triggered_effects) ... ok
+test_complete_catalog (test_reward_catalog.RewardCatalogTests.test_complete_catalog) ... ok
+test_dk_explicitly_excluded (test_reward_catalog.RewardCatalogTests.test_dk_explicitly_excluded) ... ok
+test_duplicate_item_rejected (test_reward_catalog.RewardCatalogTests.test_duplicate_item_rejected) ... ok
+test_feral_and_hunter_sets_are_not_caster_gear (test_reward_catalog.RewardCatalogTests.test_feral_and_hunter_sets_are_not_caster_gear) ... ok
+test_generic_utility_is_not_spec_coverage (test_reward_catalog.RewardCatalogTests.test_generic_utility_is_not_spec_coverage) ... ok
+test_hybrid_spec_roles_in_featured_sets (test_reward_catalog.RewardCatalogTests.test_hybrid_spec_roles_in_featured_sets) ... ok
+test_legendary_mask_and_future_proficiency (test_reward_catalog.RewardCatalogTests.test_legendary_mask_and_future_proficiency) ... ok
+test_legendary_vendor_price_rejected (test_reward_catalog.RewardCatalogTests.test_legendary_vendor_price_rejected) ... ok
+test_missing_bank_eligibility_rejected (test_reward_catalog.RewardCatalogTests.test_missing_bank_eligibility_rejected) ... ok
+test_missing_set_piece_rejected (test_reward_catalog.RewardCatalogTests.test_missing_set_piece_rejected) ... ok
+test_missing_trainer_source_rejected (test_reward_catalog.RewardCatalogTests.test_missing_trainer_source_rejected) ... ok
+test_nonbase_rank_source_rejected (test_reward_catalog.RewardCatalogTests.test_nonbase_rank_source_rejected) ... ok
+test_overlapping_rank_rejected (test_reward_catalog.RewardCatalogTests.test_overlapping_rank_rejected) ... ok
+test_plate_proficiency_rejected (test_reward_catalog.RewardCatalogTests.test_plate_proficiency_rejected) ... ok
+test_quality_pricing (test_reward_catalog.RewardCatalogTests.test_quality_pricing) ... ok
+test_read_only_boundary (test_reward_catalog.RewardCatalogTests.test_read_only_boundary) ... ok
+test_real_featured_piece_counts (test_reward_catalog.RewardCatalogTests.test_real_featured_piece_counts) ... ok
+test_roles_do_not_invent_specializations (test_reward_catalog.RewardCatalogTests.test_roles_do_not_invent_specializations) ... ok
+test_talent_granted_source_rejected (test_reward_catalog.RewardCatalogTests.test_talent_granted_source_rejected) ... ok
+test_weapon_proficiency_not_just_class_mask (test_reward_catalog.RewardCatalogTests.test_weapon_proficiency_not_just_class_mask) ... ok
+test_wrong_class_source_rejected (test_reward_catalog.RewardCatalogTests.test_wrong_class_source_rejected) ... ok
+test_wrong_set_relationship_rejected (test_reward_catalog.RewardCatalogTests.test_wrong_set_relationship_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.231s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "revision": "ACDB 335.17-dev",
+  "cache_id": 17,
+  "updates_sha256": "acf311854e8d22af8772aadf10d6d605a27773d68dea1e2349e64a1ce1c80f5e",
+  "applied_updates": 2917,
+  "core_commit": "9fb906bb7296212ff42fc95ff73a92aaf8554f0d",
+  "client_build": 12340,
+  "working_tree_diff_sha256": "58e2630080e819fe847541912746502dd1e3cddc0fb83f2a997ae3d8264f35af",
+  "working_tree_is_clean": false
+}

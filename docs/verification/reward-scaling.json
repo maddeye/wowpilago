@@ -1,0 +1,95 @@
+{
+  "status": "PASS_RECIPIENT_LEVEL_GOLD_AND_CONSUMABLE_SCALING",
+  "requirement": "70cb9cbc6c49",
+  "potion_templates": [
+    {
+      "entry": 118,
+      "name": "Minor Healing Potion",
+      "RequiredLevel": 1,
+      "AllowableClass": -1,
+      "spellid_1": 439
+    },
+    {
+      "entry": 858,
+      "name": "Lesser Healing Potion",
+      "RequiredLevel": 3,
+      "AllowableClass": -1,
+      "spellid_1": 440
+    },
+    {
+      "entry": 929,
+      "name": "Healing Potion",
+      "RequiredLevel": 12,
+      "AllowableClass": -1,
+      "spellid_1": 441
+    },
+    {
+      "entry": 1710,
+      "name": "Greater Healing Potion",
+      "RequiredLevel": 21,
+      "AllowableClass": -1,
+      "spellid_1": 2024
+    },
+    {
+      "entry": 3928,
+      "name": "Superior Healing Potion",
+      "RequiredLevel": 35,
+      "AllowableClass": -1,
+      "spellid_1": 4042
+    },
+    {
+      "entry": 13446,
+      "name": "Major Healing Potion",
+      "RequiredLevel": 45,
+      "AllowableClass": -1,
+      "spellid_1": 17534
+    },
+    {
+      "entry": 33447,
+      "name": "Runic Healing Potion",
+      "RequiredLevel": 70,
+      "AllowableClass": -1,
+      "spellid_1": 43185
+    }
+  ],
+  "potion_policy": "Five of highestsupportedpotionwhoseRequiredLevel isnotaboveactualrecipientlevel; allclassesallowed.",
+  "gold_copper_by_min_actual_level": {
+    "1": 1000,
+    "10": 10000,
+    "20": 50000,
+    "40": 200000,
+    "60": 500000,
+    "70": 1000000
+  },
+  "gold_cap": "2147483647copper; insufficientheadroom leavesreceiptpendingwithoutloss.",
+  "actual_native": [
+    {
+      "level": 1,
+      "effect": "RealGoldCache1000copperandMinor118x5"
+    },
+    {
+      "level": 2,
+      "effect": "Realquest7ConsumableCache118x5"
+    },
+    {
+      "level": 3,
+      "effect": "ActualpeerTile6ConsumableCache858x5;old118x10unchanged"
+    }
+  ],
+  "actual_native_evidence": [
+    "docs/verification/normal-quest7.json",
+    "docs/verification/real-peer-return.json",
+    ".local/normal-workers-connected/parent-audit.json"
+  ],
+  "compiled_cpp": "UnchangedAPDelivery.h Gold/Potion evaluatedatall80actuallevelsbytest_native_delivery.",
+  "real_sql": "IsolatedMySQLtest_gold_and_potion_scaling evaluated12boundarylevelsandwalletcap under stoppedserviceguard.",
+  "target_tests": 5,
+  "target_log": ".local/reward-scaling-proof/tests.log",
+  "full_sql_regression": "docs/verification/sql-lifecycle.json",
+  "source": [
+    "src/APDelivery.h",
+    "src/APDelivery.cpp",
+    "sql/v2_effects.sql"
+  ],
+  "limits": "Scalingpolicy/sourceusability andactualearlydelivery, not empiricalmid/lategamebalanceplaytime or finishedlevel80playthrough. SQLfixtures are not gameplay."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS_NATIVE_CORE_COMPILE_AND_LINK_NOT_DEPLOYED",
+  "candidate": ".local/v2-build/20261021T172513.658484Z-area-hook",
+  "candidate_manifest_sha256": "e2e5395ad5bea7a4eb539cfceee7fb5c296ac58e9f90d50cbbdcf3d053c8398e",
+  "candidate_world_sha256": "f820300f0bf2af3036cb30592e8a0e04127958d301362d04b42dc190e56faa62",
+  "deployed_world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+  "source_sha256": "1379e79c2edd8d8f2174610f93f484002f3bf2bbfd0b5c6e2f1d98f1a43278cc",
+  "base_manifest_and_install_unchanged": true,
+  "actual_running_world_unchanged": true,
+  "playerbots_adapter_enabled": true,
+  "core_commit": "9fb906bb7296212ff42fc95ff73a92aaf8554f0d",
+  "tests": "docs/verification/area-producer-regression.json",
+  "limits": [
+    "Compile/link only; no native area-entry run or new catalog content.",
+    "No deployment, service restart, gameplay, queue ingress or room change.",
+    "Historical runtime source guards still reject current worktree against old deployed build."
+  ]
+}

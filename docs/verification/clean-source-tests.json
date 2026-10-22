@@ -1,0 +1,41 @@
+{
+  "status": "PASS_CLEAN_SOURCE_DISCOVERY_WITH_OPTIONAL_INTEGRATION_SKIPS",
+  "run": ".local/goal-88bb/portable-test-fix/clean.log",
+  "tests_run": 508,
+  "passed": 392,
+  "skipped_cases": 116,
+  "skipped_class_setups": 2,
+  "reported_skips": 118,
+  "errors": 0,
+  "seconds": 17.720,
+  "local_fixture_present_touched_tests": {"passed": 218, "skipped": 0},
+  "local_full_suite": {"total": 549, "passed": 500, "sql_gated_skips": 49},
+  "change": "Missing optional private archives or pinned source inputs produce named unittest skips; present malformed or corrupt inputs still fail. Pure source/parser/mock tests remain enabled.",
+  "reviewed": [
+    ".local/goal-88bb/portable-test-fix/changes.diff",
+    ".local/goal-88bb/portable-test-fix/REPORT.md",
+    ".local/goal-88bb/portable-test-fix/clean.log"
+  ],
+  "isolated_snapshot": {
+    "report": ".local/goal-88bb/isolated-clean-after-toast/summary.json",
+    "tests_run": 501,
+    "passed": 383,
+    "skipped_cases": 118,
+    "skipped_class_setups": 4,
+    "reported_skips": 122,
+    "errors": 0,
+    "discovery_exit": 0,
+    "verification_wrapper_exit": 0,
+    "isolation": "Both private-root and host core/client-data aliases masked read-only; network namespace isolated",
+    "integrity": "All223 copied public files and the original public tree remained unchanged during this run. Later evidence-document updates are outside the tested snapshot.",
+    "historical_integrity_failure": ".local/goal-88bb/isolated-clean-review/REPORT.md retains the earlier passing discovery with failed original-tree integrity. It was not relabeled."
+  },
+  "runtime_guards_changed": false,
+  "native_proof": false,
+  "limits": [
+    "Uses the existing virtualenv and installed compilers/Lua/tools.",
+    "Some tests can still read host pinned core and client DBC inputs.",
+    "The later isolated snapshot proves network isolation and masked private inputs, but still not fresh-OS dependency installation.",
+    "Skips do not replace the native integration checks or complete M7."
+  ]
+}

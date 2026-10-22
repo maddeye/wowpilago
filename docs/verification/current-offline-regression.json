@@ -1,0 +1,13 @@
+{
+  "status": "PASS_CURRENT_OFFLINE_REGRESSION",
+  "tests": 491,
+  "passed": 442,
+  "skipped": 49,
+  "seconds": 38.612,
+  "command": "env -u WOWPILAGO_DB_PASSWORD -u WOWPILAGO_TEST_DB_PORT -u WOWPILAGO_PROVISION_MYSQL_TEST -u WOWPILAGO_MERCHANT_SQL_TEST PYTHONPATH=.:tests nice -n19 .venv/bin/python -m unittest discover -s tests -v",
+  "log": ".local/normal-stormwind-shop-forward/offline-regression.log",
+  "log_sha256": "adf726ae0895f1400e698201b71cda63774cf379534ffb4c1a1f64e71b0f038d",
+  "scope": "CurrentretainedsourceafterunusedMage32guardquarantine.SQL/provisioningflagsEXPLICITLYunsetwhileGUIowneractive.Notnative/endtoend/releaseproof.Historical523SQLgatedrunseparate.",
+  "verified_requirements": 149,
+  "total_requirements": 187
+}

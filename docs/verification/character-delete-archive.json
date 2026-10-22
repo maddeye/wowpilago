@@ -1,0 +1,92 @@
+{
+  "status": "PASS_NATIVE_DEFAULT_CHARACTER_DELETE_AND_ATOMIC_SCHEMA",
+  "requirement_complete": true,
+  "combined_lifecycle_evidence": "docs/verification/native-lifecycle.json",
+  "source": "src/APProgression.cpp",
+  "source_sha256": "395d19fae69cd6cf4f2dd189d289b3b0f64003285ec84c819dfe3c9762b6b6d1",
+  "fix": "The schema BEFORE DELETE trigger archives and detaches the matching binding in the character DELETE transaction. The existing ID-capture callback remains a legacy-schema fallback.",
+  "atomic_schema": {
+    "source": "sql/v2.sql",
+    "sha256": "7a55d0eaa865314f2de465ea7a57c62d44f5710a7aed234247454dece5058928",
+    "trigger": "mod_archipelago_archive_character",
+    "report": ".local/goal-2b4838/delete-trigger/REPORT.md",
+    "red_tests": 3,
+    "red_failures": 3,
+    "red_errors": 0,
+    "integration_tests": 35,
+    "integration_failures": 0,
+    "integration_errors": 0,
+    "integration_skips": 0,
+    "preserved_existing_synthetic_databases": 55,
+    "result": ".local/goal-2b4838/delete-trigger/full-result.json",
+    "result_sha256": "c047f6592c16d9ec1ed0e006506284a7d5adb545a17b19e8f88f8ff249de48a9",
+    "scope": "Actual isolated MySQL8.4.11/InnoDB, no native hook needed. Tests include no lookup, a binding inserted after a lookup miss, late-error rollback, unrelated NULL binding preservation and idempotent trigger installation.",
+    "deployed": true,
+    "deployment": {
+      "authorization": "Explicit user approval to install the reviewed trigger in the test realm",
+      "audit": ".local/deletion-trigger-install/attempt-1792675162632558148/final-audit.json",
+      "schema": "acore_characters",
+      "server_uuid": "22e1df15-a702-11f1-b183-1afc4010fddc",
+      "all42_character_rows_exact": true,
+      "all_items_inventory_spells_achievements_AP_rows_exact": true,
+      "all22_auth_tables_exact": true,
+      "exact_tables": 142,
+      "natural_system_tables_separately_verified": ["creature_respawn", "worldstates"],
+      "ddl_retried": false,
+      "services_restarted": false,
+      "native_deletion_tested": false,
+      "initial_checker_failure": "Preserved. Empty DictCursor results were tuples while the comparison produced a list. A separate read-only audit verified the installation without rerunning DDL."
+    }
+  },
+  "native": {
+    "evidence": "docs/verification/native-character-delete.json",
+    "report": ".local/native-delete-case/REPORT.md",
+    "guid": 43,
+    "binding": 32,
+    "physical_stock_client_delete": true,
+    "all_original42_exact": true,
+    "new_manifest_stock_progress_and_allowlists_preserved": true,
+    "world_entries": 0,
+    "received_rewards": 0,
+    "verification": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python .local/native-delete-case/audit_after.py --check"
+  },
+  "offline_regression": {
+    "tests": 5,
+    "source": "tests/test_native_character_delete.py",
+    "scope": "Compiled extracted production callback and SQLite FIFO/FK model",
+    "old_failure": ".local/goal-88bb/delete-archive-fix/before-fix.log"
+  },
+  "mysql": {
+    "report": ".local/goal-88bb/delete-mysql-proof/REPORT.md",
+    "old_exit": 1,
+    "old_expected_archive_failures": 2,
+    "new_exit": 0,
+    "new_tests": 9,
+    "bound_matrix_cases": 15,
+    "retained_fixture_databases": 51,
+    "parent_audit": ".local/goal-88bb/delete-mysql-proof/parent-audited-results.json",
+    "scope": "Historical pre-trigger schema. Exact extracted callback, actual InnoDB FK, complete production AP schema and effects, real Store operations, modeled core FIFO caller",
+    "proved": [
+      "Nonempty binding-keyed histories remain exact, including pending and applied receipts.",
+      "Other attached and unrelated NULL bindings remain unchanged.",
+      "Rollback restores character and binding. Same-GUID replacement cannot inherit the old slot.",
+      "New Store calls reject detached slots. In-flight admitted history writes remain confined to the old slot.",
+      "Actual effect and purchase routines reject inactive ownership without modifying replacement data. Replays are harmless."
+    ],
+    "isolation": "Only owned synthetic schemas on fresh sandbox127.0.0.1:13318, UUID521d1e97-cda5-11f1-9b9e-7297936972c4. No original realm access. Sandbox stopped after parent audit; databases and volume retained."
+  },
+  "candidate": {
+    "path": ".local/v2-build/20261021T233416.620969Z-delete-archive",
+    "world_sha256": "4dc44a5c758fe0d7c546cca8dbb7160a645f0510d9eb0c9bce291d6dcec1bbaf",
+    "scope": "Historical pre-trigger candidate. Compiled and linked actual pinned core with playerbots adapter. Area and ID-capture deletion fixes only. It does not prove the new trigger migration.",
+    "parent_audit": ".local/goal-88bb/delete-candidate-build/audit.json",
+    "deployed": false
+  },
+  "limits": [
+    "The actual native test deleted only fresh GUID43 with zero received rewards. No original character was deleted. Running old3b9 still has the original callback and the installed atomic trigger.",
+    "Nonempty-history, rollback, replacement and effect-rejection coverage remains separate isolated InnoDB proof. Legacy schemas without the trigger retain their known lookup limitations.",
+    "No direct callback/queue instrumentation, arbitrary crash durability, lost COMMIT acknowledgement or deadlock proof.",
+    "Only physical method0 deletion is supported here. Soft deletion and restoration remain outside this proof.",
+    "The combined bounded lifecycle requirement is verified in native-lifecycle.json. Full M7 remains open."
+  ]
+}

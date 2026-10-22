@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PARENT_FULL122_REAL_STORMWIND_SHOP_AND_LEVEL3_REQ80_EQUIP",
+  "scope": "Legitimate normal character progression. This is the first real shop purchase, not a fabricated grant.",
+  "guid": 4,
+  "binding": 1,
+  "level": 3,
+  "xp": 1096,
+  "money": 1106,
+  "health": 1088,
+  "potions118": 10,
+  "potions858": 5,
+  "actual_city_check919701519_acknowledged": true,
+  "real_bag_receipt13_guid589_applied": true,
+  "exactly_one_stock26_item51795_purchase8_vouchers13_to5": true,
+  "stock26_only_sold_delta": true,
+  "purchased_guid590_authorized_binding1": true,
+  "actual_physical_mainhand_equip": true,
+  "original_required_level80_at_actual_level3": true,
+  "original_strength66_stamina99_and_damage_preserved": true,
+  "all_preexisting_item_guids_and_fields_exact": true,
+  "old_sword66_preserved_bag298_slot4": true,
+  "old_equipped_bag298_exact_new_bag589_unequipped_inside_it": true,
+  "all_other41_characters_and_unrelated_rows_exact": true,
+  "all_skills_and_spells_exact": true,
+  "all_prior_receipt_histories_exact": true,
+  "eleven_frozen_pending_rewards_exact": true,
+  "original_room_one_real_check_one_bag_only_and_peer_state_preserved": true,
+  "screenshots_parent_viewed": [
+    "ui/53-original-req80-tooltip.png",
+    "ui/54-equipped.png",
+    "ui/57-stock26-sold.png"
+  ],
+  "native_final_position": [
+    -8836.37,
+    625.153,
+    93.7211
+  ],
+  "input_release_seconds": 803,
+  "normal_logout_selection_seconds": 834,
+  "shared_ambient_guards_passed_without_relaxation": true,
+  "limitations": [
+    "No combat, procs, sockets, enchants or set-bonus test.",
+    "Not all class/proficiency combinations or all equipment paths.",
+    "Not a full 1-to-80 playthrough, multiworld victory or global exploit proof."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "source_artifact": ".local/class-systems/summary.json",
+  "source_sha256": "5ed744a42ed8e5909a6b48bb8fa6e560cbe2466a1fa5f920d04eb8f7adddbc10",
+  "evidence": {
+    "result": {
+      "binding": 5,
+      "event": "PASS",
+      "gm_guid": 13,
+      "guid": 12,
+      "label": "fabricated AP ingress; NOT real AP client, gameplay, or release-gate evidence",
+      "missing": [
+        "real UI/travel/procs",
+        "trainer respec and dual-spec switches",
+        "other classes including DK",
+        "real AP-room ingress/gameplay"
+      ]
+    },
+    "native_checkpoints": 26,
+    "talent_actions": [
+      {
+        "allowed": false,
+        "event": "talent_action",
+        "free": 1,
+        "rank": 0,
+        "talent": 126
+      },
+      {
+        "allowed": true,
+        "event": "talent_action",
+        "free": 0,
+        "rank": 0,
+        "talent": 130
+      },
+      {
+        "allowed": true,
+        "event": "talent_action",
+        "free": 3,
+        "rank": 1,
+        "talent": 130
+      },
+      {
+        "allowed": true,
+        "event": "talent_action",
+        "free": 2,
+        "rank": 2,
+        "talent": 130
+      },
+      {
+        "allowed": true,
+        "event": "talent_action",
+        "free": 1,
+        "rank": 3,
+        "talent": 130
+      },
+      {
+        "allowed": true,
+        "event": "talent_action",
+        "free": 0,
+        "rank": 4,
+        "talent": 130
+      },
+      {
+        "allowed": true,
+        "event": "talent_action",
+        "free": 0,
+        "rank": 0,
+        "talent": 126
+      }
+    ],
+    "protected_character_changes": {},
+    "receipts": 25,
+    "all_applied": true,
+    "offline_fixture_guids": [
+      12,
+      13
+    ]
+  }
+}

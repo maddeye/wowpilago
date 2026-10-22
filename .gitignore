@@ -1,0 +1,49 @@
+# Local realms, client data, credentials, and private test evidence.
+/.local/
+/NEW.local/
+/bridge.toml
+/bridge.local.toml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated packages, build outputs, and game/session saves.
+/dist/
+/build/
+*.apworld
+*.o
+*.a
+*.so
+*.log
+*.apsave
+*.archipelago
+*.multidata
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.sql.gz
+*.sql.xz
+
+# Never commit client binaries or extracted game assets.
+*.[eE][xX][eE]
+*.[dD][lL][lL]
+*.[mM][pP][qQ]
+*.[dD][bB][cC]
+*.vmap
+*.vmtree
+*.vmtile
+*.mmap
+*.mmtile

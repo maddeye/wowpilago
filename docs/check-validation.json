@@ -1,0 +1,5502 @@
+{
+  "valid": true,
+  "counts": {
+    "quest": 150,
+    "exploration": 60,
+    "boss": 48,
+    "dungeon": 14,
+    "level": 16,
+    "raid": 12
+  },
+  "invalid_rows": [],
+  "profiles": [
+    {
+      "race_id": 1,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 1,
+      "class_id": 2,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 1,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 1,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 1,
+      "class_id": 8,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 1,
+      "class_id": 9,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 2,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 2,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 2,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 2,
+      "class_id": 7,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 2,
+      "class_id": 9,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 3,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 3,
+      "class_id": 2,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 3,
+      "class_id": 3,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 3,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 3,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 4,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 4,
+      "class_id": 3,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 4,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 4,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 4,
+      "class_id": 11,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 5,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 85,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 5,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 85,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 5,
+      "class_id": 5,
+      "faction": "horde",
+      "starting_zone": 85,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 5,
+      "class_id": 8,
+      "faction": "horde",
+      "starting_zone": 85,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 5,
+      "class_id": 9,
+      "faction": "horde",
+      "starting_zone": 85,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 6,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 215,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 6,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 215,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 6,
+      "class_id": 7,
+      "faction": "horde",
+      "starting_zone": 215,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 6,
+      "class_id": 11,
+      "faction": "horde",
+      "starting_zone": 215,
+      "total": 206,
+      "early_count": 67,
+      "early_local_count": 20,
+      "before_80": 161,
+      "counts": {
+        "quest": 64,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 7,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 7,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 7,
+      "class_id": 8,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 7,
+      "class_id": 9,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "total": 213,
+      "early_count": 74,
+      "early_local_count": 20,
+      "before_80": 168,
+      "counts": {
+        "quest": 71,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 8,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 8,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 8,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 8,
+      "class_id": 5,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 8,
+      "class_id": 7,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 8,
+      "class_id": 8,
+      "faction": "horde",
+      "starting_zone": 14,
+      "total": 205,
+      "early_count": 66,
+      "early_local_count": 20,
+      "before_80": 160,
+      "counts": {
+        "quest": 63,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 10,
+      "class_id": 2,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "total": 215,
+      "early_count": 76,
+      "early_local_count": 20,
+      "before_80": 170,
+      "counts": {
+        "quest": 73,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 10,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "total": 215,
+      "early_count": 76,
+      "early_local_count": 20,
+      "before_80": 170,
+      "counts": {
+        "quest": 73,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 10,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "total": 215,
+      "early_count": 76,
+      "early_local_count": 20,
+      "before_80": 170,
+      "counts": {
+        "quest": 73,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 10,
+      "class_id": 5,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "total": 215,
+      "early_count": 76,
+      "early_local_count": 20,
+      "before_80": 170,
+      "counts": {
+        "quest": 73,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 10,
+      "class_id": 8,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "total": 215,
+      "early_count": 76,
+      "early_local_count": 20,
+      "before_80": 170,
+      "counts": {
+        "quest": 73,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 10,
+      "class_id": 9,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "total": 215,
+      "early_count": 76,
+      "early_local_count": 20,
+      "before_80": 170,
+      "counts": {
+        "quest": 73,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 11,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "total": 218,
+      "early_count": 79,
+      "early_local_count": 20,
+      "before_80": 173,
+      "counts": {
+        "quest": 76,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 11,
+      "class_id": 2,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "total": 218,
+      "early_count": 79,
+      "early_local_count": 20,
+      "before_80": 173,
+      "counts": {
+        "quest": 76,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 11,
+      "class_id": 3,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "total": 218,
+      "early_count": 79,
+      "early_local_count": 20,
+      "before_80": 173,
+      "counts": {
+        "quest": 76,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 11,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "total": 218,
+      "early_count": 79,
+      "early_local_count": 20,
+      "before_80": 173,
+      "counts": {
+        "quest": 76,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 11,
+      "class_id": 7,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "total": 218,
+      "early_count": 79,
+      "early_local_count": 20,
+      "before_80": 173,
+      "counts": {
+        "quest": 76,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    },
+    {
+      "race_id": 11,
+      "class_id": 8,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "total": 218,
+      "early_count": 79,
+      "early_local_count": 20,
+      "before_80": 173,
+      "counts": {
+        "quest": 76,
+        "exploration": 52,
+        "boss": 48,
+        "dungeon": 14,
+        "level": 16,
+        "raid": 12
+      }
+    }
+  ],
+  "cap_bands": {
+    "10": 154,
+    "20": 12,
+    "30": 16,
+    "40": 11,
+    "50": 8,
+    "60": 10,
+    "70": 43,
+    "80": 46
+  },
+  "provenance": {
+    "source_commit": "9fb906bb7296212ff42fc95ff73a92aaf8554f0d",
+    "client_build": 12340,
+    "source_file_sha256": {
+      "src/server/game/Entities/Player/KillRewarder.cpp": "cceb64c864c677d75fbbbefce5e2184090432f8e9fffcf31f9f9796b3efcc9d2",
+      "src/server/game/Entities/Player/Player.cpp": "45cba4ed7c92debf42c974984fe727e35e21779a21b7bbfa7bb045ad8a1bf509",
+      "src/server/game/Entities/Player/PlayerQuest.cpp": "bd24444eac851dcd6144e66e4d64f1d89c3c97604827c53b7539c7ce36c31eb7",
+      "src/server/game/Entities/Unit/Unit.cpp": "9ef1163fed2264d72c79dcf0c036fdaa65dd1f056ea32a6b79f6bc9da7398545",
+      "src/server/game/Quests/QuestDef.cpp": "6aff64eb450a7b44a787eef00099c1b553552df339865ac913529715ca7f84c4",
+      "src/server/game/Quests/QuestDef.h": "baaee3502a85ce4e02e045ae67efb1f48b7c6f6aad162f4b116496f028390b20",
+      "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_majordomo_executus.cpp": "396474a928dda29afa09a30798695ad82339eab3063fd08bf741eb0834cb7ba4",
+      "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/molten_core.h": "b51e3d858ec38f751ef1ed3155d91a6a666ca919e4485dae34a52ed9cd22ff34",
+      "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_svala.cpp": "f3f2540450412ead3ec745e89d27d8c362acb73dd3d71b0df49d06768120e739",
+      "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/utgarde_pinnacle.h": "a7a2d62a575784c104f2ee3935c0b4cf1590b1ac4079c1cb6d0701c7db869279",
+      "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/boss_vazruden_the_herald.cpp": "32fa87c630d4512b62b4f7fb7f22ea82b8e4d93c9cfd5bd17e452e0b6245357c",
+      "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/hellfire_ramparts.h": "5365a041c9bacdb8c1a46f25b8ed90f2a8ff06e1925f7e8a34cd77ee1ea8df93",
+      "src/server/shared/DataStores/DBCStructure.h": "c8f2d645c0ce4b51d5586aec6ba43143c8ea6fd2ed273efdc5a1528ae6bc3279"
+    },
+    "world_version": [
+      {
+        "core_version": "AzerothCore rev. unknown 1970-01-01 00:00:00 +0000 (Archived branch) (Unix, Release, Static)",
+        "core_revision": "unknown",
+        "db_version": "ACDB 335.17-dev",
+        "cache_id": 17
+      }
+    ],
+    "world_updates_count": 2917,
+    "table_sha256": {
+      "version": "3bfc1ef4c30218d14939e9eff62852bb2ff8370fc8b089d9cf9bc93ae0301c4f",
+      "updates": "14f4a1dd56a0fe08025af421ebe992b9cd87e92a78bee3a308e7daee3ccd2e6f",
+      "profiles": "2c4cb22a56eec69561d32ebe23f652a2072a17dcb7e6a3390b15a0d3a959a960",
+      "quests": "589ee86c0684f4592358db0d6f9924c3eac6731dce5b8664308fc36b0805c4a6",
+      "starters": "586d0b68ea59ef8853ae79913800986a9bef0c4fb2930c558ce7c83b747cbb76",
+      "enders": "4ffb7f1fd01016fb83ea7e556f4d14b9e66bc58350c898f510051efd7c97c20a",
+      "source_items": "eca1b8932ee3003f5c79d33acf7e6cbb4308fc4aa3a9dc55e01a32a41b650fb6",
+      "conditions": "194d4f6974b101cc63b969b6588808afb4b826f2b90398711ccb92e5d04f5dcc",
+      "creatures": "47cd66a10e6549e7c68f821853bea94b4c34f962729141a49df3be0fa36a0d24",
+      "spawns": "8353fa268f84be7a3fd1c4a33e9d66dc10d7e56ebf162080dc31162e898ec80c",
+      "instances": "2b009fed6236b1ff193d4083ea87354f0f6e73cc7a9b09fdaa08d2cbc0809fe8",
+      "access": "9dff933ab4598f8710f0ce0b16a76b78faccf26e9d5fdd914c82f072d7366d91",
+      "access_requirements": "259bba86f73aec12dd06176207189eb81b9b932ab92f333cfe08b6c8271fc018",
+      "event_quests": "99cc576e80f3e09e16dbb8cfb3fe42bc114c6dcb1c37deac0bc023dab398f66d",
+      "levels": "be1d824d931e147d890275e6d249129b49948e23c2ae60515153b9c219c44f91",
+      "early_objectives": "122ee3166edf7619ac7e6dc8a0d4bdb57d06afda45f084905ac8d6b814d17f13",
+      "early_crafting_items": "16112534bcdeab1a54fbea2f79291f0a62b4ff3bc7bf4e27128b930b8f826c24",
+      "early_item_sources": "6955b6ff7c84f2124f70d5f6f0346ffc673c5d1d5f4e691d686f451077da4223",
+      "early_crafting_focuses": "fbccbd288f4d3711c6f3fdb68d756b3af75ff70c99a7aa786414ffc0787ab254",
+      "early_npc_spawns": "4eced4a52a65f5a5123f5a5ee995de2906cc1acdd67784dc4b1240a835767f0b",
+      "early_go_spawns": "593688aa14bb0397dcf5c5fa5addccd33bc2eb3ec3d93a97807a6be9e8e8a153"
+    },
+    "dbc_sha256": {
+      "AreaTable": "eb4bcfa77b03aed853c4783ac260a4259970effaad5b8a74d868783b4dbdc44e",
+      "Map": "261bd7c2c9dbdba1f2966ca21106673ed722c2e3681d227f1eed261b6ce870d5",
+      "WorldMapArea": "90e1ec678c8226c76f4dd9f7904f05a4cb0a58c8b4d386719b24949bd55925bb",
+      "ChrRaces": "3d3e1443e8e97b1810275a45bc3f0588c83d876d04121401cc5adaa02f507bcd",
+      "ChrClasses": "5b2bfc7dab577f48cafe86db1d6148515569507b273f0c95b5ae86713ff5b3e2",
+      "FactionTemplate": "0e5aae3ec23aea267afcff265386c78719c17ada1cc443d010372fb0e3e63f8a",
+      "Spell": "d5cce1a83550dcfa9eb2f0251dbb11fd24c272534b2b1a9b230924a44d817ab3"
+    }
+  },
+  "opening_evidence": [
+    {
+      "quest": 317,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 769,
+          "provided": false,
+          "witness": {
+            "id": 1125,
+            "map": 0,
+            "position_x": -6104.47,
+            "position_y": -163.987,
+            "position_z": 433.257,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 6952,
+          "provided": false,
+          "witness": {
+            "id": 1128,
+            "map": 0,
+            "position_x": -6070.16,
+            "position_y": -261.253,
+            "position_z": 429.958,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1378,
+        "map": 0,
+        "position_x": -5466.53,
+        "position_y": -632.141,
+        "position_z": 393.939
+      },
+      "ender": {
+        "id": 1378,
+        "map": 0,
+        "position_x": -5466.53,
+        "position_y": -632.141,
+        "position_z": 393.939
+      }
+    },
+    {
+      "quest": 5541,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 13850,
+          "provided": false,
+          "witness": {
+            "id": 176785,
+            "map": 0,
+            "position_x": -5746.87,
+            "position_y": -371.43,
+            "position_z": 365.881,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1694,
+        "map": 0,
+        "position_x": -5499.7,
+        "position_y": -664.575,
+        "position_z": 395.395
+      },
+      "ender": {
+        "id": 1243,
+        "map": 0,
+        "position_x": -6015.51,
+        "position_y": -201.511,
+        "position_z": 407.437
+      }
+    },
+    {
+      "quest": 313,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 2671,
+          "provided": false,
+          "witness": {
+            "id": 1134,
+            "map": 0,
+            "position_x": -5682.07,
+            "position_y": -290.444,
+            "position_z": 368.636,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1377,
+        "map": 0,
+        "position_x": -5473.19,
+        "position_y": -641.798,
+        "position_z": 393.3
+      },
+      "ender": {
+        "id": 1377,
+        "map": 0,
+        "position_x": -5473.19,
+        "position_y": -641.798,
+        "position_z": 393.3
+      }
+    },
+    {
+      "quest": 315,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 2676,
+          "provided": false,
+          "witness": {
+            "id": 1397,
+            "map": 0,
+            "position_x": -5372.22,
+            "position_y": -224.243,
+            "position_z": 443.649,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1374,
+        "map": 0,
+        "position_x": -5378.4,
+        "position_y": 315.291,
+        "position_z": 394.289
+      },
+      "ender": {
+        "id": 1374,
+        "map": 0,
+        "position_x": -5378.4,
+        "position_y": 315.291,
+        "position_z": 394.289
+      }
+    },
+    {
+      "quest": 432,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "target": 1115,
+          "witness": {
+            "id": 1115,
+            "map": 0,
+            "position_x": -5871.38,
+            "position_y": -1544.1,
+            "position_z": 372.556
+          },
+          "maxlevel": 9
+        }
+      ],
+      "starter": {
+        "id": 1254,
+        "map": 0,
+        "position_x": -5726.58,
+        "position_y": -1600.29,
+        "position_z": 386.084
+      },
+      "ender": {
+        "id": 1254,
+        "map": 0,
+        "position_x": -5726.58,
+        "position_y": -1600.29,
+        "position_z": 386.084
+      }
+    },
+    {
+      "quest": 412,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 3083,
+          "provided": false,
+          "witness": {
+            "id": 1211,
+            "map": 0,
+            "position_x": -5364.04,
+            "position_y": 543.251,
+            "position_z": 386.99,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 3084,
+          "provided": false,
+          "witness": {
+            "id": 1211,
+            "map": 0,
+            "position_x": -5364.04,
+            "position_y": 543.251,
+            "position_z": 386.99,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1269,
+        "map": 0,
+        "position_x": -5497.94,
+        "position_y": -455.835,
+        "position_z": 395.438
+      },
+      "ender": {
+        "id": 1269,
+        "map": 0,
+        "position_x": -5497.94,
+        "position_y": -455.835,
+        "position_z": 395.438
+      }
+    },
+    {
+      "quest": 47,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 773,
+          "provided": false,
+          "witness": {
+            "id": 40,
+            "map": 0,
+            "position_x": -9823.76,
+            "position_y": 122.362,
+            "position_z": 4.11124,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 241,
+        "map": 0,
+        "position_x": -9496.32,
+        "position_y": 72.8264,
+        "position_z": 56.598
+      },
+      "ender": {
+        "id": 241,
+        "map": 0,
+        "position_x": -9496.32,
+        "position_y": 72.8264,
+        "position_z": 56.598
+      }
+    },
+    {
+      "quest": 60,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 772,
+          "provided": false,
+          "witness": {
+            "id": 40,
+            "map": 0,
+            "position_x": -9823.76,
+            "position_y": 122.362,
+            "position_z": 4.11124,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 253,
+        "map": 0,
+        "position_x": -9460.3,
+        "position_y": 31.9389,
+        "position_z": 57.0494
+      },
+      "ender": {
+        "id": 253,
+        "map": 0,
+        "position_x": -9460.3,
+        "position_y": 31.9389,
+        "position_z": 57.0494
+      }
+    },
+    {
+      "quest": 62,
+      "starting_zone": 12,
+      "objectives": [],
+      "starter": {
+        "id": 240,
+        "map": 0,
+        "position_x": -9465.52,
+        "position_y": 74.0069,
+        "position_z": 56.7785
+      },
+      "ender": {
+        "id": 240,
+        "map": 0,
+        "position_x": -9465.52,
+        "position_y": 74.0069,
+        "position_z": 56.7785
+      }
+    },
+    {
+      "quest": 83,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 1019,
+          "provided": false,
+          "witness": {
+            "id": 116,
+            "map": 0,
+            "position_x": -9919.28,
+            "position_y": -81.928,
+            "position_z": 29.3812,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 278,
+        "map": 0,
+        "position_x": -9531.76,
+        "position_y": -1222.42,
+        "position_z": 47.8379
+      },
+      "ender": {
+        "id": 278,
+        "map": 0,
+        "position_x": -9531.76,
+        "position_y": -1222.42,
+        "position_z": 47.8379
+      }
+    },
+    {
+      "quest": 85,
+      "starting_zone": 12,
+      "objectives": [],
+      "starter": {
+        "id": 246,
+        "map": 0,
+        "position_x": -9889.68,
+        "position_y": 338.467,
+        "position_z": 36.6486
+      },
+      "ender": {
+        "id": 247,
+        "map": 0,
+        "position_x": -9923.68,
+        "position_y": 38.3872,
+        "position_z": 32.5951
+      }
+    },
+    {
+      "quest": 5545,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 13872,
+          "provided": false,
+          "witness": {
+            "id": 176793,
+            "map": 0,
+            "position_x": -9425.35,
+            "position_y": -1126.99,
+            "position_z": 58.4709,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 10616,
+        "map": 0,
+        "position_x": -9469.79,
+        "position_y": -1289.22,
+        "position_z": 41.1855
+      },
+      "ender": {
+        "id": 10616,
+        "map": 0,
+        "position_x": -9469.79,
+        "position_y": -1289.22,
+        "position_z": 41.1855
+      }
+    },
+    {
+      "quest": 488,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 3409,
+          "provided": false,
+          "witness": {
+            "id": 2033,
+            "map": 1,
+            "position_x": 10285.0,
+            "position_y": 1426.41,
+            "position_z": 1341.08,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 3411,
+          "provided": false,
+          "witness": {
+            "id": 1995,
+            "map": 1,
+            "position_x": 9591.78,
+            "position_y": 992.589,
+            "position_z": 1276.32,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 3412,
+          "provided": false,
+          "witness": {
+            "id": 1998,
+            "map": 1,
+            "position_x": 9543.8,
+            "position_y": 1137.58,
+            "position_z": 1263.46,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2150,
+        "map": 1,
+        "position_x": 9920.41,
+        "position_y": 735.951,
+        "position_z": 1313.98
+      },
+      "ender": {
+        "id": 2150,
+        "map": 1,
+        "position_x": 9920.41,
+        "position_y": 735.951,
+        "position_z": 1313.98
+      }
+    },
+    {
+      "quest": 475,
+      "starting_zone": 141,
+      "objectives": [],
+      "starter": {
+        "id": 2078,
+        "map": 1,
+        "position_x": 9887.53,
+        "position_y": 965.54,
+        "position_z": 1313.9
+      },
+      "ender": {
+        "id": 2107,
+        "map": 1,
+        "position_x": 9845.15,
+        "position_y": 440.93,
+        "position_z": 1317.27
+      }
+    },
+    {
+      "quest": 2438,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 8048,
+          "provided": false,
+          "witness": {
+            "id": 126158,
+            "map": 1,
+            "position_x": 9806.74,
+            "position_y": 351.422,
+            "position_z": 1308.46,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3567,
+        "map": 1,
+        "position_x": 9898.59,
+        "position_y": 984.968,
+        "position_z": 1354.89
+      },
+      "ender": {
+        "id": 3567,
+        "map": 1,
+        "position_x": 9898.59,
+        "position_y": 984.968,
+        "position_z": 1354.89
+      }
+    },
+    {
+      "quest": 919,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 5169,
+          "provided": false,
+          "witness": {
+            "id": 4608,
+            "map": 1,
+            "position_x": 9319.93,
+            "position_y": 1150.49,
+            "position_z": 1254.28,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2080,
+        "map": 1,
+        "position_x": 9506.92,
+        "position_y": 713.766,
+        "position_z": 1255.99
+      },
+      "ender": {
+        "id": 2080,
+        "map": 1,
+        "position_x": 9506.92,
+        "position_y": 713.766,
+        "position_z": 1255.99
+      }
+    },
+    {
+      "quest": 932,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 5221,
+          "provided": false,
+          "witness": {
+            "id": 2038,
+            "map": 1,
+            "position_x": 10107.1,
+            "position_y": 1206.24,
+            "position_z": 1311.55,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3567,
+        "map": 1,
+        "position_x": 9898.59,
+        "position_y": 984.968,
+        "position_z": 1354.89
+      },
+      "ender": {
+        "id": 3567,
+        "map": 1,
+        "position_x": 9898.59,
+        "position_y": 984.968,
+        "position_z": 1354.89
+      }
+    },
+    {
+      "quest": 489,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 3418,
+          "provided": false,
+          "witness": {
+            "id": 1673,
+            "map": 1,
+            "position_x": 9110.05,
+            "position_y": 1701.4,
+            "position_z": 1323.66,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2081,
+        "map": 1,
+        "position_x": 9811.15,
+        "position_y": 963.279,
+        "position_z": 1308.87
+      },
+      "ender": {
+        "id": 2150,
+        "map": 1,
+        "position_x": 9920.41,
+        "position_y": 735.951,
+        "position_z": 1313.98
+      }
+    },
+    {
+      "quest": 9506,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23738,
+          "provided": false,
+          "witness": {
+            "id": 181675,
+            "map": 530,
+            "position_x": -4630.08,
+            "position_y": -12925.3,
+            "position_z": 9.627,
+            "source": "gameobject"
+          }
+        },
+        {
+          "item": 23739,
+          "provided": false,
+          "witness": {
+            "id": 181674,
+            "map": 530,
+            "position_x": -4595.62,
+            "position_y": -12885.6,
+            "position_z": 8.0855,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17240,
+        "map": 530,
+        "position_x": -4699.57,
+        "position_y": -12414.8,
+        "position_z": 11.6456
+      },
+      "ender": {
+        "id": 17240,
+        "map": 530,
+        "position_x": -4699.57,
+        "position_y": -12414.8,
+        "position_z": 11.6456
+      }
+    },
+    {
+      "quest": 9530,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23790,
+          "provided": false,
+          "witness": {
+            "id": 181696,
+            "map": 530,
+            "position_x": -4576.18,
+            "position_y": -12369.7,
+            "position_z": 20.4203,
+            "source": "gameobject"
+          }
+        },
+        {
+          "item": 23791,
+          "provided": false,
+          "witness": {
+            "id": 181697,
+            "map": 530,
+            "position_x": -4817.1,
+            "position_y": -12079.9,
+            "position_z": 42.5946,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17240,
+        "map": 530,
+        "position_x": -4699.57,
+        "position_y": -12414.8,
+        "position_z": 11.6456
+      },
+      "ender": {
+        "id": 17240,
+        "map": 530,
+        "position_x": -4699.57,
+        "position_y": -12414.8,
+        "position_z": 11.6456
+      }
+    },
+    {
+      "quest": 9454,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23676,
+          "provided": false,
+          "witness": {
+            "id": 17200,
+            "map": 530,
+            "position_x": -4841.72,
+            "position_y": -11992.1,
+            "position_z": 35.1361,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17110,
+        "map": 530,
+        "position_x": -4203.65,
+        "position_y": -12526.5,
+        "position_z": 45.5265
+      },
+      "ender": {
+        "id": 17110,
+        "map": 530,
+        "position_x": -4203.65,
+        "position_y": -12526.5,
+        "position_z": 45.5265
+      }
+    },
+    {
+      "quest": 10324,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23677,
+          "provided": false,
+          "witness": {
+            "id": 17201,
+            "map": 530,
+            "position_x": -4810.32,
+            "position_y": -11557.9,
+            "position_z": 33.7118,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17110,
+        "map": 530,
+        "position_x": -4203.65,
+        "position_y": -12526.5,
+        "position_z": 45.5265
+      },
+      "ender": {
+        "id": 17110,
+        "map": 530,
+        "position_x": -4203.65,
+        "position_y": -12526.5,
+        "position_z": 45.5265
+      }
+    },
+    {
+      "quest": 9513,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "target": 17194,
+          "witness": {
+            "id": 17194,
+            "map": 530,
+            "position_x": -5050.46,
+            "position_y": -11659.4,
+            "position_z": -0.26306
+          },
+          "maxlevel": 8
+        },
+        {
+          "target": 17193,
+          "witness": {
+            "id": 17193,
+            "map": 530,
+            "position_x": -5059.65,
+            "position_y": -11732.1,
+            "position_z": -1.22513
+          },
+          "maxlevel": 8
+        },
+        {
+          "target": 17195,
+          "witness": {
+            "id": 17195,
+            "map": 530,
+            "position_x": -5038.39,
+            "position_y": -11597.5,
+            "position_z": 0.808435
+          },
+          "maxlevel": 8
+        }
+      ],
+      "starter": {
+        "id": 17241,
+        "map": 530,
+        "position_x": -4701.66,
+        "position_y": -12418.5,
+        "position_z": 11.7104
+      },
+      "ender": {
+        "id": 17241,
+        "map": 530,
+        "position_x": -4701.66,
+        "position_y": -12418.5,
+        "position_z": 11.7104
+      }
+    },
+    {
+      "quest": 9523,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23779,
+          "provided": false,
+          "witness": {
+            "id": 181683,
+            "map": 530,
+            "position_x": -5052.51,
+            "position_y": -11813.8,
+            "position_z": -1.31305,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17242,
+        "map": 530,
+        "position_x": -4693.81,
+        "position_y": -12423.1,
+        "position_z": 11.8935
+      },
+      "ender": {
+        "id": 17242,
+        "map": 530,
+        "position_x": -4693.81,
+        "position_y": -12423.1,
+        "position_z": 11.8935
+      }
+    },
+    {
+      "quest": 784,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "target": 3128,
+          "witness": {
+            "id": 3128,
+            "map": 1,
+            "position_x": -312.365,
+            "position_y": -5070.01,
+            "position_z": 21.6341
+          },
+          "maxlevel": 6
+        },
+        {
+          "target": 3129,
+          "witness": {
+            "id": 3129,
+            "map": 1,
+            "position_x": -312.696,
+            "position_y": -5145.91,
+            "position_z": 21.5362
+          },
+          "maxlevel": 7
+        },
+        {
+          "target": 3192,
+          "witness": {
+            "id": 3192,
+            "map": 1,
+            "position_x": -245.52,
+            "position_y": -5119.95,
+            "position_z": 42.6406
+          },
+          "maxlevel": 8
+        }
+      ],
+      "starter": {
+        "id": 3139,
+        "map": 1,
+        "position_x": 274.988,
+        "position_y": -4709.3,
+        "position_z": 17.5719
+      },
+      "ender": {
+        "id": 3139,
+        "map": 1,
+        "position_x": 274.988,
+        "position_y": -4709.3,
+        "position_z": 17.5719
+      }
+    },
+    {
+      "quest": 791,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4870,
+          "provided": false,
+          "witness": {
+            "id": 3119,
+            "map": 1,
+            "position_x": -1083.06,
+            "position_y": -4716.26,
+            "position_z": 15.6711,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3147,
+        "map": 1,
+        "position_x": 384.743,
+        "position_y": -4600.13,
+        "position_z": 76.1716
+      },
+      "ender": {
+        "id": 3147,
+        "map": 1,
+        "position_x": 384.743,
+        "position_y": -4600.13,
+        "position_z": 76.1716
+      }
+    },
+    {
+      "quest": 818,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4887,
+          "provided": false,
+          "witness": {
+            "id": 3103,
+            "map": 1,
+            "position_x": -1587.39,
+            "position_y": -5183.62,
+            "position_z": -2.65262,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 4888,
+          "provided": false,
+          "witness": {
+            "id": 3106,
+            "map": 1,
+            "position_x": -1153.62,
+            "position_y": -4687.12,
+            "position_z": -5.44698,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3304,
+        "map": 1,
+        "position_x": -813.994,
+        "position_y": -4920.57,
+        "position_z": 19.4341
+      },
+      "ender": {
+        "id": 3304,
+        "map": 1,
+        "position_x": -813.994,
+        "position_y": -4920.57,
+        "position_z": 19.4341
+      }
+    },
+    {
+      "quest": 786,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "target": -3189,
+          "witness": {
+            "id": 3189,
+            "map": 1,
+            "position_x": -1056.98,
+            "position_y": -4596.39,
+            "position_z": 25.8219
+          },
+          "maxlevel": null
+        },
+        {
+          "target": -3190,
+          "witness": {
+            "id": 3190,
+            "map": 1,
+            "position_x": -917.836,
+            "position_y": -4482.29,
+            "position_z": 29.5817
+          },
+          "maxlevel": null
+        },
+        {
+          "target": -3192,
+          "witness": {
+            "id": 3192,
+            "map": 1,
+            "position_x": -974.429,
+            "position_y": -4406.92,
+            "position_z": 29.2641
+          },
+          "maxlevel": null
+        }
+      ],
+      "starter": {
+        "id": 3140,
+        "map": 1,
+        "position_x": -774.774,
+        "position_y": -4830.36,
+        "position_z": 19.8326
+      },
+      "ender": {
+        "id": 3140,
+        "map": 1,
+        "position_x": -774.774,
+        "position_y": -4830.36,
+        "position_z": 19.8326
+      }
+    },
+    {
+      "quest": 815,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4890,
+          "provided": false,
+          "witness": {
+            "id": 3240,
+            "map": 1,
+            "position_x": -1582.71,
+            "position_y": -5246.67,
+            "position_z": 5.48106,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3191,
+        "map": 1,
+        "position_x": 312.099,
+        "position_y": -4664.95,
+        "position_z": 16.4254
+      },
+      "ender": {
+        "id": 3191,
+        "map": 1,
+        "position_x": 312.099,
+        "position_y": -4664.95,
+        "position_z": 16.4254
+      }
+    },
+    {
+      "quest": 825,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4863,
+          "provided": false,
+          "witness": {
+            "id": 3236,
+            "map": 1,
+            "position_x": -330.449,
+            "position_y": -5244.87,
+            "position_z": -9.12052,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3139,
+        "map": 1,
+        "position_x": 274.988,
+        "position_y": -4709.3,
+        "position_z": 17.5719
+      },
+      "ender": {
+        "id": 3139,
+        "map": 1,
+        "position_x": 274.988,
+        "position_y": -4709.3,
+        "position_z": 17.5719
+      }
+    },
+    {
+      "quest": 5481,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 12737,
+          "provided": false,
+          "witness": {
+            "id": 175566,
+            "map": 0,
+            "position_x": 1925.26,
+            "position_y": 781.157,
+            "position_z": 41.4477,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 10666,
+        "map": 0,
+        "position_x": 2242.45,
+        "position_y": 599.449,
+        "position_z": 33.3335
+      },
+      "ender": {
+        "id": 10665,
+        "map": 0,
+        "position_x": 2326.31,
+        "position_y": 398.818,
+        "position_z": 33.6847
+      }
+    },
+    {
+      "quest": 5482,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 13702,
+          "provided": false,
+          "witness": {
+            "id": 176753,
+            "map": 0,
+            "position_x": 2532.5,
+            "position_y": 475.661,
+            "position_z": 27.4419,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 10665,
+        "map": 0,
+        "position_x": 2326.31,
+        "position_y": 398.818,
+        "position_z": 33.6847
+      },
+      "ender": {
+        "id": 10665,
+        "map": 0,
+        "position_x": 2326.31,
+        "position_y": 398.818,
+        "position_z": 33.6847
+      }
+    },
+    {
+      "quest": 367,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 2858,
+          "provided": false,
+          "witness": {
+            "id": 1547,
+            "map": 0,
+            "position_x": 1877.48,
+            "position_y": -157.65,
+            "position_z": 37.7468,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1518,
+        "map": 0,
+        "position_x": 2259.04,
+        "position_y": 347.048,
+        "position_z": 36.1025
+      },
+      "ender": {
+        "id": 1518,
+        "map": 0,
+        "position_x": 2259.04,
+        "position_y": 347.048,
+        "position_z": 36.1025
+      }
+    },
+    {
+      "quest": 404,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 2855,
+          "provided": false,
+          "witness": {
+            "id": 1525,
+            "map": 0,
+            "position_x": 2040.55,
+            "position_y": 576.133,
+            "position_z": 34.8365,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1496,
+        "map": 0,
+        "position_x": 2287.66,
+        "position_y": 403.372,
+        "position_z": 34.0048
+      },
+      "ender": {
+        "id": 1496,
+        "map": 0,
+        "position_x": 2287.66,
+        "position_y": 403.372,
+        "position_z": 34.0048
+      }
+    },
+    {
+      "quest": 365,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 2846,
+          "provided": false,
+          "witness": {
+            "id": 375,
+            "map": 0,
+            "position_x": 2259.64,
+            "position_y": 1430.03,
+            "position_z": 33.4525,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1519,
+        "map": 0,
+        "position_x": 2205.75,
+        "position_y": 1184.52,
+        "position_z": 32.328
+      },
+      "ender": {
+        "id": 1518,
+        "map": 0,
+        "position_x": 2259.04,
+        "position_y": 347.048,
+        "position_z": 36.1025
+      }
+    },
+    {
+      "quest": 358,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "target": 1941,
+          "witness": {
+            "id": 1941,
+            "map": 0,
+            "position_x": 2447.11,
+            "position_y": 474.622,
+            "position_z": 44.5674
+          },
+          "maxlevel": 7
+        },
+        {
+          "target": 1675,
+          "witness": {
+            "id": 1675,
+            "map": 0,
+            "position_x": 2667.94,
+            "position_y": 300.786,
+            "position_z": 28.223
+          },
+          "maxlevel": 8
+        },
+        {
+          "item": 2834,
+          "provided": false,
+          "witness": {
+            "id": 1674,
+            "map": 0,
+            "position_x": 2505.43,
+            "position_y": 348.753,
+            "position_z": 33.778,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1499,
+        "map": 0,
+        "position_x": 2305.91,
+        "position_y": 265.164,
+        "position_z": 38.7532
+      },
+      "ender": {
+        "id": 1499,
+        "map": 0,
+        "position_x": 2305.91,
+        "position_y": 265.164,
+        "position_z": 38.7532
+      }
+    },
+    {
+      "quest": 748,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4758,
+          "provided": false,
+          "witness": {
+            "id": 2958,
+            "map": 1,
+            "position_x": -2989.23,
+            "position_y": 298.476,
+            "position_z": 115.955,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 4759,
+          "provided": false,
+          "witness": {
+            "id": 2956,
+            "map": 1,
+            "position_x": -3008.75,
+            "position_y": 255.748,
+            "position_z": 98.6574,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2948,
+        "map": 1,
+        "position_x": -2341.4,
+        "position_y": -445.449,
+        "position_z": -6.4173
+      },
+      "ender": {
+        "id": 2948,
+        "map": 1,
+        "position_x": -2341.4,
+        "position_y": -445.449,
+        "position_z": -6.4173
+      }
+    },
+    {
+      "quest": 745,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "target": 2949,
+          "witness": {
+            "id": 2949,
+            "map": 1,
+            "position_x": -2810.68,
+            "position_y": -711.088,
+            "position_z": 14.7558
+          },
+          "maxlevel": 6
+        },
+        {
+          "target": 2950,
+          "witness": {
+            "id": 2950,
+            "map": 1,
+            "position_x": -2811.93,
+            "position_y": -686.674,
+            "position_z": 20.94
+          },
+          "maxlevel": 7
+        },
+        {
+          "target": 2951,
+          "witness": {
+            "id": 2951,
+            "map": 1,
+            "position_x": -2787.45,
+            "position_y": -670.354,
+            "position_z": 16.0052
+          },
+          "maxlevel": 8
+        }
+      ],
+      "starter": {
+        "id": 2993,
+        "map": 1,
+        "position_x": -2333.54,
+        "position_y": -393.073,
+        "position_z": -7.92932
+      },
+      "ender": {
+        "id": 2993,
+        "map": 1,
+        "position_x": -2333.54,
+        "position_y": -393.073,
+        "position_z": -7.92932
+      }
+    },
+    {
+      "quest": 761,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4769,
+          "provided": false,
+          "witness": {
+            "id": 2969,
+            "map": 1,
+            "position_x": -2953.72,
+            "position_y": 291.858,
+            "position_z": 105.781,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2947,
+        "map": 1,
+        "position_x": -2304.79,
+        "position_y": -454.809,
+        "position_z": -5.35507
+      },
+      "ender": {
+        "id": 2947,
+        "map": 1,
+        "position_x": -2304.79,
+        "position_y": -454.809,
+        "position_z": -5.35507
+      }
+    },
+    {
+      "quest": 11129,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "target": 23616,
+          "witness": {
+            "id": 23616,
+            "map": 1,
+            "position_x": -2459.23,
+            "position_y": -484.062,
+            "position_z": -9.01284
+          },
+          "maxlevel": 12
+        }
+      ],
+      "starter": {
+        "id": 23618,
+        "map": 1,
+        "position_x": -2097.52,
+        "position_y": -430.539,
+        "position_z": -6.62822
+      },
+      "ender": {
+        "id": 23618,
+        "map": 1,
+        "position_x": -2097.52,
+        "position_y": -430.539,
+        "position_z": -6.62822
+      }
+    },
+    {
+      "quest": 743,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4751,
+          "provided": false,
+          "witness": {
+            "id": 2962,
+            "map": 1,
+            "position_x": -2750.95,
+            "position_y": -1223.64,
+            "position_z": 27.4598,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2985,
+        "map": 1,
+        "position_x": -2397.07,
+        "position_y": -384.831,
+        "position_z": -2.19496
+      },
+      "ender": {
+        "id": 2985,
+        "map": 1,
+        "position_x": -2397.07,
+        "position_y": -384.831,
+        "position_z": -2.19496
+      }
+    },
+    {
+      "quest": 746,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4703,
+          "provided": false,
+          "witness": {
+            "source": "item_use",
+            "item": 4702,
+            "spell": 4954,
+            "input": {
+              "id": 2989,
+              "map": 1,
+              "position_x": -2000.97,
+              "position_y": 411.123,
+              "position_z": 135.534
+            },
+            "focus": {
+              "id": 3223,
+              "map": 1,
+              "position_x": -1886.95,
+              "position_y": -1093.64,
+              "position_z": 90.0005
+            }
+          }
+        }
+      ],
+      "starter": {
+        "id": 2993,
+        "map": 1,
+        "position_x": -2333.54,
+        "position_y": -393.073,
+        "position_z": -7.92932
+      },
+      "ender": {
+        "id": 2993,
+        "map": 1,
+        "position_x": -2333.54,
+        "position_y": -393.073,
+        "position_z": -7.92932
+      }
+    },
+    {
+      "quest": 8463,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "item": 20743,
+          "provided": false,
+          "witness": {
+            "id": 180600,
+            "map": 530,
+            "position_x": 9502.51,
+            "position_y": -6539.89,
+            "position_z": 21.621,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 15403,
+        "map": 530,
+        "position_x": 9531.33,
+        "position_y": -6859.75,
+        "position_z": 18.7898
+      },
+      "ender": {
+        "id": 15403,
+        "map": 530,
+        "position_x": 9531.33,
+        "position_y": -6859.75,
+        "position_z": 18.7898
+      }
+    },
+    {
+      "quest": 8472,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "item": 21808,
+          "provided": false,
+          "witness": {
+            "id": 15638,
+            "map": 530,
+            "position_x": 9506.56,
+            "position_y": -6578.29,
+            "position_z": 19.4205,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 15418,
+        "map": 530,
+        "position_x": 9521.17,
+        "position_y": -6814.85,
+        "position_z": 16.5752
+      },
+      "ender": {
+        "id": 15418,
+        "map": 530,
+        "position_x": 9521.17,
+        "position_y": -6814.85,
+        "position_z": 16.5752
+      }
+    },
+    {
+      "quest": 8475,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "target": 15654,
+          "witness": {
+            "id": 15654,
+            "map": 530,
+            "position_x": 8605.38,
+            "position_y": -6786.45,
+            "position_z": 102.584
+          },
+          "maxlevel": 6
+        }
+      ],
+      "starter": {
+        "id": 15416,
+        "map": 530,
+        "position_x": 9374.84,
+        "position_y": -6966.58,
+        "position_z": 18.1612
+      },
+      "ender": {
+        "id": 15416,
+        "map": 530,
+        "position_x": 9374.84,
+        "position_y": -6966.58,
+        "position_z": 18.1612
+      }
+    },
+    {
+      "quest": 9035,
+      "starting_zone": 3430,
+      "objectives": [],
+      "starter": {
+        "id": 15941,
+        "map": 530,
+        "position_x": 9188.76,
+        "position_y": -6712.91,
+        "position_z": 25.997
+      },
+      "ender": {
+        "id": 15945,
+        "map": 530,
+        "position_x": 9037.79,
+        "position_y": -6697.62,
+        "position_z": 12.6447
+      }
+    },
+    {
+      "quest": 9062,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "item": 22414,
+          "provided": false,
+          "witness": {
+            "id": 181110,
+            "map": 530,
+            "position_x": 9006.21,
+            "position_y": -6671.24,
+            "position_z": 6.81106,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 15945,
+        "map": 530,
+        "position_x": 9037.79,
+        "position_y": -6697.62,
+        "position_z": 12.6447
+      },
+      "ender": {
+        "id": 15945,
+        "map": 530,
+        "position_x": 9037.79,
+        "position_y": -6697.62,
+        "position_z": 12.6447
+      }
+    },
+    {
+      "quest": 8480,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "item": 22413,
+          "provided": false,
+          "witness": {
+            "id": 181107,
+            "map": 530,
+            "position_x": 8710.62,
+            "position_y": -6034.11,
+            "position_z": 8.51474,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 15404,
+        "map": 530,
+        "position_x": 8849.25,
+        "position_y": -6278.24,
+        "position_z": 8.02033
+      },
+      "ender": {
+        "id": 15404,
+        "map": 530,
+        "position_x": 8849.25,
+        "position_y": -6278.24,
+        "position_z": 8.02033
+      }
+    },
+    {
+      "quest": 179,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 750,
+          "provided": false,
+          "witness": {
+            "id": 704,
+            "map": 0,
+            "position_x": -6495.36,
+            "position_y": 619.654,
+            "position_z": 388.123,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 658,
+        "map": 0,
+        "position_x": -6236.74,
+        "position_y": 331.113,
+        "position_z": 382.911
+      },
+      "ender": {
+        "id": 658,
+        "map": 0,
+        "position_x": -6236.74,
+        "position_y": 331.113,
+        "position_z": 382.911
+      }
+    },
+    {
+      "quest": 170,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "target": 707,
+          "witness": {
+            "id": 707,
+            "map": 0,
+            "position_x": -6450.95,
+            "position_y": 659.13,
+            "position_z": 387.577
+          },
+          "maxlevel": 2
+        },
+        {
+          "target": 724,
+          "witness": {
+            "id": 724,
+            "map": 0,
+            "position_x": -6490.67,
+            "position_y": 621.998,
+            "position_z": 386.873
+          },
+          "maxlevel": 2
+        }
+      ],
+      "starter": {
+        "id": 713,
+        "map": 0,
+        "position_x": -6216.53,
+        "position_y": 339.002,
+        "position_z": 383.454
+      },
+      "ender": {
+        "id": 713,
+        "map": 0,
+        "position_x": -6216.53,
+        "position_y": 339.002,
+        "position_z": 383.454
+      }
+    },
+    {
+      "quest": 183,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "target": 708,
+          "witness": {
+            "id": 708,
+            "map": 0,
+            "position_x": -6479.99,
+            "position_y": 586.318,
+            "position_z": 391.167
+          },
+          "maxlevel": 3
+        }
+      ],
+      "starter": {
+        "id": 714,
+        "map": 0,
+        "position_x": -6222.47,
+        "position_y": 688.973,
+        "position_z": 385.002
+      },
+      "ender": {
+        "id": 714,
+        "map": 0,
+        "position_x": -6222.47,
+        "position_y": 688.973,
+        "position_z": 385.002
+      }
+    },
+    {
+      "quest": 3361,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 10438,
+          "provided": false,
+          "witness": {
+            "id": 148499,
+            "map": 0,
+            "position_x": -6374.81,
+            "position_y": 773.704,
+            "position_z": 386.213,
+            "source": "gameobject"
+          }
+        },
+        {
+          "item": 16313,
+          "provided": false,
+          "witness": {
+            "id": 178084,
+            "map": 0,
+            "position_x": -6503.89,
+            "position_y": 680.367,
+            "position_z": 387.274,
+            "source": "gameobject"
+          }
+        },
+        {
+          "item": 16314,
+          "provided": false,
+          "witness": {
+            "id": 178085,
+            "map": 0,
+            "position_x": -6480.01,
+            "position_y": 505.256,
+            "position_z": 385.988,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 8416,
+        "map": 0,
+        "position_x": -6098.09,
+        "position_y": 396.074,
+        "position_z": 395.64
+      },
+      "ender": {
+        "id": 8416,
+        "map": 0,
+        "position_x": -6098.09,
+        "position_y": 396.074,
+        "position_z": 395.64
+      }
+    },
+    {
+      "quest": 182,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "target": 706,
+          "witness": {
+            "id": 706,
+            "map": 0,
+            "position_x": -6602.75,
+            "position_y": 387.374,
+            "position_z": 390.052
+          },
+          "maxlevel": 4
+        }
+      ],
+      "starter": {
+        "id": 786,
+        "map": 0,
+        "position_x": -6363.0,
+        "position_y": 567.085,
+        "position_z": 385.851
+      },
+      "ender": {
+        "id": 786,
+        "map": 0,
+        "position_x": -6363.0,
+        "position_y": 567.085,
+        "position_z": 385.851
+      }
+    },
+    {
+      "quest": 218,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 2004,
+          "provided": false,
+          "witness": {
+            "id": 808,
+            "map": 0,
+            "position_x": -6508.82,
+            "position_y": 300.758,
+            "position_z": 370.446,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 786,
+        "map": 0,
+        "position_x": -6363.0,
+        "position_y": 567.085,
+        "position_z": 385.851
+      },
+      "ender": {
+        "id": 786,
+        "map": 0,
+        "position_x": -6363.0,
+        "position_y": 567.085,
+        "position_z": 385.851
+      }
+    },
+    {
+      "quest": 318,
+      "starting_zone": 1,
+      "objectives": [],
+      "starter": {
+        "id": 1378,
+        "map": 0,
+        "position_x": -5466.53,
+        "position_y": -632.141,
+        "position_z": 393.939
+      },
+      "ender": {
+        "id": 1374,
+        "map": 0,
+        "position_x": -5378.4,
+        "position_y": 315.291,
+        "position_z": 394.289
+      }
+    },
+    {
+      "quest": 319,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "target": 1196,
+          "witness": {
+            "id": 1196,
+            "map": 0,
+            "position_x": -5957.03,
+            "position_y": -480.463,
+            "position_z": 408.535
+          },
+          "maxlevel": 8
+        },
+        {
+          "target": 1127,
+          "witness": {
+            "id": 1127,
+            "map": 0,
+            "position_x": -5900.21,
+            "position_y": -1679.66,
+            "position_z": 406.754
+          },
+          "maxlevel": 8
+        },
+        {
+          "target": 1201,
+          "witness": {
+            "id": 1201,
+            "map": 0,
+            "position_x": -5956.08,
+            "position_y": -527.072,
+            "position_z": 408.04
+          },
+          "maxlevel": 8
+        }
+      ],
+      "starter": {
+        "id": 1374,
+        "map": 0,
+        "position_x": -5378.4,
+        "position_y": 315.291,
+        "position_z": 394.289
+      },
+      "ender": {
+        "id": 1374,
+        "map": 0,
+        "position_x": -5378.4,
+        "position_y": 315.291,
+        "position_z": 394.289
+      }
+    },
+    {
+      "quest": 233,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 2187,
+          "provided": true,
+          "witness": null
+        }
+      ],
+      "starter": {
+        "id": 658,
+        "map": 0,
+        "position_x": -6236.74,
+        "position_y": 331.113,
+        "position_z": 382.911
+      },
+      "ender": {
+        "id": 714,
+        "map": 0,
+        "position_x": -6222.47,
+        "position_y": 688.973,
+        "position_z": 385.002
+      }
+    },
+    {
+      "quest": 234,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 2188,
+          "provided": true,
+          "witness": null
+        }
+      ],
+      "starter": {
+        "id": 714,
+        "map": 0,
+        "position_x": -6222.47,
+        "position_y": 688.973,
+        "position_z": 385.002
+      },
+      "ender": {
+        "id": 786,
+        "map": 0,
+        "position_x": -6363.0,
+        "position_y": 567.085,
+        "position_z": 385.851
+      }
+    },
+    {
+      "quest": 320,
+      "starting_zone": 1,
+      "objectives": [
+        {
+          "item": 2696,
+          "provided": true,
+          "witness": null
+        }
+      ],
+      "starter": {
+        "id": 1374,
+        "map": 0,
+        "position_x": -5378.4,
+        "position_y": 315.291,
+        "position_z": 394.289
+      },
+      "ender": {
+        "id": 1378,
+        "map": 0,
+        "position_x": -5466.53,
+        "position_y": -632.141,
+        "position_z": 393.939
+      }
+    },
+    {
+      "quest": 783,
+      "starting_zone": 12,
+      "objectives": [],
+      "starter": {
+        "id": 823,
+        "map": 0,
+        "position_x": -8947.64,
+        "position_y": -132.319,
+        "position_z": 83.7199
+      },
+      "ender": {
+        "id": 197,
+        "map": 0,
+        "position_x": -8902.59,
+        "position_y": -162.606,
+        "position_z": 82.0223
+      }
+    },
+    {
+      "quest": 7,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "target": 6,
+          "witness": {
+            "id": 6,
+            "map": 0,
+            "position_x": -8810.02,
+            "position_y": -217.027,
+            "position_z": 83.7262
+          },
+          "maxlevel": 2
+        }
+      ],
+      "starter": {
+        "id": 197,
+        "map": 0,
+        "position_x": -8902.59,
+        "position_y": -162.606,
+        "position_z": 82.0223
+      },
+      "ender": {
+        "id": 197,
+        "map": 0,
+        "position_x": -8902.59,
+        "position_y": -162.606,
+        "position_z": 82.0223
+      }
+    },
+    {
+      "quest": 5261,
+      "starting_zone": 12,
+      "objectives": [],
+      "starter": {
+        "id": 823,
+        "map": 0,
+        "position_x": -8947.64,
+        "position_y": -132.319,
+        "position_z": 83.7199
+      },
+      "ender": {
+        "id": 196,
+        "map": 0,
+        "position_x": -8869.22,
+        "position_y": -163.237,
+        "position_z": 80.9719
+      }
+    },
+    {
+      "quest": 33,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 50432,
+          "provided": false,
+          "witness": {
+            "id": 69,
+            "map": 0,
+            "position_x": -9079.85,
+            "position_y": -182.028,
+            "position_z": 74.6405,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 196,
+        "map": 0,
+        "position_x": -8869.22,
+        "position_y": -163.237,
+        "position_z": 80.9719
+      },
+      "ender": {
+        "id": 196,
+        "map": 0,
+        "position_x": -8869.22,
+        "position_y": -163.237,
+        "position_z": 80.9719
+      }
+    },
+    {
+      "quest": 15,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "target": 257,
+          "witness": {
+            "id": 257,
+            "map": 0,
+            "position_x": -8823.45,
+            "position_y": -236.78,
+            "position_z": 82.4202
+          },
+          "maxlevel": 3
+        }
+      ],
+      "starter": {
+        "id": 197,
+        "map": 0,
+        "position_x": -8902.59,
+        "position_y": -162.606,
+        "position_z": 82.0223
+      },
+      "ender": {
+        "id": 197,
+        "map": 0,
+        "position_x": -8902.59,
+        "position_y": -162.606,
+        "position_z": 82.0223
+      }
+    },
+    {
+      "quest": 18,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 752,
+          "provided": false,
+          "witness": {
+            "id": 38,
+            "map": 0,
+            "position_x": -9147.74,
+            "position_y": -341.34,
+            "position_z": 72.786,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 823,
+        "map": 0,
+        "position_x": -8947.64,
+        "position_y": -132.319,
+        "position_z": 83.7199
+      },
+      "ender": {
+        "id": 823,
+        "map": 0,
+        "position_x": -8947.64,
+        "position_y": -132.319,
+        "position_z": 83.7199
+      }
+    },
+    {
+      "quest": 3903,
+      "starting_zone": 12,
+      "objectives": [],
+      "starter": {
+        "id": 823,
+        "map": 0,
+        "position_x": -8947.64,
+        "position_y": -132.319,
+        "position_z": 83.7199
+      },
+      "ender": {
+        "id": 9296,
+        "map": 0,
+        "position_x": -8850.29,
+        "position_y": -224.03,
+        "position_z": 81.7778
+      }
+    },
+    {
+      "quest": 3904,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 11119,
+          "provided": false,
+          "witness": {
+            "id": 161557,
+            "map": 0,
+            "position_x": -9114.74,
+            "position_y": -331.552,
+            "position_z": 73.1508,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 9296,
+        "map": 0,
+        "position_x": -8850.29,
+        "position_y": -224.03,
+        "position_z": 81.7778
+      },
+      "ender": {
+        "id": 9296,
+        "map": 0,
+        "position_x": -8850.29,
+        "position_y": -224.03,
+        "position_z": 81.7778
+      }
+    },
+    {
+      "quest": 6,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "item": 182,
+          "provided": false,
+          "witness": {
+            "id": 103,
+            "map": 0,
+            "position_x": -9056.48,
+            "position_y": -460.903,
+            "position_z": 72.8318,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 823,
+        "map": 0,
+        "position_x": -8947.64,
+        "position_y": -132.319,
+        "position_z": 83.7199
+      },
+      "ender": {
+        "id": 823,
+        "map": 0,
+        "position_x": -8947.64,
+        "position_y": -132.319,
+        "position_z": 83.7199
+      }
+    },
+    {
+      "quest": 21,
+      "starting_zone": 12,
+      "objectives": [
+        {
+          "target": 80,
+          "witness": {
+            "id": 80,
+            "map": 0,
+            "position_x": -8671.83,
+            "position_y": -123.34,
+            "position_z": 92.1135
+          },
+          "maxlevel": 3
+        }
+      ],
+      "starter": {
+        "id": 197,
+        "map": 0,
+        "position_x": -8902.59,
+        "position_y": -162.606,
+        "position_z": 82.0223
+      },
+      "ender": {
+        "id": 197,
+        "map": 0,
+        "position_x": -8902.59,
+        "position_y": -162.606,
+        "position_z": 82.0223
+      }
+    },
+    {
+      "quest": 2158,
+      "starting_zone": 12,
+      "objectives": [],
+      "starter": {
+        "id": 6774,
+        "map": 0,
+        "position_x": -9044.56,
+        "position_y": -45.9817,
+        "position_z": 88.4193
+      },
+      "ender": {
+        "id": 295,
+        "map": 0,
+        "position_x": -9462.66,
+        "position_y": 16.1915,
+        "position_z": 57.0459
+      }
+    },
+    {
+      "quest": 4641,
+      "starting_zone": 14,
+      "objectives": [],
+      "starter": {
+        "id": 10176,
+        "map": 1,
+        "position_x": -610.073,
+        "position_y": -4253.52,
+        "position_z": 39.0393
+      },
+      "ender": {
+        "id": 3143,
+        "map": 1,
+        "position_x": -600.132,
+        "position_y": -4186.19,
+        "position_z": 41.2663
+      }
+    },
+    {
+      "quest": 788,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "target": 3098,
+          "witness": {
+            "id": 3098,
+            "map": 1,
+            "position_x": -754.894,
+            "position_y": -4219.76,
+            "position_z": 43.0009
+          },
+          "maxlevel": 2
+        }
+      ],
+      "starter": {
+        "id": 3143,
+        "map": 1,
+        "position_x": -600.132,
+        "position_y": -4186.19,
+        "position_z": 41.2663
+      },
+      "ender": {
+        "id": 3143,
+        "map": 1,
+        "position_x": -600.132,
+        "position_y": -4186.19,
+        "position_z": 41.2663
+      }
+    },
+    {
+      "quest": 789,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4862,
+          "provided": false,
+          "witness": {
+            "id": 3124,
+            "map": 1,
+            "position_x": -788.542,
+            "position_y": -4286.46,
+            "position_z": 52.8241,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3143,
+        "map": 1,
+        "position_x": -600.132,
+        "position_y": -4186.19,
+        "position_z": 41.2663
+      },
+      "ender": {
+        "id": 3143,
+        "map": 1,
+        "position_x": -600.132,
+        "position_y": -4186.19,
+        "position_z": 41.2663
+      }
+    },
+    {
+      "quest": 4402,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 11583,
+          "provided": false,
+          "witness": {
+            "id": 171938,
+            "map": 1,
+            "position_x": -746.487,
+            "position_y": -4276.66,
+            "position_z": 43.7713,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 9796,
+        "map": 1,
+        "position_x": -561.628,
+        "position_y": -4221.8,
+        "position_z": 41.6737
+      },
+      "ender": {
+        "id": 9796,
+        "map": 1,
+        "position_x": -561.628,
+        "position_y": -4221.8,
+        "position_z": 41.6737
+      }
+    },
+    {
+      "quest": 792,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "target": 3101,
+          "witness": {
+            "id": 3101,
+            "map": 1,
+            "position_x": -253.593,
+            "position_y": -4316.13,
+            "position_z": 56.0352
+          },
+          "maxlevel": 4
+        }
+      ],
+      "starter": {
+        "id": 3145,
+        "map": 1,
+        "position_x": -629.052,
+        "position_y": -4228.06,
+        "position_z": 38.2334
+      },
+      "ender": {
+        "id": 3145,
+        "map": 1,
+        "position_x": -629.052,
+        "position_y": -4228.06,
+        "position_z": 38.2334
+      }
+    },
+    {
+      "quest": 790,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4905,
+          "provided": false,
+          "witness": {
+            "id": 3281,
+            "map": 1,
+            "position_x": -547.335,
+            "position_y": -4103.85,
+            "position_z": 70.0987,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3287,
+        "map": 1,
+        "position_x": -397.761,
+        "position_y": -4108.99,
+        "position_z": 50.2876
+      },
+      "ender": {
+        "id": 3287,
+        "map": 1,
+        "position_x": -397.761,
+        "position_y": -4108.99,
+        "position_z": 50.2876
+      }
+    },
+    {
+      "quest": 804,
+      "starting_zone": 14,
+      "objectives": [],
+      "starter": {
+        "id": 3287,
+        "map": 1,
+        "position_x": -397.761,
+        "position_y": -4108.99,
+        "position_z": 50.2876
+      },
+      "ender": {
+        "id": 3143,
+        "map": 1,
+        "position_x": -600.132,
+        "position_y": -4186.19,
+        "position_z": 41.2663
+      }
+    },
+    {
+      "quest": 817,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4892,
+          "provided": false,
+          "witness": {
+            "id": 3121,
+            "map": 1,
+            "position_x": -1621.3,
+            "position_y": -5345.82,
+            "position_z": 7.22336,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3194,
+        "map": 1,
+        "position_x": -797.523,
+        "position_y": -4921.17,
+        "position_z": 22.9571
+      },
+      "ender": {
+        "id": 3194,
+        "map": 1,
+        "position_x": -797.523,
+        "position_y": -4921.17,
+        "position_z": 22.9571
+      }
+    },
+    {
+      "quest": 808,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4864,
+          "provided": false,
+          "witness": {
+            "id": 3237,
+            "map": 1,
+            "position_x": -1288.12,
+            "position_y": -5529.06,
+            "position_z": 15.2078,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3188,
+        "map": 1,
+        "position_x": -825.636,
+        "position_y": -4920.76,
+        "position_z": 19.7409
+      },
+      "ender": {
+        "id": 3188,
+        "map": 1,
+        "position_x": -825.636,
+        "position_y": -4920.76,
+        "position_z": 19.7409
+      }
+    },
+    {
+      "quest": 834,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "item": 4918,
+          "provided": false,
+          "witness": {
+            "id": 3290,
+            "map": 1,
+            "position_x": 596.293,
+            "position_y": -4505.19,
+            "position_z": 13.0419,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3293,
+        "map": 1,
+        "position_x": 999.763,
+        "position_y": -4414.4,
+        "position_z": 14.4718
+      },
+      "ender": {
+        "id": 3293,
+        "map": 1,
+        "position_x": 999.763,
+        "position_y": -4414.4,
+        "position_z": 14.4718
+      }
+    },
+    {
+      "quest": 826,
+      "starting_zone": 14,
+      "objectives": [
+        {
+          "target": 3207,
+          "witness": {
+            "id": 3207,
+            "map": 1,
+            "position_x": -1317.58,
+            "position_y": -5520.55,
+            "position_z": 4.35507
+          },
+          "maxlevel": 9
+        },
+        {
+          "target": 3206,
+          "witness": {
+            "id": 3206,
+            "map": 1,
+            "position_x": -1285.31,
+            "position_y": -5508.77,
+            "position_z": 8.46731
+          },
+          "maxlevel": 9
+        },
+        {
+          "item": 4866,
+          "provided": false,
+          "witness": {
+            "id": 3205,
+            "map": 1,
+            "position_x": -1286.96,
+            "position_y": -5534.33,
+            "position_z": 15.3023,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3188,
+        "map": 1,
+        "position_x": -825.636,
+        "position_y": -4920.76,
+        "position_z": 19.7409
+      },
+      "ender": {
+        "id": 3188,
+        "map": 1,
+        "position_x": -825.636,
+        "position_y": -4920.76,
+        "position_z": 19.7409
+      }
+    },
+    {
+      "quest": 363,
+      "starting_zone": 85,
+      "objectives": [],
+      "starter": {
+        "id": 1568,
+        "map": 0,
+        "position_x": 1671.89,
+        "position_y": 1678.29,
+        "position_z": 120.802
+      },
+      "ender": {
+        "id": 1569,
+        "map": 0,
+        "position_x": 1843.32,
+        "position_y": 1639.9,
+        "position_z": 97.8113
+      }
+    },
+    {
+      "quest": 364,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "target": 1501,
+          "witness": {
+            "id": 1501,
+            "map": 0,
+            "position_x": 1872.06,
+            "position_y": 1503.12,
+            "position_z": 88.0423
+          },
+          "maxlevel": 1
+        },
+        {
+          "target": 1502,
+          "witness": {
+            "id": 1502,
+            "map": 0,
+            "position_x": 1852.51,
+            "position_y": 1507.48,
+            "position_z": 88.8269
+          },
+          "maxlevel": 2
+        }
+      ],
+      "starter": {
+        "id": 1569,
+        "map": 0,
+        "position_x": 1843.32,
+        "position_y": 1639.9,
+        "position_z": 97.8113
+      },
+      "ender": {
+        "id": 1569,
+        "map": 0,
+        "position_x": 1843.32,
+        "position_y": 1639.9,
+        "position_z": 97.8113
+      }
+    },
+    {
+      "quest": 376,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 3265,
+          "provided": false,
+          "witness": {
+            "id": 1508,
+            "map": 0,
+            "position_x": 1770.32,
+            "position_y": 1517.16,
+            "position_z": 111.011,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 3264,
+          "provided": false,
+          "witness": {
+            "id": 1512,
+            "map": 0,
+            "position_x": 1652.08,
+            "position_y": 1611.92,
+            "position_z": 148.002,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1661,
+        "map": 0,
+        "position_x": 1847.73,
+        "position_y": 1638.65,
+        "position_z": 97.0169
+      },
+      "ender": {
+        "id": 1661,
+        "map": 0,
+        "position_x": 1847.73,
+        "position_y": 1638.65,
+        "position_z": 97.0169
+      }
+    },
+    {
+      "quest": 3901,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "target": 1890,
+          "witness": {
+            "id": 1890,
+            "map": 0,
+            "position_x": 1877.55,
+            "position_y": 1480.87,
+            "position_z": 85.4797
+          },
+          "maxlevel": 3
+        }
+      ],
+      "starter": {
+        "id": 1569,
+        "map": 0,
+        "position_x": 1843.32,
+        "position_y": 1639.9,
+        "position_z": 97.8113
+      },
+      "ender": {
+        "id": 1569,
+        "map": 0,
+        "position_x": 1843.32,
+        "position_y": 1639.9,
+        "position_z": 97.8113
+      }
+    },
+    {
+      "quest": 3902,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 11127,
+          "provided": false,
+          "witness": {
+            "id": 164662,
+            "map": 0,
+            "position_x": 1848.6,
+            "position_y": 1516.77,
+            "position_z": 88.0788,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1740,
+        "map": 0,
+        "position_x": 1861.17,
+        "position_y": 1605.02,
+        "position_z": 95.0318
+      },
+      "ender": {
+        "id": 1740,
+        "map": 0,
+        "position_x": 1861.17,
+        "position_y": 1605.02,
+        "position_z": 95.0318
+      }
+    },
+    {
+      "quest": 380,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "target": 1504,
+          "witness": {
+            "id": 1504,
+            "map": 0,
+            "position_x": 2016.1,
+            "position_y": 1770.89,
+            "position_z": 105.347
+          },
+          "maxlevel": 3
+        },
+        {
+          "target": 1505,
+          "witness": {
+            "id": 1505,
+            "map": 0,
+            "position_x": 2008.12,
+            "position_y": 1940.49,
+            "position_z": 104.097
+          },
+          "maxlevel": 4
+        }
+      ],
+      "starter": {
+        "id": 1570,
+        "map": 0,
+        "position_x": 1848.82,
+        "position_y": 1580.47,
+        "position_z": 94.7451
+      },
+      "ender": {
+        "id": 1570,
+        "map": 0,
+        "position_x": 1848.82,
+        "position_y": 1580.47,
+        "position_z": 94.7451
+      }
+    },
+    {
+      "quest": 381,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 3266,
+          "provided": false,
+          "witness": {
+            "id": 1506,
+            "map": 0,
+            "position_x": 1678.79,
+            "position_y": 1330.88,
+            "position_z": 130.01,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1570,
+        "map": 0,
+        "position_x": 1848.82,
+        "position_y": 1580.47,
+        "position_z": 94.7451
+      },
+      "ender": {
+        "id": 1570,
+        "map": 0,
+        "position_x": 1848.82,
+        "position_y": 1580.47,
+        "position_z": 94.7451
+      }
+    },
+    {
+      "quest": 382,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 2885,
+          "provided": false,
+          "witness": {
+            "id": 1667,
+            "map": 0,
+            "position_x": 1772.91,
+            "position_y": 1381.26,
+            "position_z": 91.0356,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1570,
+        "map": 0,
+        "position_x": 1848.82,
+        "position_y": 1580.47,
+        "position_z": 94.7451
+      },
+      "ender": {
+        "id": 1570,
+        "map": 0,
+        "position_x": 1848.82,
+        "position_y": 1580.47,
+        "position_z": 94.7451
+      }
+    },
+    {
+      "quest": 6395,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "target": -178090,
+          "witness": {
+            "id": 178090,
+            "map": 0,
+            "position_x": 1876.89,
+            "position_y": 1624.95,
+            "position_z": 94.7472
+          },
+          "maxlevel": null
+        }
+      ],
+      "starter": {
+        "id": 1661,
+        "map": 0,
+        "position_x": 1847.73,
+        "position_y": 1638.65,
+        "position_z": 97.0169
+      },
+      "ender": {
+        "id": 1661,
+        "map": 0,
+        "position_x": 1847.73,
+        "position_y": 1638.65,
+        "position_z": 97.0169
+      }
+    },
+    {
+      "quest": 375,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 2876,
+          "provided": false,
+          "witness": {
+            "id": 1553,
+            "map": 0,
+            "position_x": 1853.48,
+            "position_y": 583.181,
+            "position_z": 42.7662,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 2320,
+          "provided": false,
+          "witness": {
+            "id": 2118,
+            "map": 0,
+            "position_x": 2259.73,
+            "position_y": 275.571,
+            "position_z": 34.8637,
+            "source": "vendor"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1521,
+        "map": 0,
+        "position_x": 2249.06,
+        "position_y": 236.785,
+        "position_z": 41.2981
+      },
+      "ender": {
+        "id": 1521,
+        "map": 0,
+        "position_x": 2249.06,
+        "position_y": 236.785,
+        "position_z": 41.2981
+      }
+    },
+    {
+      "quest": 426,
+      "starting_zone": 85,
+      "objectives": [
+        {
+          "item": 3162,
+          "provided": false,
+          "witness": {
+            "id": 1520,
+            "map": 0,
+            "position_x": 2504.66,
+            "position_y": 831.001,
+            "position_z": 120.961,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 3163,
+          "provided": false,
+          "witness": {
+            "id": 1522,
+            "map": 0,
+            "position_x": 2527.26,
+            "position_y": 810.881,
+            "position_z": 110.736,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1496,
+        "map": 0,
+        "position_x": 2287.66,
+        "position_y": 403.372,
+        "position_z": 34.0048
+      },
+      "ender": {
+        "id": 1496,
+        "map": 0,
+        "position_x": 2287.66,
+        "position_y": 403.372,
+        "position_z": 34.0048
+      }
+    },
+    {
+      "quest": 458,
+      "starting_zone": 141,
+      "objectives": [],
+      "starter": {
+        "id": 2077,
+        "map": 1,
+        "position_x": 10389.8,
+        "position_y": 763.477,
+        "position_z": 1320.33
+      },
+      "ender": {
+        "id": 1992,
+        "map": 1,
+        "position_x": 10296.9,
+        "position_y": 870.227,
+        "position_z": 1335.91
+      }
+    },
+    {
+      "quest": 456,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "target": 2031,
+          "witness": {
+            "id": 2031,
+            "map": 1,
+            "position_x": 10271.9,
+            "position_y": 816.868,
+            "position_z": 1341.41
+          },
+          "maxlevel": 1
+        },
+        {
+          "target": 1984,
+          "witness": {
+            "id": 1984,
+            "map": 1,
+            "position_x": 10245.9,
+            "position_y": 844.359,
+            "position_z": 1343.91
+          },
+          "maxlevel": 2
+        }
+      ],
+      "starter": {
+        "id": 2079,
+        "map": 1,
+        "position_x": 10314.0,
+        "position_y": 829.83,
+        "position_z": 1326.48
+      },
+      "ender": {
+        "id": 2079,
+        "map": 1,
+        "position_x": 10314.0,
+        "position_y": 829.83,
+        "position_z": 1326.48
+      }
+    },
+    {
+      "quest": 457,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "target": 2032,
+          "witness": {
+            "id": 2032,
+            "map": 1,
+            "position_x": 10511.3,
+            "position_y": 716.028,
+            "position_z": 1317.21
+          },
+          "maxlevel": 2
+        },
+        {
+          "target": 1985,
+          "witness": {
+            "id": 1985,
+            "map": 1,
+            "position_x": 10485.3,
+            "position_y": 983.439,
+            "position_z": 1321.14
+          },
+          "maxlevel": 3
+        }
+      ],
+      "starter": {
+        "id": 2079,
+        "map": 1,
+        "position_x": 10314.0,
+        "position_y": 829.83,
+        "position_z": 1326.48
+      },
+      "ender": {
+        "id": 2079,
+        "map": 1,
+        "position_x": 10314.0,
+        "position_y": 829.83,
+        "position_z": 1326.48
+      }
+    },
+    {
+      "quest": 459,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 3297,
+          "provided": false,
+          "witness": {
+            "id": 1988,
+            "map": 1,
+            "position_x": 10254.2,
+            "position_y": 980.449,
+            "position_z": 1342.79,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 1992,
+        "map": 1,
+        "position_x": 10296.9,
+        "position_y": 870.227,
+        "position_z": 1335.91
+      },
+      "ender": {
+        "id": 1992,
+        "map": 1,
+        "position_x": 10296.9,
+        "position_y": 870.227,
+        "position_z": 1335.91
+      }
+    },
+    {
+      "quest": 916,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 5166,
+          "provided": false,
+          "witness": {
+            "id": 1986,
+            "map": 1,
+            "position_x": 10666.5,
+            "position_y": 933.339,
+            "position_z": 1322.0,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2082,
+        "map": 1,
+        "position_x": 10417.7,
+        "position_y": 871.194,
+        "position_z": 1319.49
+      },
+      "ender": {
+        "id": 2082,
+        "map": 1,
+        "position_x": 10417.7,
+        "position_y": 871.194,
+        "position_z": 1319.49
+      }
+    },
+    {
+      "quest": 4495,
+      "starting_zone": 141,
+      "objectives": [],
+      "starter": {
+        "id": 8583,
+        "map": 1,
+        "position_x": 10407.2,
+        "position_y": 713.794,
+        "position_z": 1321.7
+      },
+      "ender": {
+        "id": 8584,
+        "map": 1,
+        "position_x": 10711.6,
+        "position_y": 1034.91,
+        "position_z": 1347.34
+      }
+    },
+    {
+      "quest": 3519,
+      "starting_zone": 141,
+      "objectives": [],
+      "starter": {
+        "id": 8584,
+        "map": 1,
+        "position_x": 10711.6,
+        "position_y": 1034.91,
+        "position_z": 1347.34
+      },
+      "ender": {
+        "id": 8583,
+        "map": 1,
+        "position_x": 10407.2,
+        "position_y": 713.794,
+        "position_z": 1321.7
+      }
+    },
+    {
+      "quest": 3521,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 10639,
+          "provided": false,
+          "witness": {
+            "id": 1988,
+            "map": 1,
+            "position_x": 10254.2,
+            "position_y": 980.449,
+            "position_z": 1342.79,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 10641,
+          "provided": false,
+          "witness": {
+            "id": 152095,
+            "map": 1,
+            "position_x": 10485.0,
+            "position_y": 895.09,
+            "position_z": 1311.08,
+            "source": "gameobject"
+          }
+        },
+        {
+          "item": 10640,
+          "provided": false,
+          "witness": {
+            "id": 1986,
+            "map": 1,
+            "position_x": 10666.5,
+            "position_y": 933.339,
+            "position_z": 1322.0,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 8583,
+        "map": 1,
+        "position_x": 10407.2,
+        "position_y": 713.794,
+        "position_z": 1321.7
+      },
+      "ender": {
+        "id": 8583,
+        "map": 1,
+        "position_x": 10407.2,
+        "position_y": 713.794,
+        "position_z": 1321.7
+      }
+    },
+    {
+      "quest": 917,
+      "starting_zone": 141,
+      "objectives": [
+        {
+          "item": 5167,
+          "provided": false,
+          "witness": {
+            "id": 4406,
+            "map": 1,
+            "position_x": 10929.4,
+            "position_y": 923.083,
+            "position_z": 1339.99,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2082,
+        "map": 1,
+        "position_x": 10417.7,
+        "position_y": 871.194,
+        "position_z": 1319.49
+      },
+      "ender": {
+        "id": 2082,
+        "map": 1,
+        "position_x": 10417.7,
+        "position_y": 871.194,
+        "position_z": 1319.49
+      }
+    },
+    {
+      "quest": 920,
+      "starting_zone": 141,
+      "objectives": [],
+      "starter": {
+        "id": 2082,
+        "map": 1,
+        "position_x": 10417.7,
+        "position_y": 871.194,
+        "position_z": 1319.49
+      },
+      "ender": {
+        "id": 3514,
+        "map": 1,
+        "position_x": 10492.5,
+        "position_y": 807.28,
+        "position_z": 1397.35
+      }
+    },
+    {
+      "quest": 476,
+      "starting_zone": 141,
+      "objectives": [],
+      "starter": {
+        "id": 2107,
+        "map": 1,
+        "position_x": 9845.15,
+        "position_y": 440.93,
+        "position_z": 1317.27
+      },
+      "ender": {
+        "id": 2078,
+        "map": 1,
+        "position_x": 9887.53,
+        "position_y": 965.54,
+        "position_z": 1313.9
+      }
+    },
+    {
+      "quest": 747,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4739,
+          "provided": false,
+          "witness": {
+            "id": 2955,
+            "map": 1,
+            "position_x": -3284.56,
+            "position_y": -282.648,
+            "position_z": 37.0271,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 4740,
+          "provided": false,
+          "witness": {
+            "id": 2955,
+            "map": 1,
+            "position_x": -3284.56,
+            "position_y": -282.648,
+            "position_z": 37.0271,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2980,
+        "map": 1,
+        "position_x": -2912.7,
+        "position_y": -257.54,
+        "position_z": 53.0241
+      },
+      "ender": {
+        "id": 2980,
+        "map": 1,
+        "position_x": -2912.7,
+        "position_y": -257.54,
+        "position_z": 53.0241
+      }
+    },
+    {
+      "quest": 752,
+      "starting_zone": 215,
+      "objectives": [],
+      "starter": {
+        "id": 2981,
+        "map": 1,
+        "position_x": -2877.95,
+        "position_y": -221.83,
+        "position_z": 54.9039
+      },
+      "ender": {
+        "id": 2991,
+        "map": 1,
+        "position_x": -3052.54,
+        "position_y": -522.498,
+        "position_z": 27.0143
+      }
+    },
+    {
+      "quest": 750,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4742,
+          "provided": false,
+          "witness": {
+            "id": 2961,
+            "map": 1,
+            "position_x": -3515.39,
+            "position_y": -833.696,
+            "position_z": 104.158,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2980,
+        "map": 1,
+        "position_x": -2912.7,
+        "position_y": -257.54,
+        "position_z": 53.0241
+      },
+      "ender": {
+        "id": 2980,
+        "map": 1,
+        "position_x": -2912.7,
+        "position_y": -257.54,
+        "position_z": 53.0241
+      }
+    },
+    {
+      "quest": 753,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4755,
+          "provided": false,
+          "witness": {
+            "id": 2907,
+            "map": 1,
+            "position_x": -3066.88,
+            "position_y": -538.598,
+            "position_z": 27.0229,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2991,
+        "map": 1,
+        "position_x": -3052.54,
+        "position_y": -522.498,
+        "position_z": 27.0143
+      },
+      "ender": {
+        "id": 2981,
+        "map": 1,
+        "position_x": -2877.95,
+        "position_y": -221.83,
+        "position_z": 54.9039
+      }
+    },
+    {
+      "quest": 755,
+      "starting_zone": 215,
+      "objectives": [],
+      "starter": {
+        "id": 2981,
+        "map": 1,
+        "position_x": -2877.95,
+        "position_y": -221.83,
+        "position_z": 54.9039
+      },
+      "ender": {
+        "id": 2982,
+        "map": 1,
+        "position_x": -3430.31,
+        "position_y": -139.28,
+        "position_z": 103.16
+      }
+    },
+    {
+      "quest": 757,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4770,
+          "provided": false,
+          "witness": {
+            "id": 2952,
+            "map": 1,
+            "position_x": -3177.36,
+            "position_y": -994.792,
+            "position_z": 93.2458,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2982,
+        "map": 1,
+        "position_x": -3430.31,
+        "position_y": -139.28,
+        "position_z": 103.16
+      },
+      "ender": {
+        "id": 2981,
+        "map": 1,
+        "position_x": -2877.95,
+        "position_y": -221.83,
+        "position_z": 54.9039
+      }
+    },
+    {
+      "quest": 780,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4848,
+          "provided": false,
+          "witness": {
+            "id": 2954,
+            "map": 1,
+            "position_x": -3237.81,
+            "position_y": -1076.0,
+            "position_z": 97.312,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 4849,
+          "provided": false,
+          "witness": {
+            "id": 2954,
+            "map": 1,
+            "position_x": -3237.81,
+            "position_y": -1076.0,
+            "position_z": 97.312,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 2980,
+        "map": 1,
+        "position_x": -2912.7,
+        "position_y": -257.54,
+        "position_z": 53.0241
+      },
+      "ender": {
+        "id": 2980,
+        "map": 1,
+        "position_x": -2912.7,
+        "position_y": -257.54,
+        "position_z": 53.0241
+      }
+    },
+    {
+      "quest": 3376,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 10459,
+          "provided": false,
+          "witness": {
+            "id": 8554,
+            "map": 1,
+            "position_x": -2932.87,
+            "position_y": -1276.25,
+            "position_z": 72.2877,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3209,
+        "map": 1,
+        "position_x": -2893.19,
+        "position_y": -239.584,
+        "position_z": 53.6285
+      },
+      "ender": {
+        "id": 3209,
+        "map": 1,
+        "position_x": -2893.19,
+        "position_y": -239.584,
+        "position_z": 53.6285
+      }
+    },
+    {
+      "quest": 766,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "item": 4804,
+          "provided": false,
+          "witness": {
+            "id": 2958,
+            "map": 1,
+            "position_x": -2989.23,
+            "position_y": 298.476,
+            "position_z": 115.955,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 4805,
+          "provided": false,
+          "witness": {
+            "id": 3035,
+            "map": 1,
+            "position_x": -2746.72,
+            "position_y": -882.087,
+            "position_z": 1.5566,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 4806,
+          "provided": false,
+          "witness": {
+            "id": 2956,
+            "map": 1,
+            "position_x": -3008.75,
+            "position_y": 255.748,
+            "position_z": 98.6574,
+            "source": "creature"
+          }
+        },
+        {
+          "item": 4807,
+          "provided": false,
+          "witness": {
+            "id": 2969,
+            "map": 1,
+            "position_x": -2953.72,
+            "position_y": 291.858,
+            "position_z": 105.781,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 3055,
+        "map": 1,
+        "position_x": -2227.54,
+        "position_y": -365.72,
+        "position_z": -9.27941
+      },
+      "ender": {
+        "id": 3055,
+        "map": 1,
+        "position_x": -2227.54,
+        "position_y": -365.72,
+        "position_z": -9.27941
+      }
+    },
+    {
+      "quest": 833,
+      "starting_zone": 215,
+      "objectives": [
+        {
+          "target": 3232,
+          "witness": {
+            "id": 3232,
+            "map": 1,
+            "position_x": -1055.7,
+            "position_y": -1109.93,
+            "position_z": 35.8998
+          },
+          "maxlevel": 10
+        }
+      ],
+      "starter": {
+        "id": 3233,
+        "map": 1,
+        "position_x": -1150.41,
+        "position_y": -1027.37,
+        "position_z": 3.57968
+      },
+      "ender": {
+        "id": 3233,
+        "map": 1,
+        "position_x": -1150.41,
+        "position_y": -1027.37,
+        "position_z": 3.57968
+      }
+    },
+    {
+      "quest": 754,
+      "starting_zone": 215,
+      "objectives": [],
+      "starter": {
+        "id": 2948,
+        "map": 1,
+        "position_x": -2341.4,
+        "position_y": -445.449,
+        "position_z": -6.4173
+      },
+      "ender": {
+        "id": 2948,
+        "map": 1,
+        "position_x": -2341.4,
+        "position_y": -445.449,
+        "position_z": -6.4173
+      }
+    },
+    {
+      "quest": 8325,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "target": 15274,
+          "witness": {
+            "id": 15274,
+            "map": 530,
+            "position_x": 10187.8,
+            "position_y": -6347.56,
+            "position_z": 30.459
+          },
+          "maxlevel": 1
+        }
+      ],
+      "starter": {
+        "id": 15278,
+        "map": 530,
+        "position_x": 10352.0,
+        "position_y": -6359.93,
+        "position_z": 34.1146
+      },
+      "ender": {
+        "id": 15278,
+        "map": 530,
+        "position_x": 10352.0,
+        "position_y": -6359.93,
+        "position_z": 34.1146
+      }
+    },
+    {
+      "quest": 8326,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "item": 20797,
+          "provided": false,
+          "witness": {
+            "id": 15366,
+            "map": 530,
+            "position_x": 10200.7,
+            "position_y": -6241.44,
+            "position_z": 15.6028,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 15278,
+        "map": 530,
+        "position_x": 10352.0,
+        "position_y": -6359.93,
+        "position_z": 34.1146
+      },
+      "ender": {
+        "id": 15278,
+        "map": 530,
+        "position_x": 10352.0,
+        "position_y": -6359.93,
+        "position_z": 34.1146
+      }
+    },
+    {
+      "quest": 8327,
+      "starting_zone": 3430,
+      "objectives": [],
+      "starter": {
+        "id": 15278,
+        "map": 530,
+        "position_x": 10352.0,
+        "position_y": -6359.93,
+        "position_z": 34.1146
+      },
+      "ender": {
+        "id": 15281,
+        "map": 530,
+        "position_x": 10302.3,
+        "position_y": -6229.3,
+        "position_z": 26.7049
+      }
+    },
+    {
+      "quest": 8346,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "target": 15468,
+          "witness": {
+            "id": 15468,
+            "map": 530,
+            "position_x": 10323.0,
+            "position_y": -6404.01,
+            "position_z": 114.462
+          },
+          "maxlevel": 1
+        }
+      ],
+      "starter": {
+        "id": 15297,
+        "map": 530,
+        "position_x": 10419.7,
+        "position_y": -6318.62,
+        "position_z": 35.6568
+      },
+      "ender": {
+        "id": 15297,
+        "map": 530,
+        "position_x": 10419.7,
+        "position_y": -6318.62,
+        "position_z": 35.6568
+      }
+    },
+    {
+      "quest": 8334,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "target": 15271,
+          "witness": {
+            "id": 15271,
+            "map": 530,
+            "position_x": 10057.3,
+            "position_y": -6252.72,
+            "position_z": 11.758
+          },
+          "maxlevel": 3
+        },
+        {
+          "target": 15294,
+          "witness": {
+            "id": 15294,
+            "map": 530,
+            "position_x": 10057.9,
+            "position_y": -6241.84,
+            "position_z": 12.9503
+          },
+          "maxlevel": 3
+        }
+      ],
+      "starter": {
+        "id": 15281,
+        "map": 530,
+        "position_x": 10302.3,
+        "position_y": -6229.3,
+        "position_z": 26.7049
+      },
+      "ender": {
+        "id": 15281,
+        "map": 530,
+        "position_x": 10302.3,
+        "position_y": -6229.3,
+        "position_z": 26.7049
+      }
+    },
+    {
+      "quest": 8336,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "item": 20482,
+          "provided": false,
+          "witness": {
+            "id": 15273,
+            "map": 530,
+            "position_x": 10064.0,
+            "position_y": -6030.52,
+            "position_z": 42.458,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 15296,
+        "map": 530,
+        "position_x": 10413.7,
+        "position_y": -6372.46,
+        "position_z": 35.7242
+      },
+      "ender": {
+        "id": 15296,
+        "map": 530,
+        "position_x": 10413.7,
+        "position_y": -6372.46,
+        "position_z": 35.7242
+      }
+    },
+    {
+      "quest": 8345,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "target": -180516,
+          "witness": {
+            "id": 180516,
+            "map": 530,
+            "position_x": 10405.8,
+            "position_y": -5946.01,
+            "position_z": 42.5082
+          },
+          "maxlevel": null
+        }
+      ],
+      "starter": {
+        "id": 15295,
+        "map": 530,
+        "position_x": 10406.0,
+        "position_y": -6396.24,
+        "position_z": 52.1757
+      },
+      "ender": {
+        "id": 15295,
+        "map": 530,
+        "position_x": 10406.0,
+        "position_y": -6396.24,
+        "position_z": 52.1757
+      }
+    },
+    {
+      "quest": 8335,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "target": 15273,
+          "witness": {
+            "id": 15273,
+            "map": 530,
+            "position_x": 10064.0,
+            "position_y": -6030.52,
+            "position_z": 42.458
+          },
+          "maxlevel": 4
+        },
+        {
+          "target": 15298,
+          "witness": {
+            "id": 15298,
+            "map": 530,
+            "position_x": 10083.7,
+            "position_y": -6034.95,
+            "position_z": 42.2431
+          },
+          "maxlevel": 4
+        },
+        {
+          "item": 20799,
+          "provided": false,
+          "witness": {
+            "id": 15367,
+            "map": 530,
+            "position_x": 10150.9,
+            "position_y": -6006.24,
+            "position_z": 110.237,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 15281,
+        "map": 530,
+        "position_x": 10302.3,
+        "position_y": -6229.3,
+        "position_z": 26.7049
+      },
+      "ender": {
+        "id": 15281,
+        "map": 530,
+        "position_x": 10302.3,
+        "position_y": -6229.3,
+        "position_z": 26.7049
+      }
+    },
+    {
+      "quest": 8347,
+      "starting_zone": 3430,
+      "objectives": [],
+      "starter": {
+        "id": 15281,
+        "map": 530,
+        "position_x": 10302.3,
+        "position_y": -6229.3,
+        "position_z": 26.7049
+      },
+      "ender": {
+        "id": 15301,
+        "map": 530,
+        "position_x": 9984.04,
+        "position_y": -6478.02,
+        "position_z": 1.07989
+      }
+    },
+    {
+      "quest": 9704,
+      "starting_zone": 3430,
+      "objectives": [],
+      "starter": {
+        "id": 15301,
+        "map": 530,
+        "position_x": 9984.04,
+        "position_y": -6478.02,
+        "position_z": 1.07989
+      },
+      "ender": {
+        "id": 17849,
+        "map": 530,
+        "position_x": 9871.0,
+        "position_y": -6557.19,
+        "position_z": 10.3874
+      }
+    },
+    {
+      "quest": 9352,
+      "starting_zone": 3430,
+      "objectives": [
+        {
+          "target": 15968,
+          "witness": {
+            "id": 15968,
+            "map": 530,
+            "position_x": 9005.09,
+            "position_y": -6194.03,
+            "position_z": 23.3583
+          },
+          "maxlevel": 7
+        }
+      ],
+      "starter": {
+        "id": 15403,
+        "map": 530,
+        "position_x": 9531.33,
+        "position_y": -6859.75,
+        "position_z": 18.7898
+      },
+      "ender": {
+        "id": 15401,
+        "map": 530,
+        "position_x": 9155.78,
+        "position_y": -6294.84,
+        "position_z": 21.1295
+      }
+    },
+    {
+      "quest": 9279,
+      "starting_zone": 3524,
+      "objectives": [],
+      "starter": {
+        "id": 16475,
+        "map": 530,
+        "position_x": -3962.0,
+        "position_y": -13926.3,
+        "position_z": 101.238
+      },
+      "ender": {
+        "id": 16477,
+        "map": 530,
+        "position_x": -4039.4,
+        "position_y": -13773.7,
+        "position_z": 75.3083
+      }
+    },
+    {
+      "quest": 9280,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 22889,
+          "provided": false,
+          "witness": {
+            "id": 16520,
+            "map": 530,
+            "position_x": -4479.94,
+            "position_y": -13588.8,
+            "position_z": 52.8992,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 16477,
+        "map": 530,
+        "position_x": -4039.4,
+        "position_y": -13773.7,
+        "position_z": 75.3083
+      },
+      "ender": {
+        "id": 16477,
+        "map": 530,
+        "position_x": -4039.4,
+        "position_y": -13773.7,
+        "position_z": 75.3083
+      }
+    },
+    {
+      "quest": 10302,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "target": 16516,
+          "witness": {
+            "id": 16516,
+            "map": 530,
+            "position_x": -4455.21,
+            "position_y": -13557.3,
+            "position_z": 48.7935
+          },
+          "maxlevel": 2
+        }
+      ],
+      "starter": {
+        "id": 16514,
+        "map": 530,
+        "position_x": -4057.03,
+        "position_y": -13721.6,
+        "position_z": 72.9162
+      },
+      "ender": {
+        "id": 16514,
+        "map": 530,
+        "position_x": -4057.03,
+        "position_y": -13721.6,
+        "position_z": 72.9162
+      }
+    },
+    {
+      "quest": 9293,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 22934,
+          "provided": false,
+          "witness": {
+            "id": 16517,
+            "map": 530,
+            "position_x": -4260.52,
+            "position_y": -13531.3,
+            "position_z": 49.5508,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 16514,
+        "map": 530,
+        "position_x": -4057.03,
+        "position_y": -13721.6,
+        "position_z": 72.9162
+      },
+      "ender": {
+        "id": 16514,
+        "map": 530,
+        "position_x": -4057.03,
+        "position_y": -13721.6,
+        "position_z": 72.9162
+      }
+    },
+    {
+      "quest": 9799,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 24416,
+          "provided": false,
+          "witness": {
+            "id": 182127,
+            "map": 530,
+            "position_x": -4249.06,
+            "position_y": -13496.8,
+            "position_z": 47.8915,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 20233,
+        "map": 530,
+        "position_x": -4059.43,
+        "position_y": -13718.8,
+        "position_z": 72.9697
+      },
+      "ender": {
+        "id": 20233,
+        "map": 530,
+        "position_x": -4059.43,
+        "position_y": -13718.8,
+        "position_z": 72.9697
+      }
+    },
+    {
+      "quest": 9305,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 22978,
+          "provided": false,
+          "witness": {
+            "id": 181283,
+            "map": 530,
+            "position_x": -4669.27,
+            "position_y": -13969.6,
+            "position_z": 87.4219,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17071,
+        "map": 530,
+        "position_x": -4184.55,
+        "position_y": -13733.1,
+        "position_z": 74.2699
+      },
+      "ender": {
+        "id": 17071,
+        "map": 530,
+        "position_x": -4184.55,
+        "position_y": -13733.1,
+        "position_z": 74.2699
+      }
+    },
+    {
+      "quest": 9314,
+      "starting_zone": 3524,
+      "objectives": [],
+      "starter": {
+        "id": 16554,
+        "map": 530,
+        "position_x": -4260.66,
+        "position_y": -13125.4,
+        "position_z": 37.1331
+      },
+      "ender": {
+        "id": 16553,
+        "map": 530,
+        "position_x": -4129.43,
+        "position_y": -12469.0,
+        "position_z": 44.1849
+      }
+    },
+    {
+      "quest": 9463,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23685,
+          "provided": false,
+          "witness": {
+            "id": 17196,
+            "map": 530,
+            "position_x": -4854.92,
+            "position_y": -12044.5,
+            "position_z": 32.9406,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17214,
+        "map": 530,
+        "position_x": -4199.11,
+        "position_y": -12469.9,
+        "position_z": 45.7105
+      },
+      "ender": {
+        "id": 17214,
+        "map": 530,
+        "position_x": -4199.11,
+        "position_y": -12469.9,
+        "position_z": 45.7105
+      }
+    },
+    {
+      "quest": 9512,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23757,
+          "provided": false,
+          "witness": {
+            "id": 17216,
+            "map": 530,
+            "position_x": -5057.9,
+            "position_y": -11759.8,
+            "position_z": 0.11434,
+            "source": "creature"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17246,
+        "map": 530,
+        "position_x": -4708.59,
+        "position_y": -12400.3,
+        "position_z": 11.9429
+      },
+      "ender": {
+        "id": 17246,
+        "map": 530,
+        "position_x": -4708.59,
+        "position_y": -12400.3,
+        "position_z": 11.9429
+      }
+    },
+    {
+      "quest": 9473,
+      "starting_zone": 3524,
+      "objectives": [
+        {
+          "item": 23692,
+          "provided": false,
+          "witness": {
+            "id": 181644,
+            "map": 530,
+            "position_x": -4450.94,
+            "position_y": -12106.2,
+            "position_z": 5.55564,
+            "source": "gameobject"
+          }
+        }
+      ],
+      "starter": {
+        "id": 17215,
+        "map": 530,
+        "position_x": -4191.15,
+        "position_y": -12470.0,
+        "position_z": 45.6375
+      },
+      "ender": {
+        "id": 17215,
+        "map": 530,
+        "position_x": -4191.15,
+        "position_y": -12470.0,
+        "position_z": 45.6375
+      }
+    },
+    {
+      "quest": 9505,
+      "starting_zone": 3524,
+      "objectives": [],
+      "starter": {
+        "id": 17215,
+        "map": 530,
+        "position_x": -4191.15,
+        "position_y": -12470.0,
+        "position_z": 45.6375
+      },
+      "ender": {
+        "id": 17240,
+        "map": 530,
+        "position_x": -4699.57,
+        "position_y": -12414.8,
+        "position_z": 11.6456
+      }
+    }
+  ],
+  "source_queries": {
+    "version": "SELECT * FROM version",
+    "updates": "SELECT name,hash,state FROM updates ORDER BY name",
+    "profiles": "SELECT * FROM playercreateinfo ORDER BY race,class",
+    "quests": "SELECT q.ID,q.LogTitle,q.QuestLevel,q.MinLevel,q.QuestSortID,\n            q.AllowableRaces,q.Flags,q.QuestInfoID,q.StartItem,q.TimeAllowed,\n            q.RequiredFactionId1,q.RequiredFactionId2,q.RewardNextQuest,\n            a.ProvidedItemCount,a.AllowableClasses,a.PrevQuestID,a.NextQuestID,a.ExclusiveGroup,\n            a.BreadcrumbForQuestId,a.SpecialFlags,a.RequiredSkillID,\n            a.RequiredMinRepFaction,a.RequiredMaxRepFaction,a.MaxLevel\n            FROM quest_template q LEFT JOIN quest_template_addon a USING(ID) ORDER BY q.ID",
+    "starters": "SELECT s.quest,s.id,t.faction FROM creature_queststarter s\n            JOIN creature_template t ON t.entry=s.id ORDER BY s.quest,s.id",
+    "enders": "SELECT quest,id FROM creature_questender ORDER BY quest,id",
+    "source_items": "SELECT entry,startquest,maxcount FROM item_template\n            WHERE entry IN (SELECT StartItem FROM quest_template WHERE StartItem<>0)\n            OR startquest<>0 ORDER BY entry",
+    "conditions": "SELECT * FROM conditions WHERE SourceTypeOrReferenceId IN (19,20)\n            ORDER BY SourceTypeOrReferenceId,SourceGroup,SourceEntry,SourceId,ElseGroup,\n            ConditionTypeOrReference,ConditionTarget,ConditionValue1,ConditionValue2,ConditionValue3",
+    "creatures": "SELECT entry,name,minlevel,maxlevel,ScriptName FROM creature_template ORDER BY entry",
+    "spawns": "SELECT DISTINCT id,map,spawnMask FROM creature ORDER BY id,map,spawnMask",
+    "instances": "SELECT * FROM instance_template ORDER BY map",
+    "access": "SELECT * FROM dungeon_access_template ORDER BY id",
+    "access_requirements": "SELECT * FROM dungeon_access_requirements ORDER BY dungeon_access_id,requirement_type,requirement_id,faction",
+    "event_quests": "SELECT quest FROM game_event_creature_quest UNION\n            SELECT quest FROM game_event_gameobject_quest UNION SELECT entry AS quest FROM pool_quest ORDER BY quest",
+    "levels": "SELECT DISTINCT level FROM creature_classlevelstats WHERE level BETWEEN 1 AND 80 ORDER BY level",
+    "early_objectives": "SELECT ID,LogDescription,RequiredNpcOrGo1,RequiredNpcOrGo2,RequiredNpcOrGo3,RequiredNpcOrGo4,RequiredItemId1,RequiredItemId2,RequiredItemId3,RequiredItemId4,RequiredItemId5,RequiredItemId6 FROM quest_template WHERE ID IN (6,7,15,18,21,33,47,60,62,83,85,170,179,182,183,218,233,234,313,315,317,318,319,320,358,363,364,365,367,375,376,380,381,382,404,412,426,432,456,457,458,459,475,476,488,489,743,745,746,747,748,750,752,753,754,755,757,761,766,780,783,784,786,788,789,790,791,792,804,808,815,817,818,825,826,833,834,916,917,919,920,932,2158,2438,3361,3376,3519,3521,3901,3902,3903,3904,4402,4495,4641,5261,5481,5482,5541,5545,6395,8325,8326,8327,8334,8335,8336,8345,8346,8347,8463,8472,8475,8480,9035,9062,9279,9280,9293,9305,9314,9352,9454,9463,9473,9505,9506,9512,9513,9523,9530,9704,9799,10302,10324,11129) ORDER BY ID",
+    "early_crafting_items": "SELECT entry,spellid_1,spellid_2,spellid_3,spellid_4,spellid_5 FROM item_template\n            WHERE spellid_1 IN (4954) OR spellid_2 IN (4954) OR spellid_3 IN (4954)\n            OR spellid_4 IN (4954) OR spellid_5 IN (4954) ORDER BY entry",
+    "early_item_sources": "SELECT l.Item AS item,t.entry,'creature' AS kind FROM creature_loot_template l\n            JOIN creature_template t ON t.lootid=l.Entry WHERE l.Item IN (182,750,752,769,772,773,1019,2004,2187,2188,2320,2671,2676,2696,2834,2846,2855,2858,2876,2885,3083,3084,3162,3163,3264,3265,3266,3297,3409,3411,3412,3418,4702,4703,4704,4739,4740,4742,4751,4755,4758,4759,4769,4770,4804,4805,4806,4807,4848,4849,4862,4863,4864,4866,4870,4887,4888,4890,4892,4905,4918,5166,5167,5169,5221,5410,6952,8048,10438,10459,10639,10640,10641,11119,11127,11583,12737,13702,13850,13872,16313,16314,20482,20743,20797,20799,21808,22413,22414,22889,22934,22978,23676,23677,23685,23692,23738,23739,23757,23779,23790,23791,24416,50432) AND l.Reference=0 AND l.Chance<>0\n            UNION SELECT l.Item,t.entry,'gameobject' FROM gameobject_loot_template l\n            JOIN gameobject_template t ON t.Data1=l.Entry WHERE t.type=3 AND l.Item IN (182,750,752,769,772,773,1019,2004,2187,2188,2320,2671,2676,2696,2834,2846,2855,2858,2876,2885,3083,3084,3162,3163,3264,3265,3266,3297,3409,3411,3412,3418,4702,4703,4704,4739,4740,4742,4751,4755,4758,4759,4769,4770,4804,4805,4806,4807,4848,4849,4862,4863,4864,4866,4870,4887,4888,4890,4892,4905,4918,5166,5167,5169,5221,5410,6952,8048,10438,10459,10639,10640,10641,11119,11127,11583,12737,13702,13850,13872,16313,16314,20482,20743,20797,20799,21808,22413,22414,22889,22934,22978,23676,23677,23685,23692,23738,23739,23757,23779,23790,23791,24416,50432) AND l.Reference=0 AND l.Chance<>0\n            UNION SELECT item,entry,'vendor' FROM npc_vendor WHERE item IN (182,750,752,769,772,773,1019,2004,2187,2188,2320,2671,2676,2696,2834,2846,2855,2858,2876,2885,3083,3084,3162,3163,3264,3265,3266,3297,3409,3411,3412,3418,4702,4703,4704,4739,4740,4742,4751,4755,4758,4759,4769,4770,4804,4805,4806,4807,4848,4849,4862,4863,4864,4866,4870,4887,4888,4890,4892,4905,4918,5166,5167,5169,5221,5410,6952,8048,10438,10459,10639,10640,10641,11119,11127,11583,12737,13702,13850,13872,16313,16314,20482,20743,20797,20799,21808,22413,22414,22889,22934,22978,23676,23677,23685,23692,23738,23739,23757,23779,23790,23791,24416,50432) ORDER BY item,kind,entry",
+    "early_crafting_focuses": "SELECT entry,Data0 AS focus FROM gameobject_template WHERE type=8 AND Data0 IN (3) ORDER BY entry",
+    "early_npc_spawns": "SELECT id,map,position_x,position_y,position_z FROM creature\n                WHERE id IN (6,38,40,66,69,80,103,113,116,119,157,196,197,240,241,246,247,253,257,278,295,299,327,330,390,454,473,474,475,476,524,547,583,658,704,705,706,707,708,713,714,724,777,786,808,823,843,880,881,960,989,1115,1125,1126,1127,1128,1134,1135,1137,1148,1190,1191,1192,1196,1201,1211,1243,1250,1254,1269,1271,1286,1347,1374,1377,1378,1388,1397,1454,1456,1465,1474,1496,1499,1501,1502,1504,1505,1506,1507,1508,1509,1512,1513,1518,1519,1520,1521,1522,1523,1525,1526,1547,1548,1549,1553,1554,1568,1569,1570,1661,1667,1672,1674,1675,1689,1692,1694,1740,1890,1941,1984,1985,1986,1988,1989,1992,1995,1996,1997,1998,1999,2000,2001,2031,2032,2033,2034,2038,2042,2043,2077,2078,2079,2080,2081,2082,2083,2107,2118,2150,2151,2155,2225,2381,2393,2394,2668,2669,2670,2672,2697,2698,2699,2810,2816,2819,2821,2846,2947,2948,2949,2950,2951,2952,2953,2954,2955,2956,2957,2958,2959,2960,2961,2962,2963,2966,2969,2970,2971,2980,2981,2982,2985,2989,2990,2991,2993,3005,3035,3055,3068,3081,3091,3096,3098,3099,3100,3101,3103,3104,3105,3106,3107,3108,3119,3120,3121,3124,3128,3129,3139,3140,3141,3143,3145,3147,3168,3187,3188,3191,3192,3194,3205,3206,3207,3209,3225,3228,3232,3233,3244,3245,3246,3281,3287,3293,3304,3364,3366,3367,3482,3485,3499,3514,3556,3567,3614,3779,3954,3955,3958,4168,4189,4194,4225,4229,4561,4577,4589,4775,4877,4897,5100,5128,5135,5154,5163,5565,5783,5808,5809,5817,5944,6020,6301,6567,6568,6574,6576,6731,6774,6846,6866,6927,7852,7854,7940,7947,8145,8160,8363,8416,8503,8554,8583,8584,8681,8934,9296,9636,9796,10176,10616,10665,10666,11189,11557,11874,12022,12028,12043,12245,12941,12942,12943,12956,12957,12958,14430,15165,15179,15271,15273,15274,15278,15281,15294,15295,15296,15297,15298,15301,15366,15367,15372,15401,15403,15404,15416,15418,15468,15638,15654,15941,15945,15968,16224,16261,16262,16366,16475,16477,16514,16516,16517,16520,16553,16554,16613,16638,16689,16748,16767,16768,17071,17110,17193,17194,17195,17196,17200,17201,17214,17215,17216,17217,17240,17241,17242,17246,17486,17490,17849,18009,18277,18426,18427,18749,18754,18771,18772,19196,19213,19244,19372,19450,19521,19532,19722,20233,21085,23616,23618,24843,24935,24995,25010,25019,25051,25082,27021,27026,27043,27057,28692,28718,28726,28798,28810,28831,28872,29288,30311,33596,33601,33635,33636,33681,33684) AND spawnMask&1 ORDER BY id,map,position_x,position_y,position_z",
+    "early_go_spawns": "SELECT id,map,position_x,position_y,position_z FROM gameobject\n                WHERE id IN (30,276,337,375,1673,1685,1743,1745,1749,1797,1896,2015,2573,2575,2727,2728,2907,3189,3190,3192,3223,3236,3237,3240,3290,4090,4406,4608,17190,19902,20738,20986,21271,21679,23304,23305,24745,24746,34571,34572,38491,50469,50831,50983,50984,50985,51949,52175,52176,56897,92490,113754,123207,123208,123209,123210,126158,130668,138317,141838,141841,142078,144133,147285,148499,148960,152034,152042,152045,152094,152095,153459,161487,161557,164662,169969,171716,171717,171938,173063,173064,173095,175144,175566,175851,176509,176753,176785,176793,176895,178084,178085,178090,178684,179844,179863,179886,179924,180516,180600,180913,181107,181110,181130,181283,181644,181674,181675,181683,181696,181697,181716,181884,181990,182056,182117,182127,182270,182278,182860,183121,183144,183149,183345,183347,183408,183484,183757,183758,183759,183760,183782,183818,183942,183943,183944,184146,184286,184303,184617,184633,184687,184922,184923,186138,186139,186141,186231,186433,186486,186556,186630,186653,186654,187112,187256,187388,188250,188257,188354,188356,188396,188452,188607,188624,188651,188683,190457,190495,190524,190650,190652,190765,191237,191287,191288,191346,191505,191508,192020,192062,192572,192573,192583,192831,193126,194128,194468,194487) AND spawnMask&1 ORDER BY id,map,position_x,position_y,position_z"
+  }
+}

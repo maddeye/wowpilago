@@ -1,0 +1,17 @@
+{
+  "scope": "Actual generated AP client datapackage and spoiler names, not normal gameplay or a live GUI claim.",
+  "archive_sha256": "9dd6bc428a7c0cc2175b60a6f2b67a49ac367c53b6fd5ac1c0353e5405154101",
+  "published_item_names": 98,
+  "published_location_names": 300,
+  "selected_location_names_checked_in_actual_spoiler": 213,
+  "literal_examples": [
+    "Quest: Kobold Camp Cleanup [7]",
+    "Raid: Ragnaros",
+    "Charge",
+    "Equipment Voucher +1",
+    "Gold Cache"
+  ],
+  "verifier": "tests/verify_world.py",
+  "verifier_sha256": "371f8c522393e6efaad4fb906aa938a1eafdc35d67f8aef9d8ade7722a3e6c85",
+  "status": "PASS"
+}

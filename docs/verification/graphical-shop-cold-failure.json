@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SAFE_STOP_AND_PROTECTION_FAILED_NATIVE_COLD_ICON_GATE",
+  "native_cold_icons": "FAIL:10of12 unresolved after10seconds without intentional row hovers",
+  "opaque_panel": "PASS_NATIVE",
+  "purchases": 0,
+  "vouchers": 5,
+  "stock18_unsold": true,
+  "character_tables": 122,
+  "auth_tables": 22,
+  "all_items_inventory_AP_histories_other41_and_frozen11_exact": true,
+  "original_room_sha256": "9276a39d4ae2599d58434427684efba9e7f1fa07cac24e4bb88cd6c2539114b7",
+  "source": {
+    "Catalog.lua": "8365a1e20d9588509f6195e176861257e889ab9368dff4ab321ec5de9e9767de",
+    "README.md": "9fa4d0cc4e896d7ebdfb189657bd7dce4e1cfabf190bf05b9bf661d3fc13da39",
+    "Shop.lua": "d44d03d3323b97ccc6293b3681a81b430e8cc70122429ac742afe923314ffee1",
+    "WoWPilago.lua": "c38ec914d691a807f3f53e6865267fd18dab612829d3de88095bf120ad16e094",
+    "WoWPilago.toc": "7c1fa6d3edc0d4ced9268374f04b9ec570ce520c815611d89ef7a2030f689d25"
+  },
+  "inspected_source": ".local/goal-ecbd80/shop-native-purchase/Shop.cold-failed.lua",
+  "ordinary_bookkeeping": {
+    "played_seconds": 119,
+    "offline_rest_seconds": 1568,
+    "expected_rest_bonus": 63.450616666666676,
+    "actual_rest_bonus": 63.4507,
+    "latency_ms": 1
+  },
+  "limits": [
+    "Cold-cache failure retained, not relabelled as success.",
+    "No accepted purchase and no graphical-shop TODO checkoff.",
+    "Auth/SRP, realm uptime and actor rest/played/ping changes are normal native bookkeeping."
+  ],
+  "private_audit": ".local/goal-ecbd80/shop-native-purchase/parent-audit.json"
+}

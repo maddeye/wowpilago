@@ -1,0 +1,5 @@
+name: ChecksFinder
+game: ChecksFinder
+ChecksFinder:
+  progression_balancing: 50
+  accessibility: full

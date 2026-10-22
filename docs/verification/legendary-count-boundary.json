@@ -1,0 +1,58 @@
+{
+  "status": "PASS_GENERATED_LEGENDARY_RANGE_BRIDGE_CONTRACT",
+  "cases": [
+    {
+      "count": 0,
+      "unique_identities": 0,
+      "stock": 60,
+      "checks": 213,
+      "actual_fill_reachable": true,
+      "generated_slot_parsed_by_bridge": true
+    },
+    {
+      "count": 5,
+      "unique_identities": 5,
+      "stock": 60,
+      "checks": 213,
+      "actual_fill_reachable": true,
+      "generated_slot_parsed_by_bridge": true
+    },
+    {
+      "count": 10,
+      "unique_identities": 10,
+      "stock": 60,
+      "checks": 213,
+      "actual_fill_reachable": true,
+      "generated_slot_parsed_by_bridge": true
+    }
+  ],
+  "catalog_version": "4611c269173e443bff425e85a255fa086315ffdec0657c9098982d8e6fe9e1b0",
+  "frozen_room_touched": false,
+  "native_ingress": 0,
+  "limits": "Generation and bridge validation only, not ten native legendary deliveries.",
+  "artifacts": {
+    "ap_tests": ".local/legendary-count-boundary/tests.log",
+    "rerun": ".local/legendary-count-boundary/check.py",
+    "bridge_tests": "tests/test_bridge_v2.py::ManifestTests.test_legendary_count_matches_world_option_range"
+  },
+  "packaged_ap_tests_passed": 34,
+  "bridge_manifest_tests_passed": 7,
+  "change": "Bridge count upperbound4->10 matches existingAPWorldrange. Existing default2/class/identity/unique/reward checks unchanged.",
+  "offline_regression": {
+    "tests": 491,
+    "passed": 442,
+    "skipped": 49,
+    "live_sql_gates": "all unset",
+    "log": ".local/offline-suite-after-reconnect-legendary-range-repinned.log"
+  },
+  "source_pin_review": {
+    "only_changed_pinned_file": "bridge/catalog.py",
+    "old_sha256": "baeaea5cfc1f269c70316b002a13f94c69c44d652d478326b26452f5a7c7d361",
+    "new_sha256": "c1ee60dd46cfa53f0449d962bb35a79c1e330be5ff998998b2c27976f1e7e032",
+    "old_exact_source": ".local/legendary-count-boundary/bridge-catalog-before.py",
+    "old_inventory": ".local/legendary-count-boundary/city-helper-hashes-before.json",
+    "first_stale_pin_failure_preserved": ".local/offline-suite-after-reconnect-legendary-range.log",
+    "guards_relaxed": false,
+    "native_cpp_changed": false
+  }
+}

@@ -1,0 +1,600 @@
+diff --git a/src/server/database/Database/DatabaseWorkerPool.cpp b/src/server/database/Database/DatabaseWorkerPool.cpp
+index f539e2a..7d46730 100644
+--- a/src/server/database/Database/DatabaseWorkerPool.cpp
++++ b/src/server/database/Database/DatabaseWorkerPool.cpp
+@@ -323,7 +323,8 @@ void DatabaseWorkerPool<T>::DirectCommitTransaction(SQLTransaction<T>& transacti
+ 
+         for (uint8 i = 0; i < loopBreaker; ++i)
+         {
+-            if (!connection->ExecuteTransaction(transaction))
++            errorCode = connection->ExecuteTransaction(transaction);
++            if (errorCode != ER_LOCK_DEADLOCK)
+                 break;
+         }
+     }
+diff --git a/src/server/database/Database/MySQLConnection.cpp b/src/server/database/Database/MySQLConnection.cpp
+index b62d0ed..db4beb0 100644
+--- a/src/server/database/Database/MySQLConnection.cpp
++++ b/src/server/database/Database/MySQLConnection.cpp
+@@ -174,7 +174,7 @@ bool MySQLConnection::PrepareStatements()
+ 
+ bool MySQLConnection::Execute(std::string_view sql)
+ {
+-    if (!m_Mysql)
++    if (!m_Mysql && (m_inTransaction || !_HandleMySQLErrno(CR_SERVER_GONE_ERROR)))
+         return false;
+ 
+     {
+@@ -187,7 +187,7 @@ bool MySQLConnection::Execute(std::string_view sql)
+             LOG_INFO("sql.sql", "SQL: {}", sql);
+             LOG_ERROR("sql.sql", "[{}] {}", lErrno, mysql_error(m_Mysql));
+ 
+-            if (_HandleMySQLErrno(lErrno, mysql_error(m_Mysql)))  // If it returns true, an error was handled successfully (i.e. reconnection)
++            if (!m_inTransaction && _HandleMySQLErrno(lErrno, mysql_error(m_Mysql)))  // Never replay a transaction statement.
+                 return Execute(sql);       // Try again
+ 
+             return false;
+@@ -201,7 +201,7 @@ bool MySQLConnection::Execute(std::string_view sql)
+ 
+ bool MySQLConnection::Execute(PreparedStatementBase* stmt)
+ {
+-    if (!m_Mysql)
++    if (!m_Mysql && (m_inTransaction || !_HandleMySQLErrno(CR_SERVER_GONE_ERROR)))
+         return false;
+ 
+     uint32 index = stmt->GetIndex();
+@@ -225,7 +225,7 @@ bool MySQLConnection::Execute(PreparedStatementBase* stmt)
+         uint32 lErrno = mysql_errno(m_Mysql);
+         LOG_ERROR("sql.sql", "SQL(p): {}\n [ERROR]: [{}] {}", m_mStmt->getQueryString(), lErrno, mysql_stmt_error(msql_STMT));
+ 
+-        if (_HandleMySQLErrno(lErrno, mysql_stmt_error(msql_STMT)))  // If it returns true, an error was handled successfully (i.e. reconnection)
++        if (!m_inTransaction && _HandleMySQLErrno(lErrno, mysql_stmt_error(msql_STMT)))
+             return Execute(stmt);       // Try again
+ 
+         m_mStmt->ClearParameters();
+@@ -237,7 +237,7 @@ bool MySQLConnection::Execute(PreparedStatementBase* stmt)
+         uint32 lErrno = mysql_errno(m_Mysql);
+         LOG_ERROR("sql.sql", "SQL(p): {}\n [ERROR]: [{}] {}", m_mStmt->getQueryString(), lErrno, mysql_stmt_error(msql_STMT));
+ 
+-        if (_HandleMySQLErrno(lErrno, mysql_stmt_error(msql_STMT)))  // If it returns true, an error was handled successfully (i.e. reconnection)
++        if (!m_inTransaction && _HandleMySQLErrno(lErrno, mysql_stmt_error(msql_STMT)))
+             return Execute(stmt);       // Try again
+ 
+         m_mStmt->ClearParameters();
+@@ -366,17 +366,26 @@ bool MySQLConnection::_Query(std::string_view sql, MySQLResult** pResult, MySQLF
+ 
+ void MySQLConnection::BeginTransaction()
+ {
+-    Execute("START TRANSACTION");
++    m_inTransaction = Execute("START TRANSACTION");
+ }
+ 
+ void MySQLConnection::RollbackTransaction()
+ {
+-    Execute("ROLLBACK");
++    // Rollback must stay on the original connection, even after a lost COMMIT acknowledgement.
++    m_inTransaction = true;
++    if (!Execute("ROLLBACK") && m_Mysql)
++    {
++        mysql_close(m_Mysql); // Discard an uncertain transaction before the next operation.
++        m_Mysql = nullptr;
++    }
++    m_inTransaction = false;
+ }
+ 
+ void MySQLConnection::CommitTransaction()
+ {
+-    Execute("COMMIT");
++    if (!Execute("COMMIT"))
++        RollbackTransaction();
++    m_inTransaction = false;
+ }
+ 
+ int MySQLConnection::ExecuteTransaction(std::shared_ptr<TransactionBase> transaction)
+@@ -385,7 +394,9 @@ int MySQLConnection::ExecuteTransaction(std::shared_ptr<TransactionBase> transac
+     if (queries.empty())
+         return -1;
+ 
+-    BeginTransaction();
++    if (!Execute("START TRANSACTION"))
++        return GetLastError();
++    m_inTransaction = true;
+ 
+     for (auto const& data : queries)
+     {
+@@ -449,23 +460,32 @@ int MySQLConnection::ExecuteTransaction(std::shared_ptr<TransactionBase> transac
+     // This is done in calling functions DatabaseWorkerPool<T>::DirectCommitTransaction and TransactionTask::Execute,
+     // and not while iterating over every element.
+ 
+-    CommitTransaction();
++    if (!Execute("COMMIT"))
++    {
++        uint32 errorCode = GetLastError();
++        RollbackTransaction();
++        return errorCode;
++    }
++    m_inTransaction = false;
+     return 0;
+ }
+ 
+ std::size_t MySQLConnection::EscapeString(char* to, char const* from, std::size_t length)
+ {
++    if (!m_Mysql && !_HandleMySQLErrno(CR_SERVER_GONE_ERROR))
++        ABORT("Cannot escape SQL without a connection");
+     return mysql_real_escape_string(m_Mysql, to, from, length);
+ }
+ 
+ void MySQLConnection::Ping()
+ {
+-    mysql_ping(m_Mysql);
++    if (m_Mysql)
++        mysql_ping(m_Mysql);
+ }
+ 
+ uint32 MySQLConnection::GetLastError()
+ {
+-    return mysql_errno(m_Mysql);
++    return m_Mysql ? mysql_errno(m_Mysql) : CR_SERVER_GONE_ERROR;
+ }
+ 
+ bool MySQLConnection::LockIfReady()
+diff --git a/src/server/database/Database/MySQLConnection.h b/src/server/database/Database/MySQLConnection.h
+index e1b5183..a728e91 100644
+--- a/src/server/database/Database/MySQLConnection.h
++++ b/src/server/database/Database/MySQLConnection.h
+@@ -113,6 +113,7 @@ private:
+     MySQLConnectionInfo& m_connectionInfo;              //! Connection info (used for logging)
+     ConnectionFlags m_connectionFlags;                  //! Connection flags (for preparing relevant statements)
+     std::mutex m_Mutex;
++    bool m_inTransaction = false;
+ 
+     MySQLConnection(MySQLConnection const& right) = delete;
+     MySQLConnection& operator=(MySQLConnection const& right) = delete;
+diff --git a/src/server/database/Database/Transaction.cpp b/src/server/database/Database/Transaction.cpp
+index dba55ae..442afd1 100644
+--- a/src/server/database/Database/Transaction.cpp
++++ b/src/server/database/Database/Transaction.cpp
+@@ -112,14 +112,18 @@ bool TransactionTask::Execute()
+ 
+             for (Milliseconds loopDuration{}, startMSTime = GetTimeMS(); loopDuration <= DEADLOCK_MAX_RETRY_TIME_MS; loopDuration = GetMSTimeDiffToNow(startMSTime))
+             {
+-                if (!TryExecute())
++                errorCode = TryExecute();
++                if (!errorCode)
+                     return true;
++                if (errorCode != ER_LOCK_DEADLOCK)
++                    break;
+ 
+                 LOG_WARN("sql.sql", "Deadlocked SQL Transaction, retrying. Loop timer: {} ms, Thread Id: {}", loopDuration.count(), threadId);
+             }
+         }
+ 
+-        LOG_ERROR("sql.sql", "Fatal deadlocked SQL Transaction, it will not be retried anymore. Thread Id: {}", threadId);
++        if (errorCode == ER_LOCK_DEADLOCK)
++            LOG_ERROR("sql.sql", "Fatal deadlocked SQL Transaction, it will not be retried anymore. Thread Id: {}", threadId);
+     }
+ 
+     // Clean up now.
+@@ -159,17 +163,21 @@ bool TransactionWithResultTask::Execute()
+ 
+             for (Milliseconds loopDuration{}, startMSTime = GetTimeMS(); loopDuration <= DEADLOCK_MAX_RETRY_TIME_MS; loopDuration = GetMSTimeDiffToNow(startMSTime))
+             {
+-                if (!TryExecute())
++                errorCode = TryExecute();
++                if (!errorCode)
+                 {
+                     m_result.set_value(true);
+                     return true;
+                 }
++                if (errorCode != ER_LOCK_DEADLOCK)
++                    break;
+ 
+                 LOG_WARN("sql.sql", "Deadlocked SQL Transaction, retrying. Loop timer: {} ms, Thread Id: {}", loopDuration.count(), threadId);
+             }
+         }
+ 
+-        LOG_ERROR("sql.sql", "Fatal deadlocked SQL Transaction, it will not be retried anymore. Thread Id: {}", threadId);
++        if (errorCode == ER_LOCK_DEADLOCK)
++            LOG_ERROR("sql.sql", "Fatal deadlocked SQL Transaction, it will not be retried anymore. Thread Id: {}", threadId);
+     }
+ 
+     // Clean up now.
+diff --git a/src/server/game/Entities/Creature/Trainer.cpp b/src/server/game/Entities/Creature/Trainer.cpp
+index 58b61aa..ccf10fa 100644
+--- a/src/server/game/Entities/Creature/Trainer.cpp
++++ b/src/server/game/Entities/Creature/Trainer.cpp
+@@ -19,6 +19,7 @@
+ #include "Creature.h"
+ #include "NPCPackets.h"
+ #include "Player.h"
++#include "ScriptMgr.h"
+ #include "SpellInfo.h"
+ #include "SpellMgr.h"
+ 
+@@ -203,6 +204,9 @@ namespace Trainer
+             if (!player->HasSpell(requirePair.second))
+                 return SpellState::Unavailable;
+ 
++        if (!sScriptMgr->OnPlayerCanTrainSpell(player, trainerSpell->SpellId))
++            return SpellState::Unavailable;
++
+         return SpellState::Available;
+     }
+ 
+diff --git a/src/server/game/Entities/Player/Player.cpp b/src/server/game/Entities/Player/Player.cpp
+index 0caf9a8..65d0ae2 100644
+--- a/src/server/game/Entities/Player/Player.cpp
++++ b/src/server/game/Entities/Player/Player.cpp
+@@ -1419,6 +1419,13 @@ bool Player::TeleportTo(uint32 mapid, float x, float y, float z, float orientati
+ 
+     MapEntry const* mEntry = sMapStore.LookupEntry(mapid);
+ 
++    WorldLocation const destination(mapid, x, y, z, orientation);
++    if (!sScriptMgr->OnPlayerCanAccessMap(this, mapid, &destination, false))
++    {
++        SendTransferAborted(mapid, TRANSFER_ABORT_MAP_NOT_ALLOWED);
++        return false;
++    }
++
+     // don't let enter battlegrounds without assigned battleground id (for example through areatrigger)...
+     if (!InBattleground() && mEntry->IsBattlegroundOrArena())
+         return false;
+@@ -2424,7 +2431,7 @@ void Player::GiveXP(uint32 xp, Unit* victim, float group_rate, bool isLFGReward)
+     if ((zone == AREA_HELLFIRE_PENINSULA || zone == AREA_HELLFIRE_RAMPARTS || zone == AREA_MAGTHERIDONS_LAIR || zone == AREA_THE_BLOOD_FURNACE || zone == AREA_THE_SHATTERED_HALLS) && HasAnyAuras(32096 /*Thrallmar's Favor*/, 32098 /*Honor Hold's Favor*/))
+         favored_exp_mult = 0.05f; // Thrallmar's Favor and Honor Hold's Favor
+ 
+-    xp = uint32(xp * (1 + favored_exp_mult));
++    uint64 baseXP = uint64(xp * (1.0 + favored_exp_mult));
+     // Favored experience increase END
+ 
+     // XP to money conversion processed in Player::RewardQuest
+@@ -2439,40 +2446,53 @@ void Player::GiveXP(uint32 xp, Unit* victim, float group_rate, bool isLFGReward)
+         return;
+ 
+     if (HasPlayerFlag(PLAYER_FLAGS_PARTIAL_PLAY_TIME))
+-        xp = std::max(1u, xp / 2);
++        baseXP = std::max<uint64>(1, baseXP / 2);
+ 
+-    uint32 bonus_xp = 0;
+     bool recruitAFriend = GetsRecruitAFriendBonus(true);
++    uint64 bonusXP = recruitAFriend ? 2 * baseXP :
++        (victim ? GetXPRestBonus(uint32(std::min<uint64>(baseXP, UINT32_MAX))) : 0);
++    uint64 finalXP = baseXP + bonusXP;
++    uint32 const coreMaxLevel = maxLevel;
++    sScriptMgr->OnPlayerBeforeApplyXP(this, finalXP, maxLevel);
++    maxLevel = std::min(maxLevel, coreMaxLevel);
+ 
+-    // RaF does NOT stack with rested experience
+-    if (recruitAFriend)
+-        bonus_xp = 2 * xp; // xp + bonus_xp must add up to 3 * xp for RaF; calculation for quests done client-side
+-    else
+-        bonus_xp = victim ? GetXPRestBonus(xp) : 0; // XP resting bonus
+-
+-    // hooks and multipliers can modify the xp with a zero or negative value
+-    // check again before sending invalid xp to the client
+-    if (xp < 1)
++    if (GetLevel() >= maxLevel)
++    {
++        SetUInt32Value(PLAYER_XP, 0);
+         return;
++    }
+ 
+-    SendLogXPGain(xp, victim, bonus_xp, recruitAFriend, group_rate);
+-
+-    uint32 curXP = GetUInt32Value(PLAYER_XP);
++    uint64 newXP = uint64(GetUInt32Value(PLAYER_XP)) + finalXP;
+     uint32 nextLvlXP = GetUInt32Value(PLAYER_NEXT_LEVEL_XP);
+-    uint32 newXP = curXP + xp + bonus_xp;
+-
+-    while (newXP >= nextLvlXP && level < maxLevel)
++    level = GetLevel();
++    while (nextLvlXP && newXP >= nextLvlXP && level < maxLevel)
+     {
+-        newXP -= nextLvlXP;
+-
+-        if (level < maxLevel)
+-            GiveLevel(level + 1);
++        GiveLevel(level + 1);
++        if (GetLevel() <= level)
++            break; // A level veto must not consume the threshold XP.
+ 
++        newXP -= nextLvlXP;
+         level = GetLevel();
+         nextLvlXP = GetUInt32Value(PLAYER_NEXT_LEVEL_XP);
+     }
+ 
+-    SetUInt32Value(PLAYER_XP, newXP);
++    // Packet fields are uint32; do not advertise XP removed by scripts or the cap.
++    uint64 appliedXP = level >= maxLevel ? finalXP - std::min(finalXP, newXP) : finalXP;
++    uint32 loggedXP = uint32(std::min<uint64>(appliedXP, UINT32_MAX));
++    uint32 loggedBonus = uint32(std::min<uint64>(bonusXP, loggedXP));
++    if (loggedXP)
++        SendLogXPGain(loggedXP - loggedBonus, victim, loggedBonus, recruitAFriend, group_rate);
++
++    if (level >= maxLevel)
++    {
++        SetUInt32Value(PLAYER_XP, 0);
++        // Let scripts bank an unconsumed cap-crossing remainder before it is discarded.
++        if (newXP)
++            sScriptMgr->OnPlayerBeforeApplyXP(this, newXP, maxLevel);
++        return;
++    }
++
++    SetUInt32Value(PLAYER_XP, uint32(std::min<uint64>(newXP, UINT32_MAX)));
+ }
+ 
+ // Update player to next level
+@@ -3239,6 +3259,9 @@ bool Player::_addSpell(uint32 spellId, uint8 addSpecMask, bool temporary, bool l
+     if (!SpellMgr::CheckSpellValid(spellInfo, spellId, false))
+         return false;
+ 
++    if (!sScriptMgr->OnPlayerCanAddSpell(this, spellId, addSpecMask, temporary, learnFromSkill))
++        return false;
++
+     // pussywizard: already found and temporary, nothing to do
+     PlayerSpellMap::iterator itr = m_spells.find(spellId);
+     if (itr != m_spells.end() && itr->second->State == PLAYERSPELL_TEMPORARY)
+diff --git a/src/server/game/Entities/Player/Player.h b/src/server/game/Entities/Player/Player.h
+index b4ef455..283a3fc 100644
+--- a/src/server/game/Entities/Player/Player.h
++++ b/src/server/game/Entities/Player/Player.h
+@@ -2603,6 +2603,8 @@ public:
+     [[nodiscard]] bool CanSeeTrainer(Creature const* creature) const;
+ 
+ private:
++    InventoryResult CanUseItem(ItemTemplate const* proto, Item const* instance) const;
++
+     [[nodiscard]] bool AnyVendorOptionAvailable(uint32 menuId, Creature const* creature) const;
+ public:
+     [[nodiscard]] uint32 GetChampioningFaction() const { return m_ChampioningFaction; }
+diff --git a/src/server/game/Entities/Player/PlayerStorage.cpp b/src/server/game/Entities/Player/PlayerStorage.cpp
+index 79c6792..ecedb38 100644
+--- a/src/server/game/Entities/Player/PlayerStorage.cpp
++++ b/src/server/game/Entities/Player/PlayerStorage.cpp
+@@ -2337,7 +2337,7 @@ InventoryResult Player::CanUseItem(Item* pItem, bool not_loading) const
+             if (pItem->IsBindedNotWith(this))
+                 return EQUIP_ERR_DONT_OWN_THAT_ITEM;
+ 
+-            InventoryResult res = CanUseItem(pProto);
++            InventoryResult res = CanUseItem(pProto, pItem);
+             if (res != EQUIP_ERR_OK)
+                 return res;
+ 
+@@ -2376,6 +2376,11 @@ InventoryResult Player::CanUseItem(Item* pItem, bool not_loading) const
+ }
+ 
+ InventoryResult Player::CanUseItem(ItemTemplate const* proto) const
++{
++    return CanUseItem(proto, nullptr);
++}
++
++InventoryResult Player::CanUseItem(ItemTemplate const* proto, Item const* instance) const
+ {
+     // Used by group, function NeedBeforeGreed, to know if a prototype can be used by a player
+ 
+@@ -2418,7 +2423,11 @@ InventoryResult Player::CanUseItem(ItemTemplate const* proto) const
+ 
+     if (GetLevel() < proto->RequiredLevel)
+     {
+-        return EQUIP_ERR_CANT_EQUIP_LEVEL_I;
++        bool ignoreRequiredLevel = false;
++        if (instance)
++            sScriptMgr->OnPlayerCheckItemLevel(this, instance, ignoreRequiredLevel);
++        if (!ignoreRequiredLevel)
++            return EQUIP_ERR_CANT_EQUIP_LEVEL_I;
+     }
+ 
+     // If World Event is not active, prevent using event dependant items
+@@ -5375,6 +5384,39 @@ bool Player::LoadFromDB(ObjectGuid playerGuid, CharacterDatabaseQueryHolder cons
+             RelocateToHomebind();
+     }
+ 
++    // Check the resolved location, including transport and taxi recovery, not the saved map alone.
++    auto CheckLoginMapAccess = [&]() -> bool
++    {
++        uint32 resolvedMapId = map ? map->GetId() : mapId;
++        WorldLocation destination(resolvedMapId, GetPositionX(), GetPositionY(), GetPositionZ(), GetOrientation());
++        if (sScriptMgr->OnPlayerCanAccessMap(this, resolvedMapId, &destination, true))
++            return true;
++
++        if (m_transport)
++        {
++            m_transport->RemovePassenger(this);
++            m_transport = nullptr;
++        }
++        m_movementInfo.transport.Reset();
++        m_movementInfo.RemoveMovementFlag(MOVEMENTFLAG_ONTRANSPORT);
++        m_taxi.ClearTaxiDestinations();
++        m_entryPointData.ClearTaxiPath();
++        taxi_nodes.clear();
++        instanceId = 0;
++        map = nullptr;
++
++        PlayerInfo const* info = sObjectMgr->GetPlayerInfo(getRace(true), getClass());
++        if (!info || !MapMgr::IsValidMapCoord(info->mapId, info->positionX, info->positionY, info->positionZ, 0.0f))
++            return false;
++
++        mapId = info->mapId;
++        Relocate(info->positionX, info->positionY, info->positionZ, 0.0f);
++        destination = WorldLocation(mapId, GetPositionX(), GetPositionY(), GetPositionZ(), GetOrientation());
++        return sScriptMgr->OnPlayerCanAccessMap(this, mapId, &destination, true);
++    };
++    if (!CheckLoginMapAccess())
++        return false;
++
+     // NOW player must have valid map
+     // load the player's map here if it's not already loaded
+     if (!map)
+@@ -5412,6 +5454,14 @@ bool Player::LoadFromDB(ObjectGuid playerGuid, CharacterDatabaseQueryHolder cons
+         }
+     }
+ 
++    // Map creation failure may have selected another fallback above. Check that map too.
++    if (!CheckLoginMapAccess())
++        return false;
++    if (!map)
++        map = sMapMgr->CreateMap(mapId, this);
++    if (!map)
++        return false;
++
+     SetMap(map);
+     StoreRaidMapDifficulty();
+ 
+@@ -7253,6 +7303,7 @@ void Player::SaveToDB(CharacterDatabaseTransaction trans, bool create, bool logo
+         sScriptMgr->OnPlayerSave(this);
+ 
+     _SaveCharacter(create, trans);
++    sScriptMgr->OnPlayerSaveToDB(this, trans, create, logout);
+ 
+     if (m_mailsUpdated)                                     //save mails only when needed
+         _SaveMail(trans);
+diff --git a/src/server/game/Maps/MapMgr.cpp b/src/server/game/Maps/MapMgr.cpp
+index 46f627a..081a936 100644
+--- a/src/server/game/Maps/MapMgr.cpp
++++ b/src/server/game/Maps/MapMgr.cpp
+@@ -139,6 +139,9 @@ Map::EnterState MapMgr::PlayerCannotEnter(uint32 mapid, Player* player, bool log
+     if (!entry)
+         return Map::CANNOT_ENTER_NO_ENTRY;
+ 
++    if (!sScriptMgr->OnPlayerCanAccessMap(player, mapid, nullptr, loginCheck))
++        return Map::CANNOT_ENTER_UNSPECIFIED_REASON;
++
+     if (!entry->IsDungeon())
+         return Map::CAN_ENTER;
+ 
+diff --git a/src/server/game/Scripting/ScriptDefines/PlayerScript.cpp b/src/server/game/Scripting/ScriptDefines/PlayerScript.cpp
+index 5fb0086..a7454ce 100644
+--- a/src/server/game/Scripting/ScriptDefines/PlayerScript.cpp
++++ b/src/server/game/Scripting/ScriptDefines/PlayerScript.cpp
+@@ -243,6 +243,36 @@ void ScriptMgr::OnPlayerCreate(Player* player)
+     CALL_ENABLED_HOOKS(PlayerScript, PLAYERHOOK_ON_CREATE, script->OnPlayerCreate(player));
+ }
+ 
++void ScriptMgr::OnPlayerBeforeApplyXP(Player* player, uint64& finalXP, uint32& maxLevel)
++{
++    CALL_ENABLED_HOOKS(PlayerScript, PLAYERHOOK_BEFORE_APPLY_XP, script->OnPlayerBeforeApplyXP(player, finalXP, maxLevel));
++}
++
++bool ScriptMgr::OnPlayerCanAddSpell(Player* player, uint32 spellId, uint8 specMask, bool temporary, bool learnFromSkill)
++{
++    CALL_ENABLED_BOOLEAN_HOOKS(PlayerScript, PLAYERHOOK_CAN_ADD_SPELL, !script->OnPlayerCanAddSpell(player, spellId, specMask, temporary, learnFromSkill));
++}
++
++bool ScriptMgr::OnPlayerCanTrainSpell(Player const* player, uint32 spellId)
++{
++    CALL_ENABLED_BOOLEAN_HOOKS(PlayerScript, PLAYERHOOK_CAN_TRAIN_SPELL, !script->OnPlayerCanTrainSpell(player, spellId));
++}
++
++bool ScriptMgr::OnPlayerCanAccessMap(Player const* player, uint32 mapId, WorldLocation const* destination, bool loginCheck)
++{
++    CALL_ENABLED_BOOLEAN_HOOKS(PlayerScript, PLAYERHOOK_CAN_ACCESS_MAP, !script->OnPlayerCanAccessMap(player, mapId, destination, loginCheck));
++}
++
++void ScriptMgr::OnPlayerCheckItemLevel(Player const* player, Item const* item, bool& ignoreRequiredLevel)
++{
++    CALL_ENABLED_HOOKS(PlayerScript, PLAYERHOOK_CHECK_ITEM_LEVEL, script->OnPlayerCheckItemLevel(player, item, ignoreRequiredLevel));
++}
++
++void ScriptMgr::OnPlayerSaveToDB(Player* player, CharacterDatabaseTransaction trans, bool create, bool logout)
++{
++    CALL_ENABLED_HOOKS(PlayerScript, PLAYERHOOK_SAVE_TO_DB, script->OnPlayerSaveToDB(player, trans, create, logout));
++}
++
+ void ScriptMgr::OnPlayerSave(Player* player)
+ {
+     CALL_ENABLED_HOOKS(PlayerScript, PLAYERHOOK_ON_SAVE, script->OnPlayerSave(player));
+diff --git a/src/server/game/Scripting/ScriptDefines/PlayerScript.h b/src/server/game/Scripting/ScriptDefines/PlayerScript.h
+index 3c3ec7d..afe80e1 100644
+--- a/src/server/game/Scripting/ScriptDefines/PlayerScript.h
++++ b/src/server/game/Scripting/ScriptDefines/PlayerScript.h
+@@ -27,6 +27,8 @@
+ #include "AchievementMgr.h"
+ #include "KillRewarder.h"
+ 
++class WorldLocation;
++
+ enum PlayerHook
+ {
+     PLAYERHOOK_ON_PLAYER_JUST_DIED,
+@@ -221,6 +223,12 @@ enum PlayerHook
+     PLAYERHOOK_ON_GET_REPUTATION_PRICE_DISCOUNT,
+     PLAYERHOOK_ON_LEARN_TAXI_NODE,
+     PLAYERHOOK_ON_BEFORE_GET_LEVEL_FOR_XP_GAIN,
++    PLAYERHOOK_BEFORE_APPLY_XP,
++    PLAYERHOOK_CAN_ADD_SPELL,
++    PLAYERHOOK_CAN_TRAIN_SPELL,
++    PLAYERHOOK_CAN_ACCESS_MAP,
++    PLAYERHOOK_CHECK_ITEM_LEVEL,
++    PLAYERHOOK_SAVE_TO_DB,
+     PLAYERHOOK_END
+ };
+ 
+@@ -354,6 +362,13 @@ public:
+     // Called when a player is about to be saved.
+     virtual void OnPlayerSave(Player* /*player*/) { }
+ 
++    virtual void OnPlayerBeforeApplyXP(Player* /*player*/, uint64& /*finalXP*/, uint32& /*maxLevel*/) { }
++    virtual bool OnPlayerCanAddSpell(Player* /*player*/, uint32 /*spellId*/, uint8 /*specMask*/, bool /*temporary*/, bool /*learnFromSkill*/) { return true; }
++    virtual bool OnPlayerCanTrainSpell(Player const* /*player*/, uint32 /*spellId*/) { return true; }
++    virtual bool OnPlayerCanAccessMap(Player const* /*player*/, uint32 /*mapId*/, WorldLocation const* /*destination*/, bool /*loginCheck*/) { return true; }
++    virtual void OnPlayerCheckItemLevel(Player const* /*player*/, Item const* /*item*/, bool& /*ignoreRequiredLevel*/) { }
++    virtual void OnPlayerSaveToDB(Player* /*player*/, CharacterDatabaseTransaction /*trans*/, bool /*create*/, bool /*logout*/) { }
++
+     // Called when a player is bound to an instance
+     virtual void OnPlayerBindToInstance(Player* /*player*/, Difficulty /*difficulty*/, uint32 /*mapId*/, bool /*permanent*/) { }
+ 
+diff --git a/src/server/game/Scripting/ScriptMgr.h b/src/server/game/Scripting/ScriptMgr.h
+index 6882a2d..07d9a47 100644
+--- a/src/server/game/Scripting/ScriptMgr.h
++++ b/src/server/game/Scripting/ScriptMgr.h
+@@ -353,6 +353,12 @@ public: /* PlayerScript */
+     void OnPlayerLogout(Player* player);
+     void OnPlayerCreate(Player* player);
+     void OnPlayerSave(Player* player);
++    void OnPlayerBeforeApplyXP(Player* player, uint64& finalXP, uint32& maxLevel);
++    bool OnPlayerCanAddSpell(Player* player, uint32 spellId, uint8 specMask, bool temporary, bool learnFromSkill);
++    bool OnPlayerCanTrainSpell(Player const* player, uint32 spellId);
++    bool OnPlayerCanAccessMap(Player const* player, uint32 mapId, WorldLocation const* destination, bool loginCheck);
++    void OnPlayerCheckItemLevel(Player const* player, Item const* item, bool& ignoreRequiredLevel);
++    void OnPlayerSaveToDB(Player* player, CharacterDatabaseTransaction trans, bool create, bool logout);
+     void OnPlayerDelete(ObjectGuid guid, uint32 accountId);
+     void OnPlayerFailedDelete(ObjectGuid guid, uint32 accountId);
+     void OnPlayerBindToInstance(Player* player, Difficulty difficulty, uint32 mapid, bool permanent);
+diff --git a/src/server/scripts/World/server_mail.cpp b/src/server/scripts/World/server_mail.cpp
+--- a/src/server/scripts/World/server_mail.cpp
++++ b/src/server/scripts/World/server_mail.cpp
+@@ -35,18 +35,22 @@
+         if (!session)
+             return;
+ 
+-        uint32 playerGUID = player->GetGUID().GetCounter();
++        ObjectGuid playerGUID = player->GetGUID();
+         bool isAlliance = player->GetTeamId() == TEAM_ALLIANCE;
+ 
+         for (auto const& [mailId, servMail] : serverMailStore)
+         {
+             CharacterDatabasePreparedStatement* stmt = CharacterDatabase.GetPreparedStatement(CHAR_SEL_MAIL_SERVER_CHARACTER);
+-            stmt->SetData(0, playerGUID);
++            stmt->SetData(0, playerGUID.GetCounter());
+             stmt->SetData(1, mailId);
+ 
+             // Capture servMail by value
+-            auto callback = [session, servMailWrapper = std::reference_wrapper<ServerMail const>(servMail), isAlliance](PreparedQueryResult result)
++            auto callback = [session, playerGUID, servMailWrapper = std::reference_wrapper<ServerMail const>(servMail), isAlliance](PreparedQueryResult result)
+                 {
++                    Player* currentPlayer = session->GetPlayer();
++                    if (!currentPlayer || currentPlayer->GetGUID() != playerGUID)
++                        return;
++
+                     ServerMail const& servMail = servMailWrapper.get();  // Dereference the wrapper to get the original object
+ 
+                     if (!result)
+@@ -56,7 +60,7 @@
+                         std::vector<ServerMailCondition> const& conditions = servMail.conditions;
+ 
+                         sServerMailMgr->SendServerMail(
+-                            session->GetPlayer(),
++                            currentPlayer,
+                             servMail.id,
+                             servMail.senderEntry,
+                             money,

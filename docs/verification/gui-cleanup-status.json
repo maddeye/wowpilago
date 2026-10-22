@@ -1,0 +1,27 @@
+{
+  "status": "PASS_MODELED_FORCED_FAILURE_AND_NATIVE_NORMAL_CLOSE",
+  "source": "tests/gui_client.py",
+  "source_sha256": "0651c3dd66ba65bb02ff2523dc0503f6f74012ac0231c948d371b8d9add3a4c9",
+  "tests": "tests/test_gui_client.py",
+  "cleanup_cases": 5,
+  "public_regression": {
+    "total": 562,
+    "passed": 510,
+    "skipped": 52,
+    "seconds": 42.230,
+    "log": ".local/goal-7826cf/launcher-cleanup/public-final-tests.log"
+  },
+  "behavior": "Record attempted cleanup signals and errors. Attempt cleanup of every owned child. Forced or incomplete cleanup raises after cleanup. Successful cleanup does not erase an earlier Wine failure.",
+  "scope": "Five production run_client unit cases use mocked processes/signals and filesystem fixtures. A separate actual selection-only native normal-close case is linked below. Forced native fallback remains untested.",
+  "historical_runs": "Unchanged. This fix does not prove that earlier client shutdowns avoided forced termination.",
+  "native_normal_close": {
+    "evidence": "docs/verification/native-character-delete.json",
+    "session": "run-yjllb8a7",
+    "exit": 0,
+    "complete": true,
+    "forced": false,
+    "world_entries": 0
+  },
+  "native_forced_fallback_tested": false,
+  "requirement_complete": false
+}

@@ -1,0 +1,2571 @@
+{
+  "schema_version": 2,
+  "abilities": [
+    {
+      "class_id": 1,
+      "base_spell": 100,
+      "name": "Charge",
+      "min_level": 4,
+      "ranks": [
+        100,
+        6178,
+        11578
+      ],
+      "ap_id": 919101100,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 100,
+          "min_level": 4,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6178,
+          "min_level": 26,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 11578,
+          "min_level": 46,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 65536
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            2457
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "base_spell": 20252,
+      "name": "Intercept",
+      "min_level": 30,
+      "ranks": [
+        20252
+      ],
+      "ap_id": 919121252,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 20252,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 262144
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            2458
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "base_spell": 6552,
+      "name": "Pummel",
+      "min_level": 38,
+      "ranks": [
+        6552
+      ],
+      "ap_id": 919107552,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6552,
+          "min_level": 38,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 262144
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            2458
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "base_spell": 871,
+      "name": "Shield Wall",
+      "min_level": 28,
+      "ranks": [
+        871
+      ],
+      "ap_id": 919101871,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 871,
+          "min_level": 28,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 131072
+        },
+        {
+          "kind": "equipped_item",
+          "item_class": 4,
+          "subclass_mask": 64,
+          "inventory_mask": 0
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "base_spell": 20230,
+      "name": "Retaliation",
+      "min_level": 20,
+      "ranks": [
+        20230
+      ],
+      "ap_id": 919121230,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 20230,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 65536
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            2457
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "base_spell": 1719,
+      "name": "Recklessness",
+      "min_level": 50,
+      "ranks": [
+        1719
+      ],
+      "ap_id": 919102719,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1719,
+          "min_level": 50,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 262144
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            2458
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "base_spell": 5246,
+      "name": "Intimidating Shout",
+      "min_level": 22,
+      "ranks": [
+        5246
+      ],
+      "ap_id": 919106246,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5246,
+          "min_level": 22,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "base_spell": 1161,
+      "name": "Challenging Shout",
+      "min_level": 26,
+      "ranks": [
+        1161
+      ],
+      "ap_id": 919102161,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1161,
+          "min_level": 26,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 642,
+      "name": "Divine Shield",
+      "min_level": 34,
+      "ranks": [
+        642
+      ],
+      "ap_id": 919101642,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 642,
+          "min_level": 34,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 633,
+      "name": "Lay on Hands",
+      "min_level": 10,
+      "ranks": [
+        633,
+        2800,
+        10310,
+        27154,
+        48788
+      ],
+      "ap_id": 919101633,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 633,
+          "min_level": 10,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2800,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10310,
+          "min_level": 50,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 27154,
+          "min_level": 69,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 48788,
+          "min_level": 78,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 1022,
+      "name": "Hand of Protection",
+      "min_level": 10,
+      "ranks": [
+        1022,
+        5599,
+        10278
+      ],
+      "ap_id": 919102022,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1022,
+          "min_level": 10,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5599,
+          "min_level": 24,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10278,
+          "min_level": 38,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 1044,
+      "name": "Hand of Freedom",
+      "min_level": 18,
+      "ranks": [
+        1044
+      ],
+      "ap_id": 919102044,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1044,
+          "min_level": 18,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 6940,
+      "name": "Hand of Sacrifice",
+      "min_level": 46,
+      "ranks": [
+        6940
+      ],
+      "ap_id": 919107940,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6940,
+          "min_level": 46,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 1038,
+      "name": "Hand of Salvation",
+      "min_level": 26,
+      "ranks": [
+        1038
+      ],
+      "ap_id": 919102038,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1038,
+          "min_level": 26,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 10326,
+      "name": "Turn Evil",
+      "min_level": 24,
+      "ranks": [
+        10326
+      ],
+      "ap_id": 919111326,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10326,
+          "min_level": 24,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "base_spell": 19752,
+      "name": "Divine Intervention",
+      "min_level": 30,
+      "ranks": [
+        19752
+      ],
+      "ap_id": 919120752,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 19752,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17033,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 781,
+      "name": "Disengage",
+      "min_level": 20,
+      "ranks": [
+        781
+      ],
+      "ap_id": 919101781,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 781,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 5384,
+      "name": "Feign Death",
+      "min_level": 30,
+      "ranks": [
+        5384
+      ],
+      "ap_id": 919106384,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5384,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 1499,
+      "name": "Freezing Trap",
+      "min_level": 20,
+      "ranks": [
+        1499,
+        14310,
+        14311
+      ],
+      "ap_id": 919102499,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1499,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 14310,
+          "min_level": 40,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 14311,
+          "min_level": 60,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 13809,
+      "name": "Frost Trap",
+      "min_level": 28,
+      "ranks": [
+        13809
+      ],
+      "ap_id": 919114809,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 13809,
+          "min_level": 28,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 19801,
+      "name": "Tranquilizing Shot",
+      "min_level": 60,
+      "ranks": [
+        19801
+      ],
+      "ap_id": 919120801,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 19801,
+          "min_level": 60,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "equipped_item",
+          "item_class": 2,
+          "subclass_mask": 262156,
+          "inventory_mask": 0
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 1543,
+      "name": "Flare",
+      "min_level": 32,
+      "ranks": [
+        1543
+      ],
+      "ap_id": 919102543,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1543,
+          "min_level": 32,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 5116,
+      "name": "Concussive Shot",
+      "min_level": 8,
+      "ranks": [
+        5116
+      ],
+      "ap_id": 919106116,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5116,
+          "min_level": 8,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "equipped_item",
+          "item_class": 2,
+          "subclass_mask": 262156,
+          "inventory_mask": 0
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "base_spell": 3045,
+      "name": "Rapid Fire",
+      "min_level": 26,
+      "ranks": [
+        3045
+      ],
+      "ap_id": 919104045,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 3045,
+          "min_level": 26,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 2983,
+      "name": "Sprint",
+      "min_level": 10,
+      "ranks": [
+        2983,
+        8696,
+        11305
+      ],
+      "ap_id": 919103983,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2983,
+          "min_level": 10,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8696,
+          "min_level": 34,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 11305,
+          "min_level": 58,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 5277,
+      "name": "Evasion",
+      "min_level": 8,
+      "ranks": [
+        5277,
+        26669
+      ],
+      "ap_id": 919106277,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5277,
+          "min_level": 8,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 26669,
+          "min_level": 50,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 1856,
+      "name": "Vanish",
+      "min_level": 22,
+      "ranks": [
+        1856,
+        1857,
+        26889
+      ],
+      "ap_id": 919102856,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1856,
+          "min_level": 22,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1857,
+          "min_level": 42,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 26889,
+          "min_level": 62,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 1766,
+      "name": "Kick",
+      "min_level": 12,
+      "ranks": [
+        1766
+      ],
+      "ap_id": 919102766,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1766,
+          "min_level": 12,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 2094,
+      "name": "Blind",
+      "min_level": 34,
+      "ranks": [
+        2094
+      ],
+      "ap_id": 919103094,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2094,
+          "min_level": 34,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 408,
+      "name": "Kidney Shot",
+      "min_level": 30,
+      "ranks": [
+        408,
+        8643
+      ],
+      "ap_id": 919101408,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 408,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8643,
+          "min_level": 50,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "equipped_item",
+          "item_class": 2,
+          "subclass_mask": 173555,
+          "inventory_mask": 0
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 1725,
+      "name": "Distract",
+      "min_level": 22,
+      "ranks": [
+        1725
+      ],
+      "ap_id": 919102725,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1725,
+          "min_level": 22,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "base_spell": 31224,
+      "name": "Cloak of Shadows",
+      "min_level": 66,
+      "ranks": [
+        31224
+      ],
+      "ap_id": 919132224,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 31224,
+          "min_level": 66,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 586,
+      "name": "Fade",
+      "min_level": 8,
+      "ranks": [
+        586
+      ],
+      "ap_id": 919101586,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 586,
+          "min_level": 8,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 134217728
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 8122,
+      "name": "Psychic Scream",
+      "min_level": 14,
+      "ranks": [
+        8122,
+        8124,
+        10888,
+        10890
+      ],
+      "ap_id": 919109122,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8122,
+          "min_level": 14,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8124,
+          "min_level": 28,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10888,
+          "min_level": 42,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10890,
+          "min_level": 56,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 134217728
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 605,
+      "name": "Mind Control",
+      "min_level": 30,
+      "ranks": [
+        605
+      ],
+      "ap_id": 919101605,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 605,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 134217728
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 6346,
+      "name": "Fear Ward",
+      "min_level": 20,
+      "ranks": [
+        6346
+      ],
+      "ap_id": 919107346,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6346,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 9484,
+      "name": "Shackle Undead",
+      "min_level": 20,
+      "ranks": [
+        9484,
+        9485,
+        10955
+      ],
+      "ap_id": 919110484,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 9484,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 9485,
+          "min_level": 40,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10955,
+          "min_level": 60,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 134217728
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 32375,
+      "name": "Mass Dispel",
+      "min_level": 70,
+      "ranks": [
+        32375
+      ],
+      "ap_id": 919133375,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 32375,
+          "min_level": 70,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 134217728
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 1706,
+      "name": "Levitate",
+      "min_level": 34,
+      "ranks": [
+        1706
+      ],
+      "ap_id": 919102706,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1706,
+          "min_level": 34,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17056,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 134217728
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "base_spell": 2096,
+      "name": "Mind Vision",
+      "min_level": 22,
+      "ranks": [
+        2096,
+        10909
+      ],
+      "ap_id": 919103096,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2096,
+          "min_level": 22,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10909,
+          "min_level": 44,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 134217728
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 556,
+      "name": "Astral Recall",
+      "min_level": 30,
+      "ranks": [
+        556
+      ],
+      "ap_id": 919101556,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 556,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 2484,
+      "name": "Earthbind Totem",
+      "min_level": 6,
+      "ranks": [
+        2484
+      ],
+      "ap_id": 919103484,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2484,
+          "min_level": 6,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [
+            2
+          ],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 8143,
+      "name": "Tremor Totem",
+      "min_level": 18,
+      "ranks": [
+        8143
+      ],
+      "ap_id": 919109143,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8143,
+          "min_level": 18,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [
+            2
+          ],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 8177,
+      "name": "Grounding Totem",
+      "min_level": 30,
+      "ranks": [
+        8177
+      ],
+      "ap_id": 919109177,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8177,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [
+            3
+          ],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 3738,
+      "name": "Wrath of Air Totem",
+      "min_level": 64,
+      "ranks": [
+        3738
+      ],
+      "ap_id": 919104738,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 3738,
+          "min_level": 64,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [
+            3
+          ],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 2894,
+      "name": "Fire Elemental Totem",
+      "min_level": 68,
+      "ranks": [
+        2894
+      ],
+      "ap_id": 919103894,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2894,
+          "min_level": 68,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [
+            4
+          ],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 51514,
+      "name": "Hex",
+      "min_level": 80,
+      "ranks": [
+        51514
+      ],
+      "ap_id": 919152514,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 51514,
+          "min_level": 80,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 7,
+      "base_spell": 370,
+      "name": "Purge",
+      "min_level": 12,
+      "ranks": [
+        370,
+        8012
+      ],
+      "ap_id": 919101370,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 370,
+          "min_level": 12,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8012,
+          "min_level": 32,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 1953,
+      "name": "Blink",
+      "min_level": 20,
+      "ranks": [
+        1953
+      ],
+      "ap_id": 919102953,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1953,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 122,
+      "name": "Frost Nova",
+      "min_level": 10,
+      "ranks": [
+        122,
+        865,
+        6131,
+        10230,
+        27088,
+        42917
+      ],
+      "ap_id": 919101122,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 122,
+          "min_level": 10,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 865,
+          "min_level": 26,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6131,
+          "min_level": 40,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 10230,
+          "min_level": 54,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 27088,
+          "min_level": 67,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 42917,
+          "min_level": 75,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 2139,
+      "name": "Counterspell",
+      "min_level": 24,
+      "ranks": [
+        2139
+      ],
+      "ap_id": 919103139,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2139,
+          "min_level": 24,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 45438,
+      "name": "Ice Block",
+      "min_level": 30,
+      "ranks": [
+        45438
+      ],
+      "ap_id": 919146438,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 45438,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 118,
+      "name": "Polymorph",
+      "min_level": 8,
+      "ranks": [
+        118,
+        12824,
+        12825,
+        12826
+      ],
+      "ap_id": 919101118,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 118,
+          "min_level": 8,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 12824,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 12825,
+          "min_level": 40,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 12826,
+          "min_level": 60,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 130,
+      "name": "Slow Fall",
+      "min_level": 12,
+      "ranks": [
+        130
+      ],
+      "ap_id": 919101130,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 130,
+          "min_level": 12,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17056,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 30449,
+      "name": "Spellsteal",
+      "min_level": 70,
+      "ranks": [
+        30449
+      ],
+      "ap_id": 919131449,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 30449,
+          "min_level": 70,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 8,
+      "base_spell": 66,
+      "name": "Invisibility",
+      "min_level": 68,
+      "ranks": [
+        66
+      ],
+      "ap_id": 919101066,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 66,
+          "min_level": 68,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 5782,
+      "name": "Fear",
+      "min_level": 8,
+      "ranks": [
+        5782,
+        6213,
+        6215
+      ],
+      "ap_id": 919106782,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5782,
+          "min_level": 8,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6213,
+          "min_level": 32,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6215,
+          "min_level": 56,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 5484,
+      "name": "Howl of Terror",
+      "min_level": 40,
+      "ranks": [
+        5484,
+        17928
+      ],
+      "ap_id": 919106484,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5484,
+          "min_level": 40,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 17928,
+          "min_level": 54,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 6789,
+      "name": "Death Coil",
+      "min_level": 42,
+      "ranks": [
+        6789,
+        17925,
+        17926,
+        27223,
+        47859,
+        47860
+      ],
+      "ap_id": 919107789,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6789,
+          "min_level": 42,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 17925,
+          "min_level": 50,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 17926,
+          "min_level": 58,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 27223,
+          "min_level": 68,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 47859,
+          "min_level": 73,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 47860,
+          "min_level": 78,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 29858,
+      "name": "Soulshatter",
+      "min_level": 66,
+      "ranks": [
+        29858
+      ],
+      "ap_id": 919130858,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 29858,
+          "min_level": 66,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 6265,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 698,
+      "name": "Ritual of Summoning",
+      "min_level": 20,
+      "ranks": [
+        698
+      ],
+      "ap_id": 919101698,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 698,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 6265,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 6229,
+      "name": "Shadow Ward",
+      "min_level": 32,
+      "ranks": [
+        6229,
+        11739,
+        11740,
+        28610,
+        47890,
+        47891
+      ],
+      "ap_id": 919107229,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6229,
+          "min_level": 32,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 11739,
+          "min_level": 42,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 11740,
+          "min_level": 52,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 28610,
+          "min_level": 60,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 47890,
+          "min_level": 72,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 47891,
+          "min_level": 78,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 5697,
+      "name": "Unending Breath",
+      "min_level": 16,
+      "ranks": [
+        5697
+      ],
+      "ap_id": 919106697,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5697,
+          "min_level": 16,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 9,
+      "base_spell": 710,
+      "name": "Banish",
+      "min_level": 28,
+      "ranks": [
+        710,
+        18647
+      ],
+      "ap_id": 919101710,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 710,
+          "min_level": 28,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 18647,
+          "min_level": 48,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 1850,
+      "name": "Dash",
+      "min_level": 26,
+      "ranks": [
+        1850,
+        9821,
+        33357
+      ],
+      "ap_id": 919102850,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 1850,
+          "min_level": 26,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 9821,
+          "min_level": 46,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 33357,
+          "min_level": 65,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            768
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 5211,
+      "name": "Bash",
+      "min_level": 14,
+      "ranks": [
+        5211,
+        6798,
+        8983
+      ],
+      "ap_id": 919106211,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5211,
+          "min_level": 14,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 6798,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 8983,
+          "min_level": 46,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 144
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            5487
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 22812,
+      "name": "Barkskin",
+      "min_level": 44,
+      "ranks": [
+        22812
+      ],
+      "ap_id": 919123812,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 22812,
+          "min_level": 44,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 29166,
+      "name": "Innervate",
+      "min_level": 40,
+      "ranks": [
+        29166
+      ],
+      "ap_id": 919130166,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 29166,
+          "min_level": 40,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 1073741826
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 20484,
+      "name": "Rebirth",
+      "min_level": 20,
+      "ranks": [
+        20484,
+        20739,
+        20742,
+        20747,
+        20748,
+        26994,
+        48477
+      ],
+      "ap_id": 919121484,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 20484,
+          "min_level": 20,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17034,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 20739,
+          "min_level": 30,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17035,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 20742,
+          "min_level": 40,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17036,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 20747,
+          "min_level": 50,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17037,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 20748,
+          "min_level": 60,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 17038,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 26994,
+          "min_level": 69,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 22147,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 48477,
+          "min_level": 79,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": [
+            {
+              "wow_id": 44614,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 2637,
+      "name": "Hibernate",
+      "min_level": 18,
+      "ranks": [
+        2637,
+        18657,
+        18658
+      ],
+      "ap_id": 919103637,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 2637,
+          "min_level": 18,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 18657,
+          "min_level": 38,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 18658,
+          "min_level": 58,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 1073741824
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 5209,
+      "name": "Challenging Roar",
+      "min_level": 28,
+      "ranks": [
+        5209
+      ],
+      "ap_id": 919106209,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5209,
+          "min_level": 28,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 144
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            5487
+          ]
+        }
+      ]
+    },
+    {
+      "class_id": 11,
+      "base_spell": 5229,
+      "name": "Enrage",
+      "min_level": 12,
+      "ranks": [
+        5229
+      ],
+      "ap_id": 919106229,
+      "prerequisites": [
+        {
+          "kind": "rank_eligibility",
+          "spell_id": 5229,
+          "min_level": 12,
+          "required_spell": 0,
+          "required_skill": 0,
+          "required_skill_rank": 0,
+          "totem_items": [],
+          "totem_categories": [],
+          "reagents": []
+        },
+        {
+          "kind": "baseline_form_mask",
+          "mask": 144
+        },
+        {
+          "kind": "baseline_spells",
+          "spell_ids": [
+            5487
+          ]
+        }
+      ]
+    }
+  ]
+}

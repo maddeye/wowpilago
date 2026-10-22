@@ -1,0 +1,26 @@
+name: Offline tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y g++ lua5.1 luajit
+          python -m pip install -r bridge/requirements.txt
+      - name: Check generated catalogs
+        run: python tools/build_catalog.py --check
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v

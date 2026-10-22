@@ -1,0 +1,221 @@
+{
+  "status": "PARTIAL_NOT_NINE_CLASS_PASS",
+  "world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+  "source_audit_sha256": "0c7791f5c4f8041d3c1c5cf4984d512b8a8401b771349c66a72fe697880aff5f",
+  "completed_classes": [
+    {
+      "class_id": 1,
+      "guid": 32,
+      "status": "PASS native fixture gates",
+      "baseline_spell_count": 54,
+      "fresh_packet_count": 20,
+      "gates": [
+        "bound",
+        "cap-bypass-denied",
+        "early-permission",
+        "level-25",
+        "level-26",
+        "level-3",
+        "level-4",
+        "locked",
+        "relog",
+        "replay"
+      ],
+      "selected_ranks": [
+        100,
+        6178
+      ],
+      "normal_levels": [
+        4,
+        26
+      ],
+      "duration_seconds": 468.0
+    },
+    {
+      "class_id": 2,
+      "guid": 33,
+      "status": "PASS native fixture gates",
+      "baseline_spell_count": 48,
+      "fresh_packet_count": 20,
+      "gates": [
+        "bound",
+        "cap-bypass-denied",
+        "early-permission",
+        "level-10",
+        "level-29",
+        "level-30",
+        "level-9",
+        "locked",
+        "relog",
+        "replay"
+      ],
+      "selected_ranks": [
+        633,
+        2800
+      ],
+      "normal_levels": [
+        10,
+        30
+      ],
+      "duration_seconds": 463.4
+    },
+    {
+      "class_id": 3,
+      "guid": 34,
+      "status": "PASS native fixture gates",
+      "baseline_spell_count": 45,
+      "fresh_packet_count": 20,
+      "gates": [
+        "bound",
+        "cap-bypass-denied",
+        "early-permission",
+        "level-19",
+        "level-20",
+        "level-39",
+        "level-40",
+        "locked",
+        "relog",
+        "replay"
+      ],
+      "selected_ranks": [
+        1499,
+        14310
+      ],
+      "normal_levels": [
+        20,
+        40
+      ],
+      "duration_seconds": 478.6
+    },
+    {
+      "class_id": 4,
+      "guid": 35,
+      "status": "PASS native fixture gates",
+      "baseline_spell_count": 45,
+      "fresh_packet_count": 20,
+      "gates": [
+        "bound",
+        "cap-bypass-denied",
+        "early-permission",
+        "level-49",
+        "level-50",
+        "level-7",
+        "level-8",
+        "locked",
+        "relog",
+        "replay"
+      ],
+      "selected_ranks": [
+        5277,
+        26669
+      ],
+      "normal_levels": [
+        8,
+        50
+      ],
+      "duration_seconds": 482.9
+    },
+    {
+      "class_id": 5,
+      "guid": 36,
+      "status": "PASS native fixture gates",
+      "baseline_spell_count": 42,
+      "fresh_packet_count": 20,
+      "gates": [
+        "bound",
+        "cap-bypass-denied",
+        "early-permission",
+        "level-13",
+        "level-14",
+        "level-27",
+        "level-28",
+        "locked",
+        "relog",
+        "replay"
+      ],
+      "selected_ranks": [
+        8122,
+        8124
+      ],
+      "normal_levels": [
+        14,
+        28
+      ],
+      "duration_seconds": 479.7
+    },
+    {
+      "class_id": 7,
+      "guid": 37,
+      "status": "PASS native fixture gates",
+      "baseline_spell_count": 44,
+      "fresh_packet_count": 20,
+      "gates": [
+        "bound",
+        "cap-bypass-denied",
+        "early-permission",
+        "level-11",
+        "level-12",
+        "level-31",
+        "level-32",
+        "locked",
+        "relog",
+        "replay"
+      ],
+      "selected_ranks": [
+        370,
+        8012
+      ],
+      "normal_levels": [
+        12,
+        32
+      ],
+      "duration_seconds": 478.8
+    },
+    {
+      "class_id": 8,
+      "guid": 38,
+      "status": "PASS native fixture gates",
+      "baseline_spell_count": 42,
+      "fresh_packet_count": 20,
+      "gates": [
+        "bound",
+        "cap-bypass-denied",
+        "early-permission",
+        "level-19",
+        "level-20",
+        "level-7",
+        "level-8",
+        "locked",
+        "relog",
+        "replay"
+      ],
+      "selected_ranks": [
+        118,
+        12824
+      ],
+      "normal_levels": [
+        8,
+        20
+      ],
+      "duration_seconds": 464.7
+    }
+  ],
+  "partial_guid": 39,
+  "unexecuted_classes": [
+    11
+  ],
+  "mage_frost_armor": {
+    "guid": 38,
+    "spell_go_packets": 1,
+    "aura_packets": 35
+  },
+  "all_offline_at_final_audit": true,
+  "protected_tables_match_at_final_audit": true,
+  "original_cleanup_race_preserved": true,
+  "limits": [
+    "Warlock partial at deadline, not PASS",
+    "Druid not executed",
+    "DK unbound native case not executed",
+    "No nine-class combat viability, trainer economy, GUI or real AP-room proof"
+  ]
+}

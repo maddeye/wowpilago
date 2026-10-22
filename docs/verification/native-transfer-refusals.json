@@ -1,0 +1,33 @@
+{
+  "status": "PASS_NATIVE_MAIL_AUCTION_REFUSALS",
+  "world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+  "run_sha256": "59c5615bc5c5943066ae2caf69f618f4135def822c86277e7abfb7a79f737923",
+  "items": [
+    {
+      "guid": 269,
+      "kind": "direct legendary",
+      "entry": 19019
+    },
+    {
+      "guid": 285,
+      "kind": "purchased equipment",
+      "entry": 756
+    }
+  ],
+  "mail_bound_refusals": 4,
+  "auction_bound_refusals": 2,
+  "ordinary_auction_overcount_refusals": 1,
+  "phase_snapshots_identical": true,
+  "completed_transfers": false,
+  "trade_root_continuity": {
+    "src/server/game/Handlers/TradeHandler.cpp": "e36dfa7bed4cf9578a2979a775426adb3d4378f10ec54aa875cb0b8788bcc34a",
+    "src/server/game/Entities/Item/Item.cpp": "d43ad4de1af5ca8182ee0bb7238c41bf2097925393dad0d099cf677a306152a2",
+    "src/server/game/Entities/Item/Item.h": "51591ba537339aca1820597aefe3c51ef07ee8d3de2e4e24a2ca30b1a51a3864",
+    "src/server/shared/SharedDefines.h": "cb95cb990c20135ea0f7b708562d58ce9a7b358e014ceda4eafe3fd5741f8f3e"
+  },
+  "limits": [
+    "Trade refusal is earlier native evidence with identical source roots; see TRADE_LIVE.md",
+    "No completed ordinary trade, mail or auction",
+    "Not stock GUI or full playthrough proof"
+  ]
+}

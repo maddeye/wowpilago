@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: WoWPilago
+## Notes: Archipelago delivery notifications and personal equipment shop
+## Version: 2
+Catalog.lua
+WoWPilago.lua
+Shop.lua

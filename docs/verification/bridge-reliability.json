@@ -1,0 +1,102 @@
+{
+  "status": "PASS_REAL_NATIVE_RESTART_AND_AUTOMATIC_AP_RECONNECT",
+  "normal_producer": "Actual stock-client quest15 turn-in,250XP+40copper,3XP981money1106.",
+  "native_pending_before_and_after_world_restart": {
+    "status": "PASS_REAL_UNACKNOWLEDGED_CHECK_SURVIVES_WORLD_RESTART",
+    "check": {
+      "binding_id": 1,
+      "location_id": 919500015,
+      "completed_at": "2026-10-20 13:02:50",
+      "acknowledged": 0
+    },
+    "all42_characters_exact": true,
+    "all_ap_tables_exact": true,
+    "old_ap_save_unchanged_sha256": "a5f17920a26ed53ebe160fc3bbfcebe4b68249cfefb4f62c9112c654abfc6ab2",
+    "world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+    "world_started_at": "2026-10-20T13:05:24.37221412Z",
+    "seasonal_event12": {
+      "before": {
+        "entry": 12,
+        "value": 1792501049,
+        "comment": null
+      },
+      "after": {
+        "entry": 12,
+        "value": 1792501524,
+        "comment": null
+      },
+      "source": "GameEventMgr.cpp138..161 restarts active seasonal event timestamp; game_event.sql56 identifies Hallow's End12. Exact timestamp matches whole-second container start.",
+      "shared_runtime_guard_relaxed": false
+    },
+    "clock3781": "Existing source-audited Wintergrasp countdown.",
+    "limits": "Graceful world restart, not crash/commit window. No manual flag, check, receipt or seasonal-state writes."
+  },
+  "after_world_restart_ack": {
+    "status": "PASS_REAL_QUEST15_POST_WORLD_RESTART_AP_ACK",
+    "check": {
+      "binding_id": 1,
+      "location_id": 919500015,
+      "completed_at": "2026-10-20 13:02:50",
+      "acknowledged": 1
+    },
+    "new_reward": {
+      "binding_id": 1,
+      "item_index": 12,
+      "ap_item": 919100013,
+      "location_id": 919500015,
+      "sender": 2,
+      "flags": 2,
+      "kind": "riding",
+      "value": 3,
+      "applied": 0,
+      "applied_value": 0,
+      "item_guid": null,
+      "received_at": "2026-10-20 13:11:45",
+      "applied_at": null
+    },
+    "normal_reward_rows": 13,
+    "historical11_plus_new1_globalpending": 12
+  },
+  "ap_server_outage_while_bridge_alive": {
+    "status": "PASS_AUTOMATIC_REAL_AP_RECONNECT_SAME_BRIDGE_PROCESS",
+    "bridge_pid": 3568348,
+    "pid_unchanged": true,
+    "connected_messages": 2,
+    "retry_observed": true,
+    "exact_reward_check_progress_stock_tables": true,
+    "manual_bridge_restart": false,
+    "original_room_regenerated": false,
+    "queued_artisan_index": 12,
+    "pending_unapplied_global": 12,
+    "failed_server_port_probe_preserved": "server-after-outage.log",
+    "unchanged_probe_passed_before_success": "port-release-proof.json",
+    "successful_server_log": "server-after-outage-port-idle.log",
+    "limits": "ActualAPserveroutage/restart, noDBoutage/characterdeletion/precisepurchasecrashclaim."
+  },
+  "legitimate_bidirectional_effect": "docs/verification/real-peer-return.json",
+  "durable_check_prior_reconnect": "docs/verification/native-check-reconnect.json",
+  "real_sql_and_preservation": "docs/verification/sql-lifecycle.json",
+  "source": [
+    "bridge/client.py",
+    "bridge/v2.py",
+    "src/APProgression.cpp",
+    "src/APDelivery.cpp"
+  ],
+  "limits": "Realquestoutbox/nativeworldrestart/originalAPserveroutageandsamebridgePIDautomaticreconnect. Not characterdeletion, DBoutage, everychecktype, exactpurchase/commitcrashwindows, fullplaythrough or bothfinalgoals.",
+  "saved_original_room_after_reconnect": {
+    "received_items": 14,
+    "native_slot_items": 13,
+    "peer_items": 1,
+    "peer_checks": 6,
+    "wow_checks": 8,
+    "only_new_check": 919500015,
+    "only_new_item": [
+      919100013,
+      919500015,
+      2,
+      2
+    ],
+    "sha256": "17d961b959079f5ea9bbd43924e3955c24b34837cbf0fc4c6b99c54089e4f1ee",
+    "all_previous_queues_exact": true
+  }
+}

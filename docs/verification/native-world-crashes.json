@@ -1,0 +1,20 @@
+{
+  "source_artifact": ".local/crash-runtime-plan/continuation29/20261019T195911Z/summary.json",
+  "source_sha256": "1584f9c65afa1c66cc408946243d79fb045c4ca14ce1e97e4b091a99703f0097",
+  "evidence": {
+    "binding": 19,
+    "durable_state_equals_original": true,
+    "event": "PASS",
+    "fresh_relogs": 2,
+    "frozen_pending_count": 11,
+    "guid": 29,
+    "kind": "composite WORLD PROCESS scenario proof",
+    "label": "fabricated AP ingress; NOT real AP client, gameplay, or release-gate evidence",
+    "new_characters": 0,
+    "new_world_kills": 0,
+    "original_evidence_sha256": "d4a955c246259e266f5454174b0528619f109242f206590219b80c13d67ea67b",
+    "original_run": "/mnt/sylvanas/dev/probe/wowpilago/.local/crash-runtime-plan/run-20261019T195228Z-7c423b5d",
+    "original_world_kills": 2,
+    "protected_unchanged": true
+  }
+}

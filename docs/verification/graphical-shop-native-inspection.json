@@ -1,0 +1,39 @@
+{
+  "status": "PASS_FULL122_AND_AUTH_NATIVE60_ROW_INSPECTION_NO_PURCHASE",
+  "inspected_addon_sha256": {
+    "Catalog.lua": "8365a1e20d9588509f6195e176861257e889ab9368dff4ab321ec5de9e9767de",
+    "README.md": "9fa4d0cc4e896d7ebdfb189657bd7dce4e1cfabf190bf05b9bf661d3fc13da39",
+    "Shop.lua": "0db9520d670c25abc24ffa04055e296314314e2d901c6b4c6e90377c9eb62058",
+    "WoWPilago.lua": "c38ec914d691a807f3f53e6865267fd18dab612829d3de88095bf120ad16e094",
+    "WoWPilago.toc": "7c1fa6d3edc0d4ced9268374f04b9ec570ce520c815611d89ef7a2030f689d25"
+  },
+  "inspected_shop_source": ".local/goal-ecbd80/shop-native-inspection/Shop.inspected.lua",
+  "character_tables": 122,
+  "auth_tables": 22,
+  "native_rows": 60,
+  "native_pages": 7,
+  "protected_other_characters": 41,
+  "all_items_inventory_progress_stock_and_receipts_exact": true,
+  "frozen_pending_11_exact": true,
+  "original_room_save_sha256": "9276a39d4ae2599d58434427684efba9e7f1fa07cac24e4bb88cd6c2539114b7",
+  "actor_ordinary_bookkeeping": {
+    "played_seconds": 347,
+    "offline_rest_seconds": 30151,
+    "expected_rest_bonus": 61.27762916666666,
+    "actual_rest_bonus": 61.2777
+  },
+  "auth_changes": "Only account2 SRP session40bytes/login timestamp/played347 and current realm uptime+600.",
+  "source_attribution": [
+    "PlayerStorage.cpp:5562-5573",
+    "PlayerUpdates.cpp:118-120,244-260",
+    "WorldSession.cpp:173",
+    "LoginDatabase.cpp:64,94",
+    "World.cpp:1289-1301"
+  ],
+  "limits": [
+    "No accepted purchase; no graphical-shop requirement checkoff yet.",
+    "Cold icons required cache warming; translucent background reduces readability.",
+    "No full tooltip stat, equipment effect, area-candidate runtime or broad release claim."
+  ],
+  "private_audit": ".local/goal-ecbd80/shop-native-inspection/parent-audit.json"
+}

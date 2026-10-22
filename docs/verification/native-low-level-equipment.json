@@ -1,0 +1,50 @@
+{
+  "status": "PASS_BOUNDED_LOW_LEVEL_RAID_AND_DIRECT_LEGENDARY_EQUIP_WITH_NATIVE_AUTHORIZATION_CONTROLS",
+  "requirement": "Test equipping high-level raid gear and directly awarded legendaries at low levels without client errors or server-side exploits.",
+  "normal_raid_weapon": {
+    "guid": 4,
+    "level": 3,
+    "item": 51795,
+    "item_guid": 590,
+    "original_required_level": 80,
+    "actual_stock_client_physical_equip": true,
+    "purchase_vouchers": 8,
+    "old_sword_guid66_preserved": true
+  },
+  "direct_legendary": {
+    "guid": 26,
+    "level": 1,
+    "item": 19019,
+    "item_guid": 588,
+    "original_required_level": 60,
+    "actual_stock_client_physical_equip": true,
+    "synthetic_fixture": true
+  },
+  "parent_full122_audit": "docs/verification/normal-stormwind-shop.json",
+  "legendary_parent_audit": "docs/verification/native-legendary-full-inventory.json",
+  "native_same_player_ordinary_instance_refusal": "docs/verification/native-instance-equipment.json",
+  "native_bound_transfer_refusals": "docs/verification/native-transfer-refusals.json",
+  "independent_review": ".local/low-level-equipment-final-review/result.json",
+  "review_chronology": "Independent review proved the bounded requirement while full122 parent audit was still pending. Parent has now completed and passed that audit; original review artifacts remain unchanged.",
+  "native_transcript_hashes_verified": [
+    {
+      "path": ".local/transfer-fixed-plan/instance/20261019T221116.444624Z/run.jsonl",
+      "sha256": "829a4833dd025e4568c0f49e56ab35c6bc60949f1b242551072258e481834588"
+    },
+    {
+      "path": ".local/transfer-fixed-plan/20261019T220903.914230Z/run.jsonl",
+      "sha256": "59c5615bc5c5943066ae2caf69f618f4135def822c86277e7abfb7a79f737923"
+    },
+    {
+      "path": ".local/trade-live/20261019T182520.981914Z/run.jsonl",
+      "sha256": "9fd531268af15d66541121669739f76b58025d76815c04b7a2588360a19e71fd"
+    }
+  ],
+  "scope": "Observed stock-client Req80 equip at level3 and Req60 direct legendary equip at level1, original stats retained, native same-instance level restriction and bound-transfer controls. Not universal absence of exploits.",
+  "remains_unverified": [
+    "Combat/procs, sockets, enchants and set bonuses.",
+    "All class/proficiency combinations and equipment paths.",
+    "Exhaustive transfer exploits, crashes, and full playthrough."
+  ],
+  "no_new_gameplay_or_runtime_mutation_in_this_audit": true
+}

@@ -1,0 +1,15 @@
+{
+  "upstream_commit": "54803be064fc7e80c4628777ed0b46a9390f255f",
+  "active": {
+    "items": 98,
+    "locations": 300
+  },
+  "reserved": {
+    "items": 99,
+    "locations": 388
+  },
+  "registered_games": 82,
+  "collisions": [],
+  "failed_imports": [],
+  "scope": "Installed pinned upstream registry. Uninstalled third-party worlds are not covered."
+}

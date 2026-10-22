@@ -1,0 +1,57 @@
+{
+  "status": "PASS_OFFLINE_REGRESSION_WITH_SQL_GATES_DISABLED",
+  "total": 549,
+  "passed": 500,
+  "skipped": 49,
+  "seconds": 66.727,
+  "log": ".local/goal-88bb/notification-cold-cache-fix/full-regression.log",
+  "log_sha256": "7fc47f2b4c6eb1414f3dbaf305244a783a48d402f7e51b9f6294bcdce654943a",
+  "source_sha256": {
+    "tests/test_ability_native_slice.py": "7a0fec0c00a8e9c96e9c77de60eb105e1dd6a27cd0fe36e7cea0d9d0c42fac13",
+    "src/APProgression.cpp": "c804d3ba9dbd36ba34b9d3434e25a2a4a830a066d27cb3f4c9f70389f24062a9",
+    "tests/test_native_character_delete.py": "278973ecb421c52cfe93e168b45297ed87629866fcca38c1cf094e4005a8e144",
+    "tests/test_v2_effects_sql.py": "53d619e4f82882f8402f03b767abbd0cc10cfc8ae8e411a24fd60993eff45dbf",
+    "addon/WoWPilago/WoWPilago.lua": "758e50b5518d802969c36198246d6446a32cc6b56790e4d48aa8637e8971cbd9",
+    "tests/test_addon.lua": "3fcb5170b760092a7f9c91e0c478d8031ddc22ae682b7e5639d73397d8362f24",
+    "addon/WoWPilago/Shop.lua": "8c2a5fb17de67995762d7d6c16638a9071d2703541164a01930c498237b0dd73",
+    "addon/WoWPilago/WoWPilago.toc": "7c1fa6d3edc0d4ced9268374f04b9ec570ce520c815611d89ef7a2030f689d25",
+    "tests/test_native_exploration.py": "9c2df6b051ca223c19988cd3156f53368f20d72bd3ebb160582de8598be00fcf",
+    "tests/test_native_progression.py": "1a799e831632ccef351d8dca53de2b46328c5fb8e0f8376eacdc78772fb4b5f3",
+    "tests/test_native_check_credit.py": "8b777a3a1251828b87c06e45d71a451283e70be983d3628e16e431f5783f9f34",
+    "tests/test_native_ability_learning.py": "c17e47f88257faff2b745605506547815f1ff50120cc5fa382f1084506407e52",
+    "tests/test_shop_addon.lua": "9e4a239a714122f69121e14a1675e8ef91a1d646ff7219342933dd60c2fc0abd",
+    "tests/test_addon.py": "0317b44068ae15cf543f2cb4da1eb9b219e2627f24fe8b47905fc7548e3a14ef",
+    "tests/test_package.py": "bed9fa0954a4c8ba269151f05f2c214da8a8e84d0214184e69910679eefdbc98",
+    "tests/test_artisan_runtime.py": "4b28102614d1ad6ba5d59ddf8db5fddc8caee7ddad894af4e1420598627a51e1",
+    "tests/test_city_merchants.py": "45d42b647b976b3e5ff30168d92de2d8657b6aa2128820f32d4f1e233345e51c",
+    "tests/test_transfer_runtime.py": "6a97b893cd9f2b5c50566664260e82770188a4bd90035fd871db77eb93c1994b",
+    "tests/test_talent_switch_runtime.py": "001b136e64bd472cc9aa0cc7e74ac927a85eb21a357b2003e1e50a2c8d04cc2d",
+    "tests/gui_client.py": "26a5b1bad8052ed3bdbcce2b04d250cfe161d1531afa9363a427c1063cae1cae",
+    "tests/test_gui_client.py": "ead1d462dd75aa9a1331fac526a9a803df49921fbc41bc8b7545f89d8f7b619b",
+    "tests/integration_inputs.py": "1d6a8d3674ad37ee861c64eaeeebb2023157a5c75a306a478c0c5f831c9fc7eb"
+  },
+  "disabled_gates": [
+    "WOWPILAGO_TEST_DB_PORT",
+    "WOWPILAGO_DB_PASSWORD",
+    "WOWPILAGO_MERCHANT_SQL_TEST",
+    "WOWPILAGO_PROVISION_MYSQL_TEST"
+  ],
+  "native_build": "docs/verification/character-delete-archive.json",
+  "isolated_sql": {"tests": 32, "skipped": 0, "log": ".local/goal-88bb/delete-sql-bridge-effects.log", "scope": "Separate bridge/effects suite on owned MySQL13318, not all SQL gates or native proof."},
+  "shop_callbacks": "docs/verification/graphical-shop-offline.json",
+  "receipt_callbacks": "docs/verification/receipt-toast-cache.json",
+  "historical_guard_test_change": "Positive historical source tests use the archived module worktree. A separate actual-current-worktree test verifies its drift is rejected before runtime. Runtime guard code and pinned historical build were not changed.",
+  "limits": [
+    "No connected SQL gates were run.",
+    "These source and mock-boundary tests do not establish native trainer, specialization or internal-learning behavior.",
+    "Ability guard tests depend on private retained snapshots and immutable build artifacts; this is not a clean-clone release test.",
+    "The native queued-ability sequence has separate evidence; its original FAILED_PARTIAL preservation result remains unchanged.",
+    "Compiled area plus deletion-archive candidate is not deployed. Character deletion has separate actual MySQL caller-composition evidence, not native realm proof.",
+    "The separate native graphical-shop evidence completed its requirement. The ledger remains152/188; this regression adds no checkoff.",
+    "Optional private integration prerequisites skip only when absent; fixture-present local tests still run. Clean-copy skips are reported separately."
+  ],
+  "clean_source": {
+    "artifact": "docs/verification/clean-source-tests.json",
+    "native_proof": false
+  }
+}

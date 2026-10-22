@@ -1,0 +1,47 @@
+{
+  "scope": "Three narrow implemented requirements, reviewed independently from existing native/client artifacts and fresh focused tests. Not release, complete playthrough, all-city UI or real-room victory proof.",
+  "requirements": {
+    "4cb8029063a6": {
+      "text": "Display remaining voucher balance and total remaining shop cost.",
+      "native_menu": ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "observed_menu_label": "Vouchers: 5 | Remaining total cost: 56",
+      "stock_rows": 30,
+      "stock_total_before_purchase": 56,
+      "saved_unsold_cost_after_one_purchase": 55,
+      "saved_vouchers_after_purchase": 4,
+      "actual_client_capture": ".local/v2-client/normal-status-full.png",
+      "actual_client_label": "Vouchers 0 | remaining shop cost 255",
+      "production_policy_test": ".local/remaining-proof-audit/parent-merchant-policy-test.txt",
+      "limits": "No post-purchase updated GUI menu or full stock traversal claimed."
+    },
+    "a7da8dda558c": {
+      "text": "Build an Archipelago `APWorld` and an AzerothCore integration module/bridge.",
+      "actual_integration": "docs/LIVE_V2.md",
+      "real_room": ".local/v2-multiworld/run-79mlu0ta",
+      "actual_character": "Apjourney, GUID4, normal APV2A, seed98284801054971523741, team0 slot2",
+      "observed_chain": "Official ChecksFinder Tile1 -> real AP room -> bridge -> native talent permission. Native Elwynn check -> real acknowledgement -> physical five-potion cache and client receipt/status, retained through reconnect/relog.",
+      "current_native_build_manifest": ".local/v2-build/20261019T191318.518327Z-mail-fixed/manifest.json",
+      "current_native_world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+      "limits": "Historical bounded working integration plus current built components. Does not prove current network resume, every effect, crash safety, crossback or either final goal."
+    },
+    "b9f218a44085": {
+      "text": "Set **victory condition to reaching level 80**; do not require raids, equipment, or every ability to win.",
+      "fresh_packaged_logic_tests": ".local/remaining-proof-audit/parent-victory-logic-tests.txt",
+      "test_names": ["test_caps_only_victory", "test_no_useful_reward_gates_checks"],
+      "actual_native_fixture": "docs/verification/native-class-systems.json",
+      "raw_native_event": ".local/class-systems/run.jsonl, saved_state label level 80",
+      "observed": {"level": 80, "last_level": 80, "victory": 1, "cap_items": 7, "access_flags": 0, "vouchers": 0},
+      "native_code": "src/APProgression.cpp, actual level80 victory appended with full character save",
+      "bridge_code": "bridge/v2.py Store.victory requires durable character level80, last_level80 and victory1 before status30",
+      "limits": "GM-precondition native fixture and separate logical tests. No legitimate level80 playthrough or real-room final goal claimed."
+    }
+  },
+  "merchant_source_sha256": {
+    "src/APMerchant.cpp": "eeee36260fa0b7f9f78ce36ea22577266ed68d0d7b3ca9682bff9092182f05b7",
+    "src/APMerchant.h": "5c35cae7b584be9c549a9b2ec82679b7d92d808274728d79200fab587a5d0146"
+  },
+  "not_closed": {
+    "eaa87e6ad580": "Categorized gossip root and production paging exist, but native full category/page traversal remains unproved. Leave open for city verification.",
+    "ed8fde3a4bd4": "Need a real unacknowledged-check disconnect/resubmit/ack sequence. Existing fixture tests are not that gameplay proof."
+  }
+}

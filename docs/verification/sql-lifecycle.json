@@ -1,0 +1,22 @@
+{
+  "status": "PASS_FULL_GATED_SQL_AND_PRODUCTION_PRESERVATION",
+  "tests": 523,
+  "passed": 523,
+  "skipped": 0,
+  "seconds": 210.604,
+  "sql_gates": [
+    "WOWPILAGO_TEST_DB_PORT=13317",
+    "WOWPILAGO_DB_PASSWORD=test-only",
+    "WOWPILAGO_PROVISION_MYSQL_TEST=1",
+    "WOWPILAGO_MERCHANT_SQL_TEST=1"
+  ],
+  "realm_auth_and_import_services_stopped": true,
+  "guard_passed_before_and_after": true,
+  "all122_character_tables_exact": true,
+  "all_auth_tables_exact": true,
+  "all42_characters_and_accounts_offline": true,
+  "historical11_pending_rewards_unchanged": true,
+  "real_ap_save_byte_exact_sha256": "a5f17920a26ed53ebe160fc3bbfcebe4b68249cfefb4f62c9112c654abfc6ab2",
+  "log": ".local/sql-lifecycle-final/tests.log",
+  "limits": "Real disposable-schema SQL and source/offline tests, not native client purchase/crash windows or executableMage38 adapter."
+}

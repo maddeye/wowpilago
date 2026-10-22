@@ -1,0 +1,42 @@
+/tmp/archipelago-upstream/NetUtils.py:568: UserWarning: _speedups not available. Falling back to pure python LocationStore. Install a matching C++ compiler for your platform to compile _speedups.
+  warnings.warn("_speedups not available. Falling back to pure python LocationStore. "
+test_all_legal_profiles (worlds.wowpilago.test.ProfileAndOptionsTest.test_all_legal_profiles) ... ok
+test_configurable_legendary_count (worlds.wowpilago.test.ProfileAndOptionsTest.test_configurable_legendary_count) ... ok
+test_every_category_combination (worlds.wowpilago.test.ProfileAndOptionsTest.test_every_category_combination) ... ok
+test_exclusions_and_balancing (worlds.wowpilago.test.ProfileAndOptionsTest.test_exclusions_and_balancing) ... ok
+test_illegal_profile (worlds.wowpilago.test.ProfileAndOptionsTest.test_illegal_profile) ... ok
+test_multiplayer_fill (worlds.wowpilago.test.ProfileAndOptionsTest.test_multiplayer_fill) ... ok
+test_named_legendary_ids_never_alias (worlds.wowpilago.test.ProfileAndOptionsTest.test_named_legendary_ids_never_alias) ... ok
+test_prefilled_location_accounting (worlds.wowpilago.test.ProfileAndOptionsTest.test_prefilled_location_accounting) ... ok
+test_stock_compatibility_and_cap (worlds.wowpilago.test.ProfileAndOptionsTest.test_stock_compatibility_and_cap) ... ok
+test_caps (worlds.wowpilago.test.ProgressionTest.test_caps) ... ok
+test_eligibility (worlds.wowpilago.test.ProgressionTest.test_eligibility) ... ok
+test_exact_xp_bank_and_release (worlds.wowpilago.test.ProgressionTest.test_exact_xp_bank_and_release) ... ok
+test_talents_every_level_and_arrival (worlds.wowpilago.test.ProgressionTest.test_talents_every_level_and_arrival) ... ok
+test_actual_fill_and_cap_selflocks (worlds.wowpilago.test.WoWPilagoTest.test_actual_fill_and_cap_selflocks) ... ok
+test_all_state_can_reach_everything (worlds.wowpilago.test.WoWPilagoTest.test_all_state_can_reach_everything)
+Ensure all state can reach everything and complete the game with the defined options ... ok
+test_caps_only_victory (worlds.wowpilago.test.WoWPilagoTest.test_caps_only_victory) ... ok
+test_empty_state_can_reach_something (worlds.wowpilago.test.WoWPilagoTest.test_empty_state_can_reach_something)
+Ensure empty state can reach at least one location with the defined options ... ok
+test_fill (worlds.wowpilago.test.WoWPilagoTest.test_fill)
+Generates a multiworld and validates placements with the defined options ... ok
+test_no_useful_reward_gates_checks (worlds.wowpilago.test.WoWPilagoTest.test_no_useful_reward_gates_checks) ... ok
+test_pool (worlds.wowpilago.test.WoWPilagoTest.test_pool) ... ok
+test_profile_locations_and_early_checks (worlds.wowpilago.test.WoWPilagoTest.test_profile_locations_and_early_checks) ... ok
+test_reproducible_and_personal (worlds.wowpilago.test.WoWPilagoTest.test_reproducible_and_personal) ... ok
+test_slot_data (worlds.wowpilago.test.WoWPilagoTest.test_slot_data) ... ok
+test_all_state_can_reach_everything (test.bases.WorldTestBase.test_all_state_can_reach_everything)
+Ensure all state can reach everything and complete the game with the defined options ... ok
+test_empty_state_can_reach_something (test.bases.WorldTestBase.test_empty_state_can_reach_something)
+Ensure empty state can reach at least one location with the defined options ... ok
+test_fill (test.bases.WorldTestBase.test_fill)
+Generates a multiworld and validates placements with the defined options ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 16.990s
+
+OK
+/tmp/archipelago-upstream/settings.py:903: UserWarning: Could not find host.yaml to load options. Creating a new one.
+  warnings.warn(f"Could not find {filenames[1]} to load options. Creating a new one.")
+PASS packaged world, real AP fill, generation, spoiler and protocol-2 multidata. Artifacts: /tmp/wowpilago-world-test-jeomxf5k

@@ -1,0 +1,35 @@
+{
+  "status": "PASS_REAL_SAVED_ROOM_QUEST7_DELIVERY",
+  "seed_name": "98284801054971523741",
+  "original_room": ".local/v2-multiworld/run-79mlu0ta",
+  "native_parent_audit": ".local/normal-kobolds-connected/parent-audit.json",
+  "real_room_check": 919500007,
+  "real_received_item_index": 7,
+  "item": 919100051,
+  "sender_slot": 2,
+  "received_items_total": 8,
+  "previous7_receipts_unchanged": true,
+  "peer_checks_unchanged": [
+    81000,
+    81001,
+    81002,
+    81003,
+    81004
+  ],
+  "wow_checks": [
+    919500007,
+    919500783,
+    919700012
+  ],
+  "save_sha256": "1df8c5b6ca6c1fdf8042102538767a3418d2b22b24920ebf5255c725ee9cef5f",
+  "native_effect": "Five additional actual item118 potions, saved total10.",
+  "legitimate_progress": "Five ordinary kills,16copper andactualitems looted, quest7turnedinfor25copper/170XP; savedlevel2XP220money1041.",
+  "screenshots": [
+    ".local/normal-kobolds-connected/ui/08-first-loot-window.png",
+    ".local/normal-kobolds-connected/ui/09-first-loot-receipt.png",
+    ".local/normal-kobolds-connected/ui/35-turnin-result.png",
+    ".local/normal-kobolds-connected/ui/38-final-potions.png"
+  ],
+  "services": "Client,bridgeandroom processes absent afterGoalpause; original nativeworld/auth/database stayrunning. All42characters/accounts offline.",
+  "limits": "Consumable returned to same WoW slot. Not newcross-game progression, level80, finalgoals, dailygameplaycompletion or disconnectedoutboxproof."
+}

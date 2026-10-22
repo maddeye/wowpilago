@@ -1,0 +1,796 @@
+{
+  "schema_version": 2,
+  "provenance": {
+    "source_commit": "9fb906bb7296212ff42fc95ff73a92aaf8554f0d",
+    "client_build": 12340,
+    "source_file_sha256": {
+      "src/server/game/Entities/Player/KillRewarder.cpp": "cceb64c864c677d75fbbbefce5e2184090432f8e9fffcf31f9f9796b3efcc9d2",
+      "src/server/game/Entities/Player/Player.cpp": "45cba4ed7c92debf42c974984fe727e35e21779a21b7bbfa7bb045ad8a1bf509",
+      "src/server/game/Entities/Player/PlayerQuest.cpp": "bd24444eac851dcd6144e66e4d64f1d89c3c97604827c53b7539c7ce36c31eb7",
+      "src/server/game/Entities/Unit/Unit.cpp": "9ef1163fed2264d72c79dcf0c036fdaa65dd1f056ea32a6b79f6bc9da7398545",
+      "src/server/game/Quests/QuestDef.cpp": "6aff64eb450a7b44a787eef00099c1b553552df339865ac913529715ca7f84c4",
+      "src/server/game/Quests/QuestDef.h": "baaee3502a85ce4e02e045ae67efb1f48b7c6f6aad162f4b116496f028390b20",
+      "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_majordomo_executus.cpp": "396474a928dda29afa09a30798695ad82339eab3063fd08bf741eb0834cb7ba4",
+      "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/molten_core.h": "b51e3d858ec38f751ef1ed3155d91a6a666ca919e4485dae34a52ed9cd22ff34",
+      "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_svala.cpp": "f3f2540450412ead3ec745e89d27d8c362acb73dd3d71b0df49d06768120e739",
+      "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/utgarde_pinnacle.h": "a7a2d62a575784c104f2ee3935c0b4cf1590b1ac4079c1cb6d0701c7db869279",
+      "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/boss_vazruden_the_herald.cpp": "32fa87c630d4512b62b4f7fb7f22ea82b8e4d93c9cfd5bd17e452e0b6245357c",
+      "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/hellfire_ramparts.h": "5365a041c9bacdb8c1a46f25b8ed90f2a8ff06e1925f7e8a34cd77ee1ea8df93",
+      "src/server/shared/DataStores/DBCStructure.h": "c8f2d645c0ce4b51d5586aec6ba43143c8ea6fd2ed273efdc5a1528ae6bc3279"
+    },
+    "world_version": [
+      {
+        "core_version": "AzerothCore rev. unknown 1970-01-01 00:00:00 +0000 (Archived branch) (Unix, Release, Static)",
+        "core_revision": "unknown",
+        "db_version": "ACDB 335.17-dev",
+        "cache_id": 17
+      }
+    ],
+    "world_updates_count": 2917,
+    "table_sha256": {
+      "version": "3bfc1ef4c30218d14939e9eff62852bb2ff8370fc8b089d9cf9bc93ae0301c4f",
+      "updates": "14f4a1dd56a0fe08025af421ebe992b9cd87e92a78bee3a308e7daee3ccd2e6f",
+      "profiles": "2c4cb22a56eec69561d32ebe23f652a2072a17dcb7e6a3390b15a0d3a959a960",
+      "quests": "589ee86c0684f4592358db0d6f9924c3eac6731dce5b8664308fc36b0805c4a6",
+      "starters": "586d0b68ea59ef8853ae79913800986a9bef0c4fb2930c558ce7c83b747cbb76",
+      "enders": "4ffb7f1fd01016fb83ea7e556f4d14b9e66bc58350c898f510051efd7c97c20a",
+      "source_items": "eca1b8932ee3003f5c79d33acf7e6cbb4308fc4aa3a9dc55e01a32a41b650fb6",
+      "conditions": "194d4f6974b101cc63b969b6588808afb4b826f2b90398711ccb92e5d04f5dcc",
+      "creatures": "47cd66a10e6549e7c68f821853bea94b4c34f962729141a49df3be0fa36a0d24",
+      "spawns": "8353fa268f84be7a3fd1c4a33e9d66dc10d7e56ebf162080dc31162e898ec80c",
+      "instances": "2b009fed6236b1ff193d4083ea87354f0f6e73cc7a9b09fdaa08d2cbc0809fe8",
+      "access": "9dff933ab4598f8710f0ce0b16a76b78faccf26e9d5fdd914c82f072d7366d91",
+      "access_requirements": "259bba86f73aec12dd06176207189eb81b9b932ab92f333cfe08b6c8271fc018",
+      "event_quests": "99cc576e80f3e09e16dbb8cfb3fe42bc114c6dcb1c37deac0bc023dab398f66d",
+      "levels": "be1d824d931e147d890275e6d249129b49948e23c2ae60515153b9c219c44f91",
+      "early_objectives": "122ee3166edf7619ac7e6dc8a0d4bdb57d06afda45f084905ac8d6b814d17f13",
+      "early_crafting_items": "16112534bcdeab1a54fbea2f79291f0a62b4ff3bc7bf4e27128b930b8f826c24",
+      "early_item_sources": "6955b6ff7c84f2124f70d5f6f0346ffc673c5d1d5f4e691d686f451077da4223",
+      "early_crafting_focuses": "fbccbd288f4d3711c6f3fdb68d756b3af75ff70c99a7aa786414ffc0787ab254",
+      "early_npc_spawns": "4eced4a52a65f5a5123f5a5ee995de2906cc1acdd67784dc4b1240a835767f0b",
+      "early_go_spawns": "593688aa14bb0397dcf5c5fa5addccd33bc2eb3ec3d93a97807a6be9e8e8a153"
+    },
+    "dbc_sha256": {
+      "AreaTable": "eb4bcfa77b03aed853c4783ac260a4259970effaad5b8a74d868783b4dbdc44e",
+      "Map": "261bd7c2c9dbdba1f2966ca21106673ed722c2e3681d227f1eed261b6ce870d5",
+      "WorldMapArea": "90e1ec678c8226c76f4dd9f7904f05a4cb0a58c8b4d386719b24949bd55925bb",
+      "ChrRaces": "3d3e1443e8e97b1810275a45bc3f0588c83d876d04121401cc5adaa02f507bcd",
+      "ChrClasses": "5b2bfc7dab577f48cafe86db1d6148515569507b273f0c95b5ae86713ff5b3e2",
+      "FactionTemplate": "0e5aae3ec23aea267afcff265386c78719c17ada1cc443d010372fb0e3e63f8a",
+      "Spell": "d5cce1a83550dcfa9eb2f0251dbb11fd24c272534b2b1a9b230924a44d817ab3"
+    }
+  },
+  "profiles": [
+    {
+      "race_id": 1,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "source_zone": 12,
+      "map_id": 0,
+      "position": [
+        -8949.95,
+        -132.493,
+        83.5312
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 1,
+      "class_id": 2,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "source_zone": 12,
+      "map_id": 0,
+      "position": [
+        -8949.95,
+        -132.493,
+        83.5312
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 1,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "source_zone": 12,
+      "map_id": 0,
+      "position": [
+        -8949.95,
+        -132.493,
+        83.5312
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 1,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "source_zone": 12,
+      "map_id": 0,
+      "position": [
+        -8949.95,
+        -132.493,
+        83.5312
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 1,
+      "class_id": 8,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "source_zone": 12,
+      "map_id": 0,
+      "position": [
+        -8949.95,
+        -132.493,
+        83.5312
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 1,
+      "class_id": 9,
+      "faction": "alliance",
+      "starting_zone": 12,
+      "source_zone": 12,
+      "map_id": 0,
+      "position": [
+        -8949.95,
+        -132.493,
+        83.5312
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 2,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 2,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 2,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 2,
+      "class_id": 7,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 2,
+      "class_id": 9,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 3,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.32,
+        331.033,
+        382.758
+      ],
+      "orientation": 6.17716
+    },
+    {
+      "race_id": 3,
+      "class_id": 2,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.32,
+        331.033,
+        382.758
+      ],
+      "orientation": 6.17716
+    },
+    {
+      "race_id": 3,
+      "class_id": 3,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.32,
+        331.033,
+        382.758
+      ],
+      "orientation": 6.17716
+    },
+    {
+      "race_id": 3,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.32,
+        331.033,
+        382.758
+      ],
+      "orientation": 6.17716
+    },
+    {
+      "race_id": 3,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.32,
+        331.033,
+        382.758
+      ],
+      "orientation": 6.17716
+    },
+    {
+      "race_id": 4,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "source_zone": 141,
+      "map_id": 1,
+      "position": [
+        10311.3,
+        832.463,
+        1326.41
+      ],
+      "orientation": 5.69632
+    },
+    {
+      "race_id": 4,
+      "class_id": 3,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "source_zone": 141,
+      "map_id": 1,
+      "position": [
+        10311.3,
+        832.463,
+        1326.41
+      ],
+      "orientation": 5.69632
+    },
+    {
+      "race_id": 4,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "source_zone": 141,
+      "map_id": 1,
+      "position": [
+        10311.3,
+        832.463,
+        1326.41
+      ],
+      "orientation": 5.69632
+    },
+    {
+      "race_id": 4,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "source_zone": 141,
+      "map_id": 1,
+      "position": [
+        10311.3,
+        832.463,
+        1326.41
+      ],
+      "orientation": 5.69632
+    },
+    {
+      "race_id": 4,
+      "class_id": 11,
+      "faction": "alliance",
+      "starting_zone": 141,
+      "source_zone": 141,
+      "map_id": 1,
+      "position": [
+        10311.3,
+        832.463,
+        1326.41
+      ],
+      "orientation": 5.69632
+    },
+    {
+      "race_id": 5,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 85,
+      "source_zone": 85,
+      "map_id": 0,
+      "position": [
+        1676.71,
+        1678.31,
+        121.67
+      ],
+      "orientation": 2.70526
+    },
+    {
+      "race_id": 5,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 85,
+      "source_zone": 85,
+      "map_id": 0,
+      "position": [
+        1676.71,
+        1678.31,
+        121.67
+      ],
+      "orientation": 2.70526
+    },
+    {
+      "race_id": 5,
+      "class_id": 5,
+      "faction": "horde",
+      "starting_zone": 85,
+      "source_zone": 85,
+      "map_id": 0,
+      "position": [
+        1676.71,
+        1678.31,
+        121.67
+      ],
+      "orientation": 2.70526
+    },
+    {
+      "race_id": 5,
+      "class_id": 8,
+      "faction": "horde",
+      "starting_zone": 85,
+      "source_zone": 85,
+      "map_id": 0,
+      "position": [
+        1676.71,
+        1678.31,
+        121.67
+      ],
+      "orientation": 2.70526
+    },
+    {
+      "race_id": 5,
+      "class_id": 9,
+      "faction": "horde",
+      "starting_zone": 85,
+      "source_zone": 85,
+      "map_id": 0,
+      "position": [
+        1676.71,
+        1678.31,
+        121.67
+      ],
+      "orientation": 2.70526
+    },
+    {
+      "race_id": 6,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 215,
+      "source_zone": 215,
+      "map_id": 1,
+      "position": [
+        -2917.58,
+        -257.98,
+        52.9968
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 6,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 215,
+      "source_zone": 215,
+      "map_id": 1,
+      "position": [
+        -2917.58,
+        -257.98,
+        52.9968
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 6,
+      "class_id": 7,
+      "faction": "horde",
+      "starting_zone": 215,
+      "source_zone": 215,
+      "map_id": 1,
+      "position": [
+        -2917.58,
+        -257.98,
+        52.9968
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 6,
+      "class_id": 11,
+      "faction": "horde",
+      "starting_zone": 215,
+      "source_zone": 215,
+      "map_id": 1,
+      "position": [
+        -2917.58,
+        -257.98,
+        52.9968
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 7,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.32,
+        331.033,
+        382.758
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 7,
+      "class_id": 4,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.0,
+        331.0,
+        383.0
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 7,
+      "class_id": 8,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.0,
+        331.0,
+        383.0
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 7,
+      "class_id": 9,
+      "faction": "alliance",
+      "starting_zone": 1,
+      "source_zone": 1,
+      "map_id": 0,
+      "position": [
+        -6240.0,
+        331.0,
+        383.0
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 8,
+      "class_id": 1,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 8,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 8,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 8,
+      "class_id": 5,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 8,
+      "class_id": 7,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 8,
+      "class_id": 8,
+      "faction": "horde",
+      "starting_zone": 14,
+      "source_zone": 14,
+      "map_id": 1,
+      "position": [
+        -618.518,
+        -4251.67,
+        38.718
+      ],
+      "orientation": 0.0
+    },
+    {
+      "race_id": 10,
+      "class_id": 2,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "source_zone": 3431,
+      "map_id": 530,
+      "position": [
+        10349.6,
+        -6357.29,
+        33.4026
+      ],
+      "orientation": 5.31605
+    },
+    {
+      "race_id": 10,
+      "class_id": 3,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "source_zone": 3431,
+      "map_id": 530,
+      "position": [
+        10349.6,
+        -6357.29,
+        33.4026
+      ],
+      "orientation": 5.31605
+    },
+    {
+      "race_id": 10,
+      "class_id": 4,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "source_zone": 3431,
+      "map_id": 530,
+      "position": [
+        10349.6,
+        -6357.29,
+        33.4026
+      ],
+      "orientation": 5.31605
+    },
+    {
+      "race_id": 10,
+      "class_id": 5,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "source_zone": 3431,
+      "map_id": 530,
+      "position": [
+        10349.6,
+        -6357.29,
+        33.4026
+      ],
+      "orientation": 5.31605
+    },
+    {
+      "race_id": 10,
+      "class_id": 8,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "source_zone": 3431,
+      "map_id": 530,
+      "position": [
+        10349.6,
+        -6357.29,
+        33.4026
+      ],
+      "orientation": 5.31605
+    },
+    {
+      "race_id": 10,
+      "class_id": 9,
+      "faction": "horde",
+      "starting_zone": 3430,
+      "source_zone": 3431,
+      "map_id": 530,
+      "position": [
+        10349.6,
+        -6357.29,
+        33.4026
+      ],
+      "orientation": 5.31605
+    },
+    {
+      "race_id": 11,
+      "class_id": 1,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "source_zone": 3526,
+      "map_id": 530,
+      "position": [
+        -3961.64,
+        -13931.2,
+        100.615
+      ],
+      "orientation": 2.08364
+    },
+    {
+      "race_id": 11,
+      "class_id": 2,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "source_zone": 3526,
+      "map_id": 530,
+      "position": [
+        -3961.64,
+        -13931.2,
+        100.615
+      ],
+      "orientation": 2.08364
+    },
+    {
+      "race_id": 11,
+      "class_id": 3,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "source_zone": 3526,
+      "map_id": 530,
+      "position": [
+        -3961.64,
+        -13931.2,
+        100.615
+      ],
+      "orientation": 2.08364
+    },
+    {
+      "race_id": 11,
+      "class_id": 5,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "source_zone": 3526,
+      "map_id": 530,
+      "position": [
+        -3961.64,
+        -13931.2,
+        100.615
+      ],
+      "orientation": 2.08364
+    },
+    {
+      "race_id": 11,
+      "class_id": 7,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "source_zone": 3526,
+      "map_id": 530,
+      "position": [
+        -3961.64,
+        -13931.2,
+        100.615
+      ],
+      "orientation": 2.08364
+    },
+    {
+      "race_id": 11,
+      "class_id": 8,
+      "faction": "alliance",
+      "starting_zone": 3524,
+      "source_zone": 3526,
+      "map_id": 530,
+      "position": [
+        -3961.64,
+        -13931.2,
+        100.615
+      ],
+      "orientation": 2.08364
+    }
+  ],
+  "excluded_classes": [
+    6
+  ]
+}

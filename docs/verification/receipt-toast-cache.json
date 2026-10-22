@@ -1,0 +1,54 @@
+{
+  "status": "PASS_OFFLINE_COLD_CACHE_REGRESSION_NOT_NATIVE_ACCEPTANCE",
+  "requirement_complete": false,
+  "source": "addon/WoWPilago/WoWPilago.lua",
+  "source_sha256": "758e50b5518d802969c36198246d6446a32cc6b56790e4d48aa8637e8971cbd9",
+  "test_source": "tests/test_addon.lua",
+  "test_sha256": "3fcb5170b760092a7f9c91e0c478d8031ddc22ae682b7e5639d73397d8362f24",
+  "historical_native_defect": {
+    "screenshot": ".local/normal-workers-connected/ui/04-enter.png",
+    "observation": "Parent viewed Item #858 and question-mark toast beside actual Lesser Healing Potion x5 receipt chat. This frame alone does not establish response timing."
+  },
+  "reproduction": {
+    "log": ".local/goal-88bb/notification-cold-cache-fix/before.log",
+    "exit": 1,
+    "failure": "Visible toast retained Item #999 after fake cache population."
+  },
+  "fix": {
+    "metadata_requests_per_cold_physical_toast": 1,
+    "refresh_interval_seconds": 0.5,
+    "maximum_refresh_seconds": 5,
+    "retire_on": ["Name and icon resolved", "Toast hidden", "Deadline reached"],
+    "presentation": "Render fallback immediately, update current name/icon without reanimation, never overwrite the following toast.",
+    "unchanged": ["Parser and self-whisper validation", "Numeric bounds and identity deduplication", "FIFO ordering", "State reward semantics", "Server delivery and purchase protocol", "Shop.lua and TOC"]
+  },
+  "offline_checks": {
+    "commands": ["lua5.1 tests/test_addon.lua", "lua5.1 tests/test_shop_addon.lua", "PYTHONPATH=.:tests .venv/bin/python -m unittest -v test_addon test_package"],
+    "python_tests_passed": 4,
+    "cases": ["Warm data without query", "Synchronous and delayed metadata", "Partial name/icon", "Single-item empty queue", "Missing item deadline and no catch-up loop", "Bad link fallback", "No late overwrite", "Duplicate receipt suppression", "No idle callback or visible metadata-tooltip leak"]
+  },
+  "full_regression": {
+    "total": 549,
+    "passed": 500,
+    "skipped": 49,
+    "seconds": 66.727,
+    "log": ".local/goal-88bb/notification-cold-cache-fix/full-regression.log",
+    "log_sha256": "7fc47f2b4c6eb1414f3dbaf305244a783a48d402f7e51b9f6294bcdce654943a"
+  },
+  "isolated_public_snapshot": {
+    "report": ".local/goal-88bb/isolated-clean-after-toast/summary.json",
+    "total": 501,
+    "passed": 383,
+    "skipped_cases": 118,
+    "additional_skipped_class_setups": 4,
+    "reported_skips": 122,
+    "wrapper_exit": 0,
+    "public_files_unchanged_during_run": 223,
+    "network_and_private_inputs_masked": true
+  },
+  "limits": [
+    "No updated addon was installed into a native client and no corrected native cold receipt was observed.",
+    "No old reward index was resent and no new reward, purchase, player login or gameplay action occurred.",
+    "This does not establish every reward-state notification or complete TODO205, the playthrough or release."
+  ]
+}

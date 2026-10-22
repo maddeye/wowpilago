@@ -1,0 +1,24 @@
+{
+  "status": "PASS_SAME_PLAYER_INSTANCE_ONLY_EXEMPTION",
+  "player": 23,
+  "level": 1,
+  "entry": 756,
+  "normal_required_level": 24,
+  "authorized_guid": 286,
+  "ordinary_unauthorized_guid": 525,
+  "ordinary_proficiency": "Two-Handed Axes 1/5",
+  "ap_equipped_slot": 15,
+  "ordinary_equip_error": 1,
+  "ordinary_error_required_level": 24,
+  "denial_snapshot_unchanged": true,
+  "only_positive_inventory_swap": [
+    286,
+    266
+  ],
+  "ordinary_setup": "One native GM add; post-setup baseline; no replay/reset",
+  "run_sha256": "829a4833dd025e4568c0f49e56ab35c6bc60949f1b242551072258e481834588",
+  "limits": [
+    "Not stock GUI or proc/stat/set-bonus proof",
+    "Other compatibility and transfer paths remain separately scoped"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS_LEGITIMATE_WOW_PEER_RETURN_UPGRADE_AND_TILE6",
+  "seed": "98284801054971523741",
+  "native_quest": 3904,
+  "outgoing_map_width": {
+    "item": 80000,
+    "location": 919503904,
+    "sender": 2,
+    "recipient": 1,
+    "flags": 1
+  },
+  "official_client": "Preserved unmodified ChecksFinder Linux game, same originalhome.",
+  "actual_ui": {
+    "columns": 6,
+    "rows": 5,
+    "bombs": 5,
+    "capacity_before_board": 1,
+    "completed_checks_before": 5,
+    "capacity_after_board": 0,
+    "completed_checks_after": 6,
+    "named_incoming_receipt_line_captured": false,
+    "outgoing_console": "ChecksFinder sent Consumable Cache to Azeroth (Tile 6)"
+  },
+  "screenshots": [
+    ".local/real-peer-return/ui/connected-board.png",
+    ".local/real-peer-return/ui/tile6-completion-console.png",
+    ".local/real-peer-return/ui/tile6-final-counter.png"
+  ],
+  "gameplay": "Exactlyoneboard, ordinarymouseclicks, screenshot-onlyclues; threeguesses, zero losses/retries, nohiddenstate/protocolfixture.",
+  "real_return_to_native": {
+    "item_index": 11,
+    "item": 919100051,
+    "location": 81005,
+    "sender": 1,
+    "applied": true,
+    "item_entry": 858,
+    "count": 5,
+    "actual_recipient_level": 3,
+    "item_guid": 566,
+    "parent_audit": ".local/normal-workers-connected/parent-audit.json"
+  },
+  "native_queue": ".local/real-peer-return/native-queued.json",
+  "old_queues_preserved": true,
+  "save_sha256": "8bc09e42b786b7b4c2c3e370c72526e6d8530b13eb55d854a57cd974e2b7cf58",
+  "limits": "Legitimate bidirectional upgrade/check/nativeeffect proved. Namedincomingpeerpopupnotcaptured. WoW3andChecksFinder6/25notfinalgoals."
+}

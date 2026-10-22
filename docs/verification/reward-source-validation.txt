@@ -1,0 +1,17 @@
+ItemSet.dbc sha256 28c285ea7cab86b74c06ad30138c62c26d5ea5303f1fd2bccb9b3285a95d3467
+Spell.dbc sha256 d5cce1a83550dcfa9eb2f0251dbb11fd24c272534b2b1a9b230924a44d817ab3
+Talent.dbc sha256 23aefff3add151bf504c4d0bab247e2e622f9cf29a473d091cb9f11127d99d68
+SkillRaceClassInfo.dbc sha256 341a42678faee5f208e0874ab154ee174b99ba469306df7458bdaf0ffcf76967
+SkillLineAbility.dbc sha256 4154b833d6a26b9b9ce53851d56cb594f0813c0936a72ec89f933cc69abe42c3
+Map.dbc sha256 261bd7c2c9dbdba1f2966ca21106673ed722c2e3681d227f1eed261b6ce870d5
+class 1: legal=778, shop=510, legendary=11, featured_sets=8
+class 2: legal=708, shop=708, legendary=4, featured_sets=11
+class 3: legal=624, shop=321, legendary=6, featured_sets=5
+class 4: legal=520, shop=280, legendary=5, featured_sets=5
+class 5: legal=349, shop=264, legendary=5, featured_sets=8
+class 7: legal=643, shop=620, legendary=6, featured_sets=11
+class 8: legal=328, shop=241, legendary=5, featured_sets=5
+class 9: legal=329, shop=242, legendary=5, featured_sets=5
+class 11: legal=532, shop=532, legendary=6, featured_sets=11
+1204 items, 70 sets, 72 abilities
+Reward catalog validation passed

@@ -1,0 +1,74 @@
+{
+  "source_artifact": ".local/merchant-live/funds-20261019-peer23/summary.json",
+  "source_sha256": "d3dac4ad15c5b56bc53f45ff0d9a7372a89f2d24bb3c9de9545cc516fc11c393",
+  "evidence": {
+    "result": {
+      "binding": 13,
+      "check": "native insufficient funds",
+      "event": "PASS",
+      "guid": 23,
+      "missing": [
+        "real AP room/playthrough",
+        "cross-trade",
+        "combat procs",
+        "crash recovery"
+      ],
+      "no_characters_created": true,
+      "no_sql_writes": true
+    },
+    "ownership": {
+      "account": "APV2E",
+      "binding": 13,
+      "event": "verified_funds_reuse",
+      "evidence_sha256": {
+        "run.jsonl": "701eaa733913ac95ca1a36bbb2573e794d24c13202bf7a640dabe92a2527c98d",
+        "summary.json": "1c4a1755d9dd9d5a6c121a8a59ea9cf2fecc023ffd844d5bad0e2835f6e47c2c"
+      },
+      "guid": 23,
+      "name": "Apsgiylwpuwg"
+    },
+    "assertion": {
+      "binding": 13,
+      "event": "insufficient_funds_refusal",
+      "free_backpack": 13,
+      "guid": 23,
+      "item_entry": 868,
+      "persisted_after_logout": true,
+      "price": 6,
+      "stock_index": 1,
+      "vouchers": 4
+    },
+    "protocol": {
+      "event": "funds_protocol",
+      "guid": 23,
+      "messages": [
+        "Entry sold, invalid, or not enough vouchers."
+      ],
+      "npc": 17379406069905752682,
+      "stock_index": 1
+    },
+    "unchanged": [
+      "progress",
+      "rewards",
+      "purchases",
+      "stock",
+      "authorized",
+      "inventory",
+      "items"
+    ],
+    "offline_tests": {
+      "merchant": 17,
+      "shared_runtime": 19,
+      "shared_client": 16
+    },
+    "sha256": {
+      "after.json": "04df4e0d16f3de6945d0516fe74588a75cc4836e3ab33161c98e43ddb80795aa",
+      "shared-runtime-tests.log": "13d8f50e213ceea360d19f6948ab526340abaeb68d529b26d28f3b2624debbc6",
+      "unit-tests.log": "9661b21910537bdcaff4cac0c6c9d0b4029f8c1d88fcf691127597f7c658a1c9",
+      "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "shared-client-tests.log": "7cde76ebc6b5526aa564d7c032a6f683a25b357b30c88f7fc66833943d430be8",
+      "run.jsonl": "d64d4d6698f67449fbf1fddd5ef077fa31afa54ebfe83980e59a2a0e4ceddd94",
+      "before.json": "617f8ed7e94402e8d966c6a2d04cb94638948ce4a2b2145261c66beda0ff0a45"
+    }
+  }
+}

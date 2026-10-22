@@ -1,0 +1,36 @@
+{
+  "seed_count": 2000,
+  "reachable_real_ap_fills": 2000,
+  "profiles_tested": 52,
+  "legal_profiles": 52,
+  "early_checks_min": 66,
+  "early_checks_max": 79,
+  "local_early_checks_min": 20,
+  "local_early_checks_max": 20,
+  "piece_rolls": 39903,
+  "included_pieces": 31869,
+  "piece_rate": 0.7986617547552816,
+  "eight_piece_sets": 3301,
+  "complete_eight_piece_rolls": 530,
+  "eight_piece_complete_rate": 0.16055740684641018,
+  "expected_eight_piece_complete_rate": 0.1677721600000001,
+  "default_stock_overflow_seeds": 0,
+  "shop_cost_min": 209,
+  "shop_cost_mean": 241.87,
+  "shop_cost_max": 281,
+  "affordable_fraction_mean_cheapest_first": 0.9058166666666667,
+  "role_coverage_seed_counts": {
+    "tank": 578,
+    "melee": 1040,
+    "healer": 654,
+    "caster": 921,
+    "ranged": 269
+  },
+  "affordable_entries_at_check_quarters_mean": [
+    19.7755,
+    33.896,
+    46.0425,
+    54.349
+  ],
+  "elapsed_seconds": 20.76
+}

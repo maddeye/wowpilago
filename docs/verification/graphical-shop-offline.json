@@ -1,0 +1,75 @@
+{
+  "status": "PASS_LUA_CALLBACK_TESTS_NATIVE_UI_VALIDATION_PENDING",
+  "source_sha256": {
+    "addon/WoWPilago/Shop.lua": "0db9520d670c25abc24ffa04055e296314314e2d901c6b4c6e90377c9eb62058",
+    "addon/WoWPilago/WoWPilago.toc": "7c1fa6d3edc0d4ced9268374f04b9ec570ce520c815611d89ef7a2030f689d25",
+    "tests/test_shop_addon.lua": "ab04d43e8643146bcaf54c12425d52a028f474643d802cf80bb3f94d308e4dee",
+    "tests/test_addon.py": "0317b44068ae15cf543f2cb4da1eb9b219e2627f24fe8b47905fc7548e3a14ef",
+    "tests/test_package.py": "bed9fa0954a4c8ba269151f05f2c214da8a8e84d0214184e69910679eefdbc98",
+    "src/APMerchant.cpp": "eeee36260fa0b7f9f78ce36ea22577266ed68d0d7b3ca9682bff9092182f05b7"
+  },
+  "commands": [
+    {
+      "command": [
+        "lua5.1",
+        "tests/test_shop_addon.lua"
+      ],
+      "returncode": 0,
+      "stdout": "shop addon tests passed: native fallback, stock/links/cache/tooltips, affordability/SOLD, navigation, explicit confirmation, stale state, closing\n"
+    },
+    {
+      "command": [
+        "luajit",
+        "tests/test_shop_addon.lua"
+      ],
+      "returncode": 0,
+      "stdout": "shop addon tests passed: native fallback, stock/links/cache/tooltips, affordability/SOLD, navigation, explicit confirmation, stale state, closing\n"
+    },
+    {
+      "command": [
+        "lua5.1",
+        "tests/test_addon.lua"
+      ],
+      "returncode": 0,
+      "stdout": "addon tests passed: item/state/shop feedback, filters, bounds, stock-template text/icon, FIFO, fallback, deduplication\n"
+    },
+    {
+      "command": [
+        "luajit",
+        "tests/test_addon.lua"
+      ],
+      "returncode": 0,
+      "stdout": "addon tests passed: item/state/shop feedback, filters, bounds, stock-template text/icon, FIFO, fallback, deduplication\n"
+    },
+    {
+      "command": [
+        "luac5.1",
+        "-p",
+        "addon/WoWPilago/Shop.lua",
+        "tests/test_shop_addon.lua"
+      ],
+      "returncode": 0,
+      "stdout": ""
+    }
+  ],
+  "configured_stock_sizes_tested": [
+    30,
+    60,
+    120
+  ],
+  "tests": [
+    "icons and cache fallback/retry",
+    "item-link tooltips",
+    "voucher balance, prices, SOLD and affordability",
+    "all stock rows across pages and category navigation",
+    "explicit one-shot confirmation mapped to actual gossip option",
+    "stale menu, NPC, target and confirmation refusal",
+    "ordinary gossip fallback and close lifecycle"
+  ],
+  "server_purchase_backend_unchanged": true,
+  "limits": [
+    "Widgets and API boundaries are stubbed; native layout, cache traffic and physical click purchase remain unverified.",
+    "No in-game session, voucher debit, service change or queue ingress occurred.",
+    "The graphical-shop TODO remains open pending native-client validation."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "status": "NATIVE_SEQUENCE_OBSERVED_PRESERVATION_REVIEW_INCOMPLETE",
+  "method": "Headless native server-mechanism instrumentation, not stock-client GUI proof",
+  "world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+  "attempt": ".local/goal-ecbd80/ability-native-runtime/attempts/mage38-iceblock-20261021T195557Z",
+  "actor": {"guid": 38, "binding": 28, "initial_level": 20, "saved_level": 30, "money_before": 0, "money_after": 0},
+  "observed": {
+    "receipt2": "Ice Block45438 permission applied at20 without learning",
+    "receipt3": "Effective cap30 applied while actor remained20 without Ice Block",
+    "native29": "Same original connection; absent before a read-only native time-response fence",
+    "native30": "Native level30 packet followed by exactly one six-byte learned45438 packet",
+    "relog": "One subsequent initial spellbook retained45438",
+    "saved_spells": [118, 12824, 45438],
+    "saved_cap_items": 2,
+    "all42_characters_and_accounts_naturally_offline": true
+  },
+  "capture_sha256": {
+    "before.json": "9c8a6d9faeb17c3d2bd22c6dd4511e6a1b3ff9a4996939af7049afdabc6b5932",
+    "after.json": "9e89917e2436a85f2c1d7c874b90e775a904c0c4e0c413af3224eadc73141086",
+    "result.json": "4ddc31adca39a5d08ac5b932787bfb05fe3ec74faa18757cd479979f3ac57c18"
+  },
+  "original_result": "FAILED_PARTIAL",
+  "original_failure": "Strict after audit rejected the existing Frost Armor168 duration countdown",
+  "exit_status_limit": "The original private entrypoint discarded main's failure return. Exact executed sources are archived. The entrypoint is corrected without replay.",
+  "parent_checks": {
+    "script": ".local/goal-ecbd80/ability-native-runtime/audit.py",
+    "status": "PARENT_NATIVE_SIDE_EFFECT_REVIEW_PENDING",
+    "snapshots": "All122 character tables and22 auth tables retained unchanged",
+    "remaining_protected_tables": "Unchanged executed guard passes after separating identified native side-effect tables",
+    "four_shattrath_respawns": "Exact25115 waypoint-script attribution; shared ambient guard unchanged",
+    "metadata": "Source assertions rerun; relevant container DBC hashes and SQL overlays inspected",
+    "timing": "Exact aura update sums and rest load/tick/float history unobserved; exploratory bounds are not runtime acceptance",
+    "capture_clock_limit": "Historical epoch and monotonic samples straddled serialization. Corrected helper samples adjacently; old evidence is not rewritten."
+  },
+  "prerequisite_attempt": {
+    "attempt": ".local/goal-88bb/warrior-prerequisite-native",
+    "actor": 12,
+    "status": "DEADLINE_STOP_BEFORE_WRAPPER_CAST",
+    "receipt25": "Pummel6552 applied, consumed and never replayed",
+    "baseline_gui": "Level80, money296000, XP0, stance2458/Pummel6552/Intercept20252 absent",
+    "postgrant_gui_limit": "Receipt chat observed; postgrant read-only macro was malformed, so online spell flags were not verified",
+    "saved_after": "Permission100+6552; saved spells unchanged; no2458,6552,20252 or8616 learned",
+    "wrapper_cast": false,
+    "preservation_audit": ".local/goal-88bb/warrior-prerequisite-native/parent-stop-audit.json",
+    "preservation": "All122 character and22 auth tables audited; old items, other41 characters, prior receipts, frozen11 and original room exact",
+    "prerequisite_release_proved": false
+  },
+  "existing_spec_retention": {
+    "source": "docs/verification/native-talent-switches.json",
+    "gui_result": ".local/talent-switch-plan/gui-phase2/ui/result.json",
+    "parent_audit": ".local/talent-switch-plan/gui-phase2/parent-audit.json",
+    "actor": 35,
+    "ability": 26669,
+    "observed": "Known before and after physical spec switches, primary respec and normal relogs in both groups; saved ranks retain mask255",
+    "new_spec_run": false
+  },
+  "existing_internal_learning": {
+    "source": ".local/class-systems/run.jsonl",
+    "actor": 12,
+    "observed": "Direct GM learning left Charge100 and6178 absent before permission;6178 remained absent at25 and persisted after learning at26",
+    "source_lineage": "Player.cpp, cs_learn.cpp, catalog and CanLearn/CanTrain bodies match the later deployed build",
+    "recheck": ".local/goal-ecbd80/ability-native-followup/check_reused_evidence.py",
+    "limit": "Direct internal GM learning only, not LEARN_SPELL wrapper execution or paid trainer proof"
+  },
+  "replay": false,
+  "fixture_reset": false,
+  "todo97_complete": false,
+  "limits": [
+    "Paid trainer and LEARN_SPELL wrapper cases remain unverified. Existing Evasion specialization retention does not prove pending spec-dependent prerequisite release.",
+    "No all-class combat, stock-client ability UI or complete playthrough claim.",
+    "The area-hook candidate is not deployed.",
+    "Ledger remains152/188. This bounded observation adds no checkoff."
+  ]
+}

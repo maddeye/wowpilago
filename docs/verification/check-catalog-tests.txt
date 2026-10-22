@@ -1,0 +1,19 @@
+test_all_profiles_keep_closed_chains_and_early_checks (test_check_catalog.CheckCatalogTests.test_all_profiles_keep_closed_chains_and_early_checks) ... ok
+test_broken_chain_and_cycle_report_locations (test_check_catalog.CheckCatalogTests.test_broken_chain_and_cycle_report_locations) ... ok
+test_dbc_parser_reads_records_and_rejects_truncation (test_check_catalog.CheckCatalogTests.test_dbc_parser_reads_records_and_rejects_truncation) ... ok
+test_dungeon_missing_one_boss_is_not_a_clear (test_check_catalog.CheckCatalogTests.test_dungeon_missing_one_boss_is_not_a_clear) ... ok
+test_early_filter_requires_unlocked_travel_and_parent (test_check_catalog.CheckCatalogTests.test_early_filter_requires_unlocked_travel_and_parent) ... ok
+test_faction_filters_have_different_real_quests (test_check_catalog.CheckCatalogTests.test_faction_filters_have_different_real_quests) ... ok
+test_filtered_prerequisite_removes_descendant (test_check_catalog.CheckCatalogTests.test_filtered_prerequisite_removes_descendant) ... ok
+test_missing_contract_field_is_a_report_not_a_key_error (test_check_catalog.CheckCatalogTests.test_missing_contract_field_is_a_report_not_a_key_error) ... ok
+test_raid_cannot_silently_allow_progression (test_check_catalog.CheckCatalogTests.test_raid_cannot_silently_allow_progression) ... ok
+test_existing_boss_on_wrong_map_is_rejected (test_check_catalog.LiveCheckCatalogTests.test_existing_boss_on_wrong_map_is_rejected) ... ok
+test_forged_race_class_start_is_rejected (test_check_catalog.LiveCheckCatalogTests.test_forged_race_class_start_is_rejected) ... ok
+test_nonexistent_quest_and_area_ids_are_rejected_by_sources (test_check_catalog.LiveCheckCatalogTests.test_nonexistent_quest_and_area_ids_are_rejected_by_sources) ... ok
+test_repeatable_real_quest_and_forged_race_mask_are_rejected (test_check_catalog.LiveCheckCatalogTests.test_repeatable_real_quest_and_forged_race_mask_are_rejected) ... ok
+test_shipped_catalog_matches_read_only_sources_and_regeneration (test_check_catalog.LiveCheckCatalogTests.test_shipped_catalog_matches_read_only_sources_and_regeneration) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 59.209s
+
+OK

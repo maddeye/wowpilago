@@ -1,0 +1,26 @@
+{
+  "status": "PASS_STOCK_IMMUTABILITY_LIFECYCLE",
+  "requirement": "b071886f58d8",
+  "before": ".local/talent-switch-plan/schema-reviewed-execution/state-1-pre-money-original.json",
+  "after": ".local/talent-switch-plan/gui-phase2/after.json",
+  "stock_rows_exact": 960,
+  "bindings": 31,
+  "worldstate20005_before": {
+    "comment": "NextDailyQuestResetTime",
+    "entry": 20005,
+    "value": 1792476000
+  },
+  "worldstate20005_after": {
+    "entry": 20005,
+    "value": 1792562400,
+    "comment": "NextDailyQuestResetTime"
+  },
+  "normal_daily_reset_advanced_seconds": 86400,
+  "world_container_unchanged": "4b7de1464f41e8106a954718adb09ca6753a10e409e9b905d488d429d4eb905c",
+  "started_at": "2026-10-19T19:53:39.417082794Z",
+  "world_process": "/work/install/bin/worldserver",
+  "ordinary_gui_respec": "Rogue35 dual purchase, talent respec andbothrelogs left entire stocktable exact",
+  "city_relogs": "docs/verification/native-city-merchants.json",
+  "source": "bridge/v2.py bind inserts stockonlyfornewbinding and rejects changedimmutablemanifest; APMerchant loadsbindingstock",
+  "scope": "Existing stocks and source immutable-binding contract; no forcedreset, seedmigration or extra purchase"
+}

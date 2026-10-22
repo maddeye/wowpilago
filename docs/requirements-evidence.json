@@ -1,0 +1,1812 @@
+{
+  "9433ed69edfe": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-curated-checks.json", "docs/verification/curated-check-support.json", ".local/curated-native-case/20261022T170334.021642Z/REPORT.md", ".local/curated-native-case/20261022T170334.021642Z/native-audit.json", ".local/curated-native-case/20261022T170334.021642Z/evidence-index.json", ".local/curated-native-case/20261022T170334.021642Z/observation/milestone5.jsonl", ".local/curated-native-case/20261022T170334.021642Z/screenshots/08-level5-save-blocked.png", ".local/curated-native-case/20261022T170334.021642Z/screenshots/boss-3673-after.png", ".local/curated-native-case/20261022T170334.021642Z/screenshots/27-lucifron-after.png", ".local/curated-native-case/20261022T170334.021642Z/screenshots/33-quest-rewarded.png", ".local/curated-native-case/20261022T170334.021642Z/isolated/parent-cleanup.json", "docs/verification/native-check-reconnect.json"],
+    "verification": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python .local/curated-native-case/20261022T170334.021642Z/verify_native_case.py. Actual stock12340 client/exact deployed a20 binary on separate MySQL UUID618d9466 exercised all six types. Native783 acceptance had no credit until physical reward; level5/10 saved-before-credit observed with989/743 read-only samples and actual owned-row lock wait; Elwynn12 exploration; five natural WC bosses created five same-instance1/reset1792950000 components and no clear until fifth; natural Lucifron added only raid920012118. Noncurated Skum death added nothing. All11 checks and every AP table exact through normal logout/relog.137 immutable evidence hashes checked. No receipts/cap/access grants or original-realm native interaction. Parent viewed actual screenshots and independently reran audit; read-only sa24 reviewed the narrow closure. Generic bridge transport separately has existing native reconnect evidence.",
+    "scope": "Basic curated support, not all definitions, legitimate combat/travel/acquisition, normal XP thresholds, party/bots, crash/failed-commit, cross-reset, full1-80, multiworld or release. Native here ends at durable acknowledged0 outbox, not new AP transport. Original42 and all player/AP/auth-account rows exact;141 tables exact. Existing original uptime/respawn guards PASS but worldstates guard still FAILS4024:14->15. Pinned core attributes timer-ended Horde Wintergrasp defense; old guard/failures remain unchanged. Own services stopped cleanly and volume retained. No historical failed case relabeled."
+  },
+  "45c1b4a9b983": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-lifecycle.json", "docs/verification/native-character-delete.json", "docs/verification/native-check-reconnect.json", "docs/verification/bridge-reliability.json", "docs/verification/graphical-shop.json", "docs/verification/character-delete-archive.json", ".local/native-delete-case/audit.json", ".local/native-delete-case/closure.json", ".local/native-delete-case/08-before-confirm.png", ".local/native-delete-case/09-after-delete.png", ".local/normal-workers-turnin-offline/automatic-reconnect-proof.json", ".local/normal-workers-turnin-offline/world-restart-proof.json"],
+    "verification": "Parent inspected real stock-client creation/deletion screenshots and full144-table stage captures. Read-only recheck: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python .local/native-delete-case/audit_after.py --check. Actual native physical DELETE removed fresh GUID43; installed trigger archived/detached binding32 and preserved generated manifest, progression,60 stock rows and213 enabled checks. Zero world entry/rewards. All original42 characters, old items/spells/achievements/AP histories, frozen11 and original AP save exact. All42 offline before owned close, all7 auth naturally offline afterward, launcher0/cleanup forcedfalse. Existing native absence/outage/restart/logout raw snapshots/logs and separate35-test InnoDB preservation/rollback/effect proof inspected. Independent read-only closure review supports these five parts.",
+    "scope": "Single configured realm, physical CharDelete.Method0. Native deletion uses an empty-receipt fresh fixture; nonempty-history and replacement/effect denial are separate actual InnoDB proof. Does not close other crash/commit-window, deadlock, DB-outage, soft-delete/restoration, all-check, economy, playthrough, fullM7 or release tasks. No original character deletion, reward replay or historical status relabeling."
+  },
+  "1fe35ea4e79c": {
+    "status": "verified",
+    "artifacts": ["addon/WoWPilago/Shop.lua", "addon/WoWPilago/WoWPilago.toc", "tests/test_shop_addon.lua", "tests/test_addon.py", "tests/test_package.py", "docs/verification/graphical-shop.json", "docs/verification/graphical-shop-native-inspection.json", "docs/verification/graphical-shop-cold-failure.json", "docs/verification/goal-ecbd80-offline.json", ".local/goal-ecbd80/shop-native-cache-fixed/parent-audit.json", ".local/goal-ecbd80/shop-native-cache-fixed/ui/cold-01s.png", ".local/goal-ecbd80/shop-native-cache-fixed/ui/07-confirm.png", ".local/goal-ecbd80/shop-native-cache-fixed/ui/08-server-result.png", ".local/goal-ecbd80/shop-native-cache-fixed/ui/11-updated-stock.png"],
+    "verification": "Actual stock3.3.5a client rendered all60 personal stock rows across four categories/seven pages with60 physical hovers, item tooltips, prices, balance5, SOLD26 and disabled unaffordable buys. Initial confirmation was cancelled and full122+auth audit proved zero spend. A genuine cold-cache test then found10of12 unresolved icons; its failure and zero-effect audit remain preserved. Fixed opaque background and standard hidden-tooltip item queries. Fresh cold native test resolved all12 icons by1second without operator item queries or intentional hovers. ONE physical Buy18/15991 at1voucher and matching Accept produced server purchase success, real equipment toast, authorized soulbound item591 in bag298slot5, balance5->4, remaining247->246, only18newlySOLD and26stillSOLD. Parent independently viewed native screenshots and ran full122+auth audit: all preexisting items/inventory, other41, prior AP histories/frozen11 and original room save exact. Existing server purchase code unchanged. Lua5.1/LuaJIT callback tests include30/60/120 rows, stale/wrong-NPC/confirmation rejection and cold query lifecycle. Actual archive includes all TOC scripts. Full offline504tests passed455 with49SQL-gated skips.",
+    "scope": "Graphical personal-shop implementation and bounded real-client acceptance. Does not close separate crash/concurrent/full-bag, equipment compatibility/effects, economy pacing or full-playthrough tasks. No server deployment, source catalog or immutable room changes. Original failed cold test and consumed intents are retained."
+  },
+  "b62cdf75dbc4": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-low-level-equipment.json", "docs/verification/normal-stormwind-shop.json", "docs/verification/native-legendary-full-inventory.json", "docs/verification/native-instance-equipment.json", "docs/verification/native-transfer-refusals.json", ".local/normal-stormwind-entry-shop/parent-audit.json", ".local/low-level-equipment-final-review/result.json", ".local/normal-stormwind-entry-shop/ui/53-original-req80-tooltip.png", ".local/normal-stormwind-entry-shop/ui/54-equipped.png", ".local/legendary26-full-bag-delivery/ui/016-final-equipped-req60.png"],
+    "verification": "Actual stock 3.3.5a client physically equipped purchased Troggbane51795/GUID590 at level3 with its original RequiredLevel80, stats and visual. One 8-voucher purchase, only stock26 sold; old sword66 and all preexisting item fields preserved. Separate directly delivered Thunderfury19019/GUID588 physically equipped at level1 with original RequiredLevel60 and stats. Native same-player authorized286 versus ordinary525 control retained ordinary required-level refusal without state mutation. Native trade/mail/auction refusals for bound legendary269 and purchased285 preserved phase snapshots. Original native transcript hashes checked again. Independent bounded requirement review and final122-table parent audit passed; other41 and frozen11 histories protected.",
+    "scope": "Bounded equip and server-authorization regression test, not universal absence of exploits. Raid weapon uses legitimate normal gameplay; direct legendary and historical negative controls are explicitly synthetic fixtures. Does not close separate combat/proc/set/socket/enchant, all-class/non-level compatibility, exhaustive transfer exploit, crash or full-playthrough requirements. No new runtime actions in this final audit."
+  },
+  "f2573b2aa8f8": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-legendary-full-inventory.json", ".local/legendary26-full-bag-delivery/parent-audit.json", ".local/legendary26-full-bag-delivery/pending-observer.json", ".local/legendary26-full-bag-delivery/legendary-offline-queued.json", ".local/legendary26-full-bag-delivery/ui/009-one-sale-delivery.png", ".local/legendary26-full-bag-delivery/ui/016-final-equipped-req60.png", ".local/legendary26-full-bag-setup/parent-audit.json", "src/APDelivery.cpp"],
+    "verification": "FIRSTnamedAPThunderfuryindex1queuedwhileall42characters/accountsOFFLINEandrecipient26's16-slotbackpackFULL. Sevenactualnative-onlineSQLsamplesover30secondsprovedreceiptunapplied/nullGUID/full16BP/15ordinaryknives/no19019. AfterexactlyONEnewfiller587normalvendor3csale, actualNativepollcreatedONEauthorized588/19019forbinding16,committedreceiptapplied1anddeliveredintoonlyfreedslot. Stockclientreceipt/tooltipandphysicalmainhandequipatlevel1withoriginalRequires60/44..115+16..30damage/+5agi/+8stamverified. Original5instanceGUIDs/fields,other41/unrelatedrows,frozen11andrealAPsaveexact;normalLogout371s.",
+    "scope": "Fabricatedtestfixture26,notlegitimateplaythrough. Exactoffline/fullinventoryqueue-deliveryproof. Nativelevel1equip/statsevidencealsoexistsbutdoesNOTclosebroadprocs/sets/classcompatibility/crash/retransmissionrequirements. No newGMcash/itemsetup;oneGold0andordinary15knife14cbuysseparatelyaudited."
+  },
+  "63f3f26747d5": {
+    "status": "verified",
+    "artifacts": ["docs/verification/level1-stock-inspection.json", ".local/merchant22-gui-inspection/parent-audit.json", ".local/merchant22-gui-inspection/ui/coverage.json", ".local/merchant22-gui-inspection/cpp-pages.txt", "src/APMerchant.cpp", "src/APMerchant.h", "tests/test_merchant.py"],
+    "verification": "Actualstockclientownedlevel1GUID22 inspectedALL30configuredstockindices/unique names,29unsoldpricesandSOLDrow acrossfourcategories/NextPage/PreviousPage. Parentviewedallcoverage screenshotsandmatchedindex/name/price/soldtofullmanifest. Savedlevel1XP55cash10000,vouchers4andremainingcost55stayedexact;ALLAP/item/inventorytablesandother41protectedrowsunchanged. ProductionPage/Selectioncompiledandtested everycount30..120/allcategories/pages; sharedbound-stockmenuhasnolevelpredicate.",
+    "scope": "Actualfullinventoryinspectionatlevel1inavalidconfigured30-rowGM-preconditionfixture, plusproductionpagination30..120. Notactualdefault60-rowlevel1GUI, purchases/equip orlegitimateplaythrough. Parentzero-voucherhandoffwaswrong;baselineandafterboth4. ElapsedsourceWGtransitionauditedseparatelywithoutrelaxingruntimeguards."
+  },
+  "ccd4f7816717": {
+    "status": "verified",
+    "artifacts": ["docs/verification/bridge-reliability.json", "docs/verification/real-peer-return.json", "docs/verification/native-check-reconnect.json", "docs/verification/sql-lifecycle.json", ".local/normal-workers-turnin-offline/automatic-reconnect-proof.json", "bridge/client.py", "bridge/v2.py"],
+    "verification": "Actualnormalnativequest15 persistedack0withbridge/APabsent, survivedsame-binaryworldrestartwithall42characters/APtablesexact, thenreachedtheoriginalrealAProomandqueuedoneindex12Artisanreward. KeptactualbridgePID3568348alivewhileAPserverstopped: disconnectedstatus/retrylogsobserved. Afterunchangedfrozenlauncherportprobeeventuallypassedandoriginal14itemsavereopened,theSAMEbridgePIDautomaticallyreconnectedwithallreward/check/progress/stockrowsexact. LegitimateMilly->officialChecksFinderTile6->nativeLesserPotionloopand523realgatedSQLtestsalsopass.",
+    "scope": "Workingnative-to-realAPdurablebridgewithactualabsence/restart/autoreconnectandbidirectionaldelivery. Separate characterdeletion, allchecktypes, DBoutage, exactpurchase/commitcrashwindows andbothfinalgoalsremainunverified. InitialEADDRINUSEharnessfailurepreserved,noguardbypass."
+  },
+  "70cb9cbc6c49": {
+    "status": "verified",
+    "artifacts": ["docs/verification/reward-scaling.json", "docs/verification/real-peer-return.json", "docs/verification/sql-lifecycle.json", ".local/reward-scaling-proof/tests.log", "tests/test_native_delivery.py", "tests/test_v2_effects_sql.py", "src/APDelivery.h", "src/APDelivery.cpp", "sql/v2_effects.sql"],
+    "verification": "Real normal recipient levels1/2 received usableMinor118, reallevel3cross-gamecache deliveredLesser858x5 while prior118x10remained. Normallevel1GoldCache applied1000copper. Parentread all7actualpotiontemplates: exactrequiredlevels1/3/12/21/35/45/70,allclassesallowed. ExecutedproductionC++Gold/Potion policies atall80levels andrealMySQL12boundarylevels/walletheadroomrefusal. Goldtiers rise0.1/1/5/20/50/100gbyactualrecipientlevel, notsenderorcap; unsafewalletheadroom leavespendingreceipt. Five targetedtests and full523gatedsuite pass.",
+    "scope": "Recipient-level scaling, itemusability andactualearlyapplication. Not empiricalmid/lategamevoucherbalance or finishedlevel80playthrough. RealSQLfixtures are not legitimategameplay."
+  },
+  "ed8fde3a4bd4": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-check-reconnect.json", ".local/normal-wolves-disconnected/unacknowledged-proof.json", ".local/normal-wolves-disconnected/parent-audit.json", ".local/normal-wolves-disconnected/server-reconnect.log", "bridge/v2.py", "bridge/client.py"],
+    "verification": "Normal Apjourney completed actual quest5261 while bridge/AProom were absent. After normal logout parent captured durable native919505261 acknowledged0 and unchanged eight-item APsave. Restarting the same original room and least-privilege bridge changed it to acknowledged1 and queued exactly one real receiptindex8. A second actual bridge reconnect preserved check/reward/progress/stock rows exactly. Originalsave nowhasnineitems with oldeight and peerchecks unchanged.",
+    "scope": "Actual absent-bridge quest outbox durability, acknowledgement and reconnect deduplication. Not every checktype, world crash window, AP-only outage while bridge lives, queued voucher application or complete multiworld goals."
+  },
+  "b071886f58d8": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-stock-persistence.json", "docs/verification/native-city-merchants.json", ".local/talent-switch-plan/schema-reviewed-execution/state-1-pre-money-original.json", ".local/talent-switch-plan/gui-phase2/after.json", "bridge/v2.py", "src/APMerchant.cpp"],
+    "verification": "Parent verified all960 stockrows exact across captured before/after snapshots, including ordinary Rogue35 dual purchase/respec/relogs. Normal daily-reset worldstate20005 advanced exactly86400seconds while the same PID1 worldservercontainer remained running since before the firstsnapshot. Separate ten-city native traversal/relogs preserve personal stocks. Binding code inserts stockonly fornewbinding and rejects changedseed/slot/manifest.",
+    "scope": "Immutable stock lifecycle under actual normal daily reset, fixture respec/relogs and native city changes. No forcedreset, seedmigration or legitimate-player merchant purchase claim."
+  },
+  "07c845a98c93": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-city-merchants.json", ".local/city-merchants-plan/map-control-reviewed/parent-audit.json", "src/APMerchant.cpp", "sql/world.sql"],
+    "verification": "Parent independently matched100 actual gossip packets to all observed category/pages across all10 supported cities. Each actor's complete30-row personal manifest, prices, balance and remaining cost stayed identical across its assigned cities and relogs; every NPC used the binding-keyed merchant script.",
+    "scope": "Native two-fixture city/vendor implementation. Not default60 stock GUI, ordinary travel, every profile/city cross-product or purchases."
+  },
+  "d2bcb646256b": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-city-merchants.json", ".local/city-merchants-plan/map-control-reviewed/parent-audit.json", ".local/city-merchants-plan/map-control-reviewed/run.jsonl", "sql/world.sql"],
+    "verification": "Actual loaded NPC identities and functional gossip were independently verified in Stormwind, Ironforge, Darnassus, Exodar, Shattrath, Dalaran, Orgrimmar, ThunderBluff, Undercity and Silvermoon through faction-appropriate owned fixtures.",
+    "scope": "All10 supported city NPCs, with controlled fixture travel. Not legitimate transport or stock-client UI proof."
+  },
+  "e1124fdf853f": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-city-merchants.json", ".local/city-merchants-plan/map-control-reviewed/observations.json", ".local/city-merchants-plan/map-control-reviewed/parent-audit.json", "src/APMerchant.cpp"],
+    "verification": "All30 rows per owned slot matched its full immutable manifest and each other across6 Alliance/neutral or4 Horde cities. Every observed page matched the actual native packet. Production lookup is keyed by receiving binding, never NPC/city.",
+    "scope": "Complete preserved fixture stocks and shared implementation, not60-per-actor defaults or every profile/city cross-product."
+  },
+  "eaa87e6ad580": {
+    "status": "verified",
+    "artifacts": ["docs/verification/native-city-merchants.json", ".local/city-merchants-plan/map-control-reviewed/parent-audit.json", ".local/city-merchants-plan/map-control-reviewed/run.jsonl", "src/APMerchant.cpp", "src/APMerchant.h"],
+    "verification": "Actual native category and next-page traversal returned every personal stock index exactly once in each of10 cities. Parent re-parsed100 raw gossip packets and rechecked all decoded stock/cost fields. Categorized gossip is the accepted MVP implementation.",
+    "scope": "Native categorized-gossip support and traversal, not a native vendor window or stock-client GUI traversal."
+  },
+  "3fd742b2d42f": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-talent-switches.json",
+      ".local/talent-switch-plan/gui-phase1-reviewed/ui-existing/result.json",
+      ".local/talent-switch-plan/gui-phase2/ui/result.json",
+      ".local/talent-switch-plan/gui-phase2/ui/22-final-primary-secondary-ranks-links.png",
+      ".local/talent-switch-plan/gui-phase2/parent-audit.json",
+      ".local/talent-switch-plan/gui-phase2/replay.json",
+      ".local/class-systems/run.jsonl"
+    ],
+    "verification": "Parent viewed actual stock-client talent UI and checked saved Rogue35 masks, fees and one unlock. Three points in each spec give30/30 before one fabricated unlock,31/31 after, then ordinary1g primary respec yields34/31. Both actual relogs preserve points and Evasion. Exact applied-index replay preserves6receipts/unlock1. Separate26 native level-up checkpoints with spent talents satisfy earned=free+spent. Other41characters and frozen11rewards preserved.",
+    "scope": "Native GM-precondition fixtures and ordinary stock-client trainer interactions with labeled fabricated AP ingress. Not legitimate level80/AP-room gameplay; three original scripted failures remain failures."
+  },
+  "39eac8b86ad9": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CRITICAL_TRAVEL.md",
+      "docs/verification/critical-travel.json",
+      ".local/critical-travel-implementation/parent-apworld-tests.txt",
+      ".local/critical-travel-implementation/parent-preservation.json",
+      "apworld/wowpilago/__init__.py",
+      "apworld/wowpilago/test/__init__.py"
+    ],
+    "verification": "Parent reviewed the actual five-core-region graph, independently reran34 real packaged AP tests and generation including1403776 location/rule comparisons across52 profiles, and verified120 catalog/frozen-room hashes and52 unchanged slot records. Profile starts, inherited real quest prerequisites, explicit expansion gateways, full cap/flight leaf rules and cap-only victory are preserved.",
+    "scope": "Logical feasibility and abstract critical travel topology. Not physical transport gameplay, observed quest order, literal300-item content or live level80 completion."
+  },
+  "4cb8029063a6": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/implemented-milestones.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      ".local/v2-client/normal-status-full.png",
+      ".local/remaining-proof-audit/parent-merchant-policy-test.txt"
+    ],
+    "verification": "Parent decoded actual native menu Vouchers5/Remaining total cost56, recomputed all30 stock prices and saved unsold55/vouchers4 after purchase, viewed stock-client status vouchers0/remaining shop cost255, and reran compiled production merchant policy assertions.",
+    "scope": "Balance and remaining-cost display. Not post-purchase GUI refresh, full stock traversal, all cities or purchase crash safety."
+  },
+  "a7da8dda558c": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/implemented-milestones.json",
+      "docs/LIVE_V2.md",
+      ".local/v2-client/normal-status-full.png",
+      ".local/v2-build/20261019T191318.518327Z-mail-fixed/manifest.json"
+    ],
+    "verification": "Packaged APWorld, built native module and bridge have actual bounded protocol2 integration. Real ChecksFinder Tile1 reached native GUID4; native Elwynn check was acknowledged and yielded five physical potions with client feedback and retained reconnect/relog state.",
+    "scope": "Build and working integration milestone, not complete feature coverage, current network resume, release hardening, crossback or either final goal."
+  },
+  "b9f218a44085": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/implemented-milestones.json",
+      "docs/verification/native-class-systems.json",
+      ".local/class-systems/run.jsonl",
+      ".local/remaining-proof-audit/parent-victory-logic-tests.txt"
+    ],
+    "verification": "Fresh packaged AP tests prove cap-only level80 logic and no Useful gates. Actual native fixture saved level80/last_level80/victory1 with access_flags0 and only Charge ranks. Native save and bridge victory predicates require actual durable level80, not merely cap80, raids, gear or every ability.",
+    "scope": "Victory-condition implementation using logical tests and GM-precondition native evidence. Not a legitimate level80 playthrough or completed real-room goals."
+  },
+  "5f73decf774e": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "E1: supported source/data/client target pinned; running binary is a separate question.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "c46a9e3bb2ed": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "Inspected apworld/, src/, bridge/, data/, tests/ directories.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "7e0be66766f3": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "IMPLEMENTATION.md, profiles/slot-data contract: one character per seed/slot.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "54c9536a29e0": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "IMPLEMENTATION.md and E6 caps-only-victory test explicitly choose level only.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "36ffbe237228": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "support.json, profiles.json and E3/E6 explicitly exclude class 6.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "b3108764257f": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "support.json and E3/E6: DK exclusion finalized and illegal profiles rejected.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "49587e34ca76": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "IMPLEMENTATION.md and policy source/E10: only authorized gear waives level; riding/abilities retain eligibility. Decision proven, live behavior separate.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "55c1d0ad5e9a": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "IMPLEMENTATION.md chooses categorized gossip as acceptable MVP.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "111727bf9f60": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "IMPLEMENTATION.md and merchant source specify private per-binding inventory, never cross-player stock. Decision proven, live privacy separate.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "f5d81fe3eed2": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/TODO_EVIDENCE.md"
+    ],
+    "verification": "IMPLEMENTATION.md/runtime policy: only authorized instance GUIDs waive level; ordinary acquired gear does not. Actual transfer/equip tests remain separate.",
+    "scope": "Design, source pin, or directory decision only. Runtime and release gates remain separate."
+  },
+  "243f7febbdd1": {
+    "status": "verified",
+    "artifacts": [
+      "support.json",
+      "apworld/wowpilago/data/retired-checks.json",
+      "tools/audit_ap_ids.py",
+      "docs/ap-id-audit.json"
+    ],
+    "verification": "AP Python tools/audit_ap_ids.py /tmp/archipelago-upstream loaded 82 games at the pinned commit. Active 98 item/300 location IDs and all reserved 99 item/388 location IDs have zero collisions and zero failed imports. Migration policy keeps legacy/retired IDs reserved.",
+    "scope": "Pinned installed registry only, not uninstalled third-party worlds."
+  },
+  "8de94a908f29": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Hybrid cap/access/riding/ability/talent rewards are present in generated pools.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "449e217a8d3a": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Seven cap items produce the cap sequence 20 through 80.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "eb4daf797945": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Exactly one Outland Access progression reward.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "fdf352b18911": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Exactly one Northrend Access progression reward.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "c905cf2df934": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Exactly twelve useful talent-unlock items.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "525408ae2993": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Talent unlocks stay useful and do not gate ordinary checks or victory.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "a5fa8ea67e66": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "All mandatory access and victory tests pass without shuffled abilities.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "a74806c2a919": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Packaged generation verifies named identities in spoilers and real multidata.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "4190d213ce68": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Named legendaries stay useful and are absent from mandatory access rules.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "110d251e2489": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Pool and prefill tests account for each ordinary item-bearing location, excluding the addressless victory event.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "18b0e45376de": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Seven progression cap items in the actual generated pool.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "c06d196ceabc": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "One of each progression access item.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "36c5dda51005": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Classification follows the selected flying-dependent checks; Cold Weather remains useful when not required.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "74be0caffde2": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Apprentice, Journeyman, and Artisan remain useful.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "cfb6a9efc407": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Twelve useful reserved-point unlocks.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "8990b21ec260": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Eight useful source-audited abilities for every supported class.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "a83df706c84f": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Four useful bag upgrades.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "e0789e1cac35": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "45 useful single-voucher rewards.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "5a95659a189d": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "28 useful three-voucher rewards.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "cbd463930449": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "15 useful five-voucher rewards.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "7a5dc34b3109": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Two useful named compatible legendary rewards by default.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "1d7492a28814": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Actual default Human pool is 213 items with 49 Gold and 36 Consumables; option, exclusion, and prefill tests pass.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "04e197726c7b": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Real fills use caps, expansion flags, and explicitly selected flying gates.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "048a4510a813": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Useful-free access and caps-only victory tests pass.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "bb31e44b740c": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Real restrictive fills enforce filler-only excluded raids.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "d38dc37e0e1b": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "2,000 real fills reach victory from an empty state without self-locking cap upgrades.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "c974d425ca91": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Option tests exercise accessibility, balancing, and excluded filler-only raids.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "4fcf568f6969": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Repeated seed/settings preserve pools, stock, featured rolls, and named legends.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "7e7f3b353783": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "All 52 legal profiles and 64 category combinations construct/fill or explicitly reject insufficient capacity.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "83b136ca8ca6": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Real AP test suite covers classifications and optional categories.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "c08a9a1f1e68": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "2,000 actual restrictive fills across all 52 profiles reach the logical victory event.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "6ec04608bfd2": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Useful-free and raid-free victory logic passes real construction/fill tests.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "3f85243a4653": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "2,000 actual stocks record piece/full-set distributions and class-relevant coverage.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "8d74169e2da6": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Observed piece rate 79.866%; complete eight-piece rolls 530/3301=16.056%, consistent with 0.8^8 before stock caps.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "7837c5703cb1": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "docs/verification/apworld-tests.txt",
+      "tests/simulate_seeds.py",
+      "docs/verification/seed-simulation.json"
+    ],
+    "verification": "Default 60/3/80%/2 and prices verified by real generation and 2,000 stocks, with mean 54.349 of 60 entries affordable.",
+    "scope": "Pure APWorld generation/logic, not native runtime, client behavior, travel, or a full gameplay run."
+  },
+  "7ffb2d21459b": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "All six check types have source-validated machine-readable definitions.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "7bd97a9eaedb": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "All 300 definitions carry the required source, profile, access, prerequisite, difficulty, and effort metadata.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "fefcc6dfcaa6": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "Connected check validation and reward --live validation pass against the pinned DB/DBC data.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "3b9c8109c970": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "150 curated source-valid quests, closed transitive profile restrictions, repeatable/daily/condition exclusions, and provided-item/source witnesses validated.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "5718c153ee29": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "60 source-valid top-level zones explicitly represent zone entry, not full exploration.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "c0a326ff8bef": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "14 source-valid normal-map clears define exact curated bosses in one instance/reset.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "cb52dcb99623": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "12 source-valid raid identities remain optional filler-only locations.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "6eaf01f7bdba": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "The current source report counts 160 to 173 pre-cap80 checks in 205 to 218 locations per profile.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "946b0c8cec96": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "Catalog credit policy and curation/runtime documentation specify tap, range, first-kill, reset, bot, and permanent-character rules.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "d962d97fdf51": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "Exactly eight source-audited independent abilities for each of nine supported classes.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "daab4824471d": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "DBC talent/rank and trainer validation excludes talent-granted abilities.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "fa578525f11c": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "Audited lists exclude essential forms, stances, baseline pets, and unsupported DK introduction spells.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "3efd4b046877": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "The final Mage list is source-audited against Wrath trainer/rank/level data.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "1af943ac8fad": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "The final Warrior list is source-audited against Wrath trainer/rank/level data.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "42e1129c6a7a": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "All other supported classes have audited lists; Death Knights are explicitly excluded.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "8525af4dd96e": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "All 72 abilities and 129 ranks pass pinned-source audits for trainers, ranks, talents, quests, and minimum eligibility.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "d6fff56e213e": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "Named legendary selection uses source masks and normal class weapon proficiencies; no legendary enters shop stock.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "2a2ec89484e5": {
+    "status": "verified",
+    "artifacts": [
+      "docs/check-validation.json",
+      "docs/verification/check-catalog-tests.txt",
+      "docs/verification/reward-catalog-tests.txt",
+      "docs/verification/reward-source-validation.txt",
+      "docs/OPENING_CURATION.md",
+      "docs/REWARD_CURATION.md"
+    ],
+    "verification": "Final nine-class lists are source validated rather than accepted from earlier proposed candidates.",
+    "scope": "Data curation and explicit policy only. Actual quest scripts, credit behavior, class combat, equipment, and live eligibility remain separate gates."
+  },
+  "cb9c4a6cfcbf": {
+    "status": "verified",
+    "artifacts": [
+      "docs/LIVE_V2.md",
+      ".local/v2-client/normal-status-full.png",
+      ".local/v2-client/normal-first-hud.png",
+      ".local/v2-client/normal-relogin-backpack.png",
+      ".local/v2-multiworld/run-79mlu0ta/actual-peer-evidence.json"
+    ],
+    "verification": "Actual build12340 client, permanent fresh-character binding, real ChecksFinder-to-AP-to-native talent receipt, native Elwynn check acknowledged by real AP server, physical cache delivery, bridge reconnect and ordinary client logout/relog preserve exact state.",
+    "scope": "Connectivity and readonly status UI only. Full reward, class, progression, fault, playthrough, and bidirectional cross-game release gates remain open."
+  },
+  "1e939564eab4": {
+    "status": "verified",
+    "artifacts": [
+      "docs/LIVE_V2.md",
+      ".local/v2-client/normal-status-full.png",
+      ".local/v2-client/normal-first-hud.png",
+      ".local/v2-client/normal-relogin-backpack.png",
+      ".local/v2-multiworld/run-79mlu0ta/actual-peer-evidence.json"
+    ],
+    "verification": "Actual SEC_PLAYER .archipelago status displays real seed/team/slot, connected heartbeat, cap10, pending riding/talent eligibility, vouchers0 and remainingchecks212 on the unmodified live client.",
+    "scope": "Connectivity and readonly status UI only. Full reward, class, progression, fault, playthrough, and bidirectional cross-game release gates remain open."
+  },
+  "f21a10ba9aa3": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Native quest XP reaches cap10 without passing it; above-cap level change is denied. Seven cap receipts and 26 logout checkpoints preserve caps through80.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "4b4a7d823fa0": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Native 44100-XP quest setup saturates the level10 bank at3800=50% of7600, ordinaryXP0. Cap receipt releases exactly3800, clears bank, and does not increase level.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "8eb09b5ddcfd": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Actual saved fixturelevel80 and nativevictory1 commit together only after cap80 permits reaching80. Earlier states have victory0. This is GM-precondition verification, not a leveling playthrough.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "d76d43372c68": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Actual native level80 entitlement is71:65free+6spent after12permissions,60total with onlyonepermission.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "5c5b0afe3072": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Native point checkpoints at reservation levels follow the12 thresholds15 through70; level80 with oneunlock totals60, with12 totals71.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "26255f2e776d": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "First earlypermission becomes eligible at15; later eleven receipts restore remaining eligible entitlements at80.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "aeb945b8c3cf": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Actual permission atlevel1 grantszero points; eligible level15 restores its reserved point; relog retains entitlements.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "222962632d68": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Actual native talent126 tier1 is refused at10 before5points spent; talent130 ranks succeed, then tier1 succeeds at15 after5spent.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "9fe2d17d5346": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Actual Charge100/6178 remain locked before permission; base arrives10, ranks refused25/45 and allowed26/46. All persist through replay/relog.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "02889efb84fe": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Executed AP and native pure-policy suites cover caps, overflow/release, talent reservations and delayed ability/riding eligibility; production commit/victory regressions also execute.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "f68924af5743": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/summary.json",
+      ".local/class-systems/run.jsonl",
+      ".local/class-systems/binary.sha256",
+      "tests/verify_class_systems.py",
+      "tests/test_native_progression.py",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Native fixture exercises cap10to20to30, actual XP banking/release, persistent milestone outbox, and actuallevel80/victory simulation; ordinary quests/playthrough remain separate.",
+    "scope": "Actual native callbacks and packets on isolated GM-setup fixtures with labeled fabricated AP ingress. Not real-client travel, every class, respec/dual-spec, combat, or a legitimate leveling playthrough."
+  },
+  "cec1c7b32b15": {
+    "status": "verified",
+    "artifacts": [
+      "docs/MERCHANT_LIVE.md",
+      ".local/merchant-live/summary.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "tests/verify_merchant_runtime.py",
+      "tests/test_v2_effects_sql.py",
+      "docs/verification/native-merchant.json"
+    ],
+    "verification": "Native five-voucher receipt and actual SEC_PLAYER-selected purchase debit5to4, persist sold/item state, and preserve peer balance.",
+    "scope": "Native callback/packet fixtures with GM setup and labeled fabricated AP ingress. Not GUI merchants, all cities/classes, transfers, process crashes or legitimate gameplay."
+  },
+  "214c43f9aba1": {
+    "status": "verified",
+    "artifacts": [
+      "docs/MERCHANT_LIVE.md",
+      ".local/merchant-live/summary.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "tests/verify_merchant_runtime.py",
+      "tests/test_v2_effects_sql.py",
+      "docs/verification/native-merchant.json"
+    ],
+    "verification": "Named Thunderfury native receipt creates its owned instance directly before any vendor interaction; shop catalog rejects legendary stock.",
+    "scope": "Native callback/packet fixtures with GM setup and labeled fabricated AP ingress. Not GUI merchants, all cities/classes, transfers, process crashes or legitimate gameplay."
+  },
+  "8f4755033e95": {
+    "status": "verified",
+    "artifacts": [
+      "docs/MERCHANT_LIVE.md",
+      ".local/merchant-live/summary.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "tests/verify_merchant_runtime.py",
+      "tests/test_v2_effects_sql.py",
+      "docs/verification/native-merchant.json"
+    ],
+    "verification": "Actual sold-entry command replay does not debit or create a second instance; identical AP ingress and relog preserve the exact result.",
+    "scope": "Native callback/packet fixtures with GM setup and labeled fabricated AP ingress. Not GUI merchants, all cities/classes, transfers, process crashes or legitimate gameplay."
+  },
+  "fc43bdac69c8": {
+    "status": "verified",
+    "artifacts": [
+      "docs/MERCHANT_LIVE.md",
+      ".local/merchant-live/summary.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "tests/verify_merchant_runtime.py",
+      "tests/test_v2_effects_sql.py",
+      "docs/verification/native-merchant.json"
+    ],
+    "verification": "Two native bindings keep independent balances5to4; each survives logout/relog with no cross-player debit.",
+    "scope": "Native callback/packet fixtures with GM setup and labeled fabricated AP ingress. Not GUI merchants, all cities/classes, transfers, process crashes or legitimate gameplay."
+  },
+  "4822b95e3a5d": {
+    "status": "verified",
+    "artifacts": [
+      "docs/MERCHANT_LIVE.md",
+      ".local/merchant-live/summary.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "tests/verify_merchant_runtime.py",
+      "tests/test_v2_effects_sql.py",
+      "docs/verification/native-merchant.json"
+    ],
+    "verification": "Real-MySQL rollback/concurrency tests and native positive purchase confirm one debit, one sold row, one receipt and bound authorized physical instance. Full-backpack refusal changes none of them.",
+    "scope": "Native callback/packet fixtures with GM setup and labeled fabricated AP ingress. Not GUI merchants, all cities/classes, transfers, process crashes or legitimate gameplay."
+  },
+  "6c3714f1ec43": {
+    "status": "verified",
+    "artifacts": [
+      "docs/MERCHANT_LIVE.md",
+      ".local/merchant-live/summary.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "tests/verify_merchant_runtime.py",
+      "tests/test_v2_effects_sql.py",
+      "docs/verification/native-merchant.json"
+    ],
+    "verification": "Live native queued named legendary applies on receipt and equips its authorized instance atlevel1 without a merchant visit.",
+    "scope": "Native callback/packet fixtures with GM setup and labeled fabricated AP ingress. Not GUI merchants, all cities/classes, transfers, process crashes or legitimate gameplay."
+  },
+  "864b37cb0b5f": {
+    "status": "verified",
+    "artifacts": [
+      "docs/MERCHANT_LIVE.md",
+      ".local/merchant-live/summary.json",
+      ".local/merchant-live/20261019T174525Z/run.jsonl",
+      "tests/verify_merchant_runtime.py",
+      "tests/test_v2_effects_sql.py",
+      "docs/verification/native-merchant.json"
+    ],
+    "verification": "Loaded Stormwind merchant gossip, persistent validated stock, native voucher receipt, normal-player purchase, full-bag refusal/retry, per-GUID authorization, ordinary-copy level denial and replay/relog persistence pass.",
+    "scope": "Native callback/packet fixtures with GM setup and labeled fabricated AP ingress. Not GUI merchants, all cities/classes, transfers, process crashes or legitimate gameplay."
+  },
+  "702b5b8e0960": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Packaged AP generation emits 60 stock entries. Tests cover 30, 60 and 120 unique compatible entries for every supported class.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "f4797d86069c": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Stock tests require all viable class roles and available slot/era facets. They reject incompatible gear without using current specialization.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "783521e2a853": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "The generator excludes legendary quality. Bridge tests reject forged legendary stock. Actual AP stock tests assert this for every class.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "67eb33dae22a": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "The catalog is validated against pinned item data. Stock tests cover available equipment slots, qualities and expansions for every class.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "11153b495a06": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "The generator defaults to three compatible featured sets and accepts one through four. Packaged slot data contains their metadata.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "c6ade71baeaf": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Each piece receives an independent roll before overflow handling. Across 39,903 rolls, 31,869 pieces were included, or 79.866%.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "f98b65ce73db": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Failed featured rolls cannot reappear as filler. Zero/100% boundary tests and 2,000 actual fills verify this behavior.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "a2ca923dbd5f": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Source validation confirms actual set sizes. Of 3,301 eight-piece rolls, 530 were complete, or 16.056%. The expected rate is 16.777%.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "f090ccb43ca2": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Rolled pieces are reserved before coverage-based filler. AP tests verify reservation and exclusion of failed featured rolls.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "2f9d4e0e47e6": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "The 30-entry/four-set/100% test forces overflow. A uniform subset preserves the cap without introducing unrolled pieces.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "612e7139f77a": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Set-backed reservation and exclusion of chosen IDs prevent duplicates. AP tests require unique stock IDs at every supported size and class.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "02c625deb16f": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Separate seed/slot random streams and final display shuffle preserve stock identity. Repeated generation matches while other slots differ.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "a9b948cadb23": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "AP stock tests require available slot, era, quality and viable-role facets. The 2,000-seed simulation records role coverage.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "8648ba9890a7": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Actual pool tests validate 45 one-voucher, 28 three-voucher and 15 five-voucher items across profiles.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "8598a72238ba": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Generator assertions and actual AP/SQL tests require 88 voucher items totaling 204 vouchers.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "9311a8988d9a": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Catalog validation checks quality, set-era and high-end weapon prices. Native purchase uses the validated price. Bridge tests reject forged prices.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "47fd0741b562": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Across 2,000 actual fills, stock costs range from 209 to 281, averaging 241.87. With cheapest-first purchases, 204 vouchers buy an average 90.5817% of the 60 entries.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "c0d3873f55fd": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "After affordable coverage and upgrade-oriented tuning, 2,000 seeds average 241.87 total cost and 54.349 affordable entries out of 60.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "24dcf2665b3b": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "Voucher items are Useful. AP tests remove all Useful rewards and still reach ordinary checks and level-only victory.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "99428b8a8e6f": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md",
+      "docs/verification/legendary-count-boundary.json",
+      "bridge/catalog.py",
+      "tests/test_bridge_v2.py"
+    ],
+    "verification": "Default packaged generation produces two named legendary identities visible in the spoiler. Configurable0/1/2/5/10 pass actual packaged generation and restrictive fill. Actual generated0/5/10 slots round-trip through bridge validation with exact unique legendary counts. Bridge now matches APWorld0..10 instead of wrongly rejecting5..10. Seven manifest tests and34 packaged AP tests pass. Counts above10 or beyond compatible class identities still fail.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "265a8f92f57d": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/shop.py",
+      "apworld/wowpilago/test/__init__.py",
+      "tests/test_reward_catalog.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log",
+      "docs/verification/seed-simulation.json",
+      "docs/IMPLEMENTATION.md"
+    ],
+    "verification": "The implementation decision defers class challenges and extra equipment/riding gates. Ordinary v1 checks do not require shuffled abilities.",
+    "scope": "Actual packaged AP generation, restrictivefills, source-derived catalog andstockgeneration. No claim of realclientcombat, everyvendorcity, orfullleveling."
+  },
+  "f412770cb0bd": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      ".local/class-systems/run.jsonl",
+      "src/APProgression.cpp",
+      "apworld/wowpilago/data/checks.json"
+    ],
+    "verification": "The native fixture starts at level 1 and progresses through 80. Read-only observation confirms exactly the 16 milestone IDs 919600005 through 919600080 in steps of five in its durable outbox. Relogs and identical receipt replay preserve them.",
+    "scope": "Actual native level callbacks and saved outbox using GM level setup. Not a legitimate leveling playthrough or real AP acknowledgement of these fixture milestones."
+  },
+  "28f40cac65ce": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/__init__.py",
+      "apworld/wowpilago/data/checks.json",
+      "apworld/wowpilago/test/__init__.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log"
+    ],
+    "verification": "Raid locations are excluded from advancement placement and accept filler only. Fixed rewards must fit non-raid locations. Actual category-combination and restrictive-fill tests verify optional raids never hold victory-critical progression.",
+    "scope": "Logical access and item placement in actual packaged Archipelago generation. Native flying, transport and raid-kill behavior remain separate runtime gates."
+  },
+  "b1c7b4d7412b": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/__init__.py",
+      "apworld/wowpilago/data/checks.json",
+      "apworld/wowpilago/test/__init__.py",
+      ".local/current-apworld-tests.log",
+      ".local/current-seed-simulation.log"
+    ],
+    "verification": "Access rules derive riding requirements from the selected check catalog and prerequisite ancestry. Expert and Cold Weather become progression only when selected checks require them. Ordinary access does not add blanket riding gates. Actual AP tests exercise category/profile combinations and no-Useful-reward access.",
+    "scope": "Logical access and item placement in actual packaged Archipelago generation. Native flying, transport and raid-kill behavior remain separate runtime gates."
+  },
+  "672400c3d2f4": {
+    "status": "verified",
+    "artifacts": [
+      "docs/TRAVEL_LIVE.md",
+      ".local/travel-live/summary.json",
+      ".local/travel-live/run.jsonl",
+      "tests/verify_travel_runtime.py",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "Permission received at level 1 remains pending. At 20, native riding training appears and ordinary mount 458 casts successfully with a saved 60% aura and 11.2 run speed.",
+    "scope": "Actual native spells, cast-result/speed packets and saved auras on a SEC_PLAYER fixture with fabricated AP ingress and GM setup. Not real AP ingress, unprivileged portal travel, or airborne movement."
+  },
+  "afbf00090aa9": {
+    "status": "verified",
+    "artifacts": [
+      "docs/TRAVEL_LIVE.md",
+      ".local/travel-live/summary.json",
+      ".local/travel-live/run.jsonl",
+      "tests/verify_travel_runtime.py",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "Mount 23227 is refused at 20. At 40, native Journeyman training permits its ordinary cast and 14.0 run speed, matching 100% ground speed.",
+    "scope": "Actual native spells, cast-result/speed packets and saved auras on a SEC_PLAYER fixture with fabricated AP ingress and GM setup. Not real AP ingress, unprivileged portal travel, or airborne movement."
+  },
+  "0b19ba898285": {
+    "status": "verified",
+    "artifacts": [
+      "docs/TRAVEL_LIVE.md",
+      ".local/travel-live/summary.json",
+      ".local/travel-live/run.jsonl",
+      "tests/verify_travel_runtime.py",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "At 60, Expert training permits ordinary flying mount 32239 in Outland after access arrives. Native cast, saved aura and 17.5 flight speed confirm its effect. Azeroth map 0 refuses the same cast.",
+    "scope": "Actual native spells, cast-result/speed packets and saved auras on a SEC_PLAYER fixture with fabricated AP ingress and GM setup. Not real AP ingress, unprivileged portal travel, or airborne movement."
+  },
+  "88b709ff3379": {
+    "status": "verified",
+    "artifacts": [
+      "docs/TRAVEL_LIVE.md",
+      ".local/travel-live/summary.json",
+      ".local/travel-live/run.jsonl",
+      "tests/verify_travel_runtime.py",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "Northrend entry after its access receipt does not permit flight at 60. At 77, native Cold Weather training permits mount 32239 with saved flight aura and 17.5 speed.",
+    "scope": "Actual native spells, cast-result/speed packets and saved auras on a SEC_PLAYER fixture with fabricated AP ingress and GM setup. Not real AP ingress, unprivileged portal travel, or airborne movement."
+  },
+  "d8f7682b8494": {
+    "status": "verified",
+    "artifacts": [
+      "docs/TRAVEL_LIVE.md",
+      ".local/travel-live/summary.json",
+      ".local/travel-live/run.jsonl",
+      "tests/verify_travel_runtime.py",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "AP riding receipts teach eligible training through native reconciliation without trainer fees. Ordinary cast/speed/aura observations verify actual use. Earlier permissions remain pending until their level and prerequisite requirements hold.",
+    "scope": "Actual native spells, cast-result/speed packets and saved auras on a SEC_PLAYER fixture with fabricated AP ingress and GM setup. Not real AP ingress, unprivileged portal travel, or airborne movement."
+  },
+  "0c004e2b751a": {
+    "status": "verified",
+    "artifacts": [
+      "docs/IMPLEMENTATION.md",
+      "apworld/wowpilago/data/checks.json",
+      "apworld/wowpilago/__init__.py",
+      ".local/current-apworld-tests.log",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "docs/verification/native-class-systems.json",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "Both restrictions are intentional. Raid locations are AP-excluded and their item rule accepts filler only. Actual packaged fills and category-option tests verify this choice.",
+    "scope": "Finalized catalog/design and packaged AP logic; M3 is a bounded native one-class slice with GM setup and fabricated AP ingress. Not full gameplay, every class, actual raids, unprivileged transport or release completion."
+  },
+  "840e0c6b4f80": {
+    "status": "verified",
+    "artifacts": [
+      "docs/IMPLEMENTATION.md",
+      "apworld/wowpilago/data/checks.json",
+      "apworld/wowpilago/__init__.py",
+      ".local/current-apworld-tests.log",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "docs/verification/native-class-systems.json",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "The finalized source-validated catalog contains 12 raid bosses. Placement explicitly uses excluded locations plus filler-only item rules, not mere non-requirement by reachability.",
+    "scope": "Finalized catalog/design and packaged AP logic; M3 is a bounded native one-class slice with GM setup and fabricated AP ingress. Not full gameplay, every class, actual raids, unprivileged transport or release completion."
+  },
+  "b73f2b435ce3": {
+    "status": "verified",
+    "artifacts": [
+      "docs/IMPLEMENTATION.md",
+      "apworld/wowpilago/data/checks.json",
+      "apworld/wowpilago/__init__.py",
+      ".local/current-apworld-tests.log",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "docs/verification/native-class-systems.json",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "The finalized active catalog contains 150 quests, 60 zone entries, 48 dungeon bosses, 14 dungeon completions, 16 milestones and 12 raid bosses. Source validation and immutable identity retirement preserve these counts and compatible quest chains.",
+    "scope": "Finalized catalog/design and packaged AP logic; M3 is a bounded native one-class slice with GM setup and fabricated AP ingress. Not full gameplay, every class, actual raids, unprivileged transport or release completion."
+  },
+  "7774a56f94ad": {
+    "status": "verified",
+    "artifacts": [
+      "docs/IMPLEMENTATION.md",
+      "apworld/wowpilago/data/checks.json",
+      "apworld/wowpilago/__init__.py",
+      ".local/current-apworld-tests.log",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "docs/verification/native-class-systems.json",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "The chosen victory is actual level 80 on any map. It does not require Northrend Access. The native level-80 fixture saves victory with access flags zero, while AP logic requires only the level-cap progression.",
+    "scope": "Finalized catalog/design and packaged AP logic; M3 is a bounded native one-class slice with GM setup and fabricated AP ingress. Not full gameplay, every class, actual raids, unprivileged transport or release completion."
+  },
+  "4cb52e525f64": {
+    "status": "verified",
+    "artifacts": [
+      "docs/IMPLEMENTATION.md",
+      "apworld/wowpilago/data/checks.json",
+      "apworld/wowpilago/__init__.py",
+      ".local/current-apworld-tests.log",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "docs/verification/native-class-systems.json",
+      "docs/verification/native-travel.json"
+    ],
+    "verification": "Class challenges and additional equipment/riding progression gates are explicitly deferred. They are not part of ordinary v1 access or victory.",
+    "scope": "Finalized catalog/design and packaged AP logic; M3 is a bounded native one-class slice with GM setup and fabricated AP ingress. Not full gameplay, every class, actual raids, unprivileged transport or release completion."
+  },
+  "59bd867adafb": {
+    "status": "verified",
+    "artifacts": [
+      "docs/SECURITY.md",
+      "docs/LIVE_V2.md",
+      "sql/bridge_permissions.sql",
+      "bridge/client.py",
+      "bridge/v2.py",
+      "tests/test_bridge_v2.py",
+      "docs/MERCHANT_LIVE.md"
+    ],
+    "verification": "The live bridge authenticates with a dedicated random-password MySQL account under restricted grants. Native heartbeat succeeds; character UPDATE and item-instance SELECT are denied. AP room authentication supports the room-password environment variable and WSS. Native SEC_PLAYER commands derive caller binding, price and item ownership on the server. Actual wrong-owner equipment and forged manifest tests reject unauthorized values.",
+    "scope": "Bridge/API authentication and least-privilege boundaries. The AP server remains a trusted reward authority; the protocol does not provide signed gameplay proofs. Private-loopback live session, not a public-network penetration test."
+  },
+  "bf4bff9c6393": {
+    "status": "verified",
+    "artifacts": [
+      "docs/ARTISAN_RUNTIME.md",
+      "docs/verification/native-artisan.json",
+      ".local/artisan-runtime-plan/fixed-owner-guard/run.jsonl",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "tests/test_native_mount_cast.py"
+    ],
+    "verification": "The same fast mounts 32242 and 40192 fail at levels 60, 69 and 70 before Artisan. One appended permission at 70 grants skill 300. Both then cast with native speeds 26.6/28.7 and saved 280%/310% auras.",
+    "scope": "Actual native packets, saved auras/state and production-hook regression tests, using GM setup and labeled fabricated AP ingress. Not real-room gameplay, airborne movement, all classes or unprivileged transport."
+  },
+  "e89c7b926117": {
+    "status": "verified",
+    "artifacts": [
+      "docs/ARTISAN_RUNTIME.md",
+      "docs/verification/native-artisan.json",
+      ".local/artisan-runtime-plan/fixed-owner-guard/run.jsonl",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "tests/test_native_mount_cast.py"
+    ],
+    "verification": "Native class/travel checkpoints verify levels 20/40/60/70/77. The fresh fixed-binary run also denies fast mounts at 60/69 and at 70 without Artisan, preserving both level and permission checks. Production-hook tests cover early Artisan flags below 70.",
+    "scope": "Actual native packets, saved auras/state and production-hook regression tests, using GM setup and labeled fabricated AP ingress. Not real-room gameplay, airborne movement, all classes or unprivileged transport."
+  },
+  "5ac07de75396": {
+    "status": "verified",
+    "artifacts": [
+      "docs/ARTISAN_RUNTIME.md",
+      "docs/verification/native-artisan.json",
+      ".local/artisan-runtime-plan/fixed-owner-guard/run.jsonl",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "tests/test_native_mount_cast.py"
+    ],
+    "verification": "Early level-1 permissions remain pending; Journeyman without Apprentice is blocked. Cold Weather does not permit Northrend flight at 60. Fast mounts require Artisan rather than Expert alone. All receipts remain immutable across relogs.",
+    "scope": "Actual native packets, saved auras/state and production-hook regression tests, using GM setup and labeled fabricated AP ingress. Not real-room gameplay, airborne movement, all classes or unprivileged transport."
+  },
+  "311033b08616": {
+    "status": "verified",
+    "artifacts": [
+      "docs/ARTISAN_RUNTIME.md",
+      "docs/verification/native-artisan.json",
+      ".local/artisan-runtime-plan/fixed-owner-guard/run.jsonl",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/TRAVEL_LIVE.md",
+      "tests/test_native_mount_cast.py"
+    ],
+    "verification": "The bounded native Warrior slice verifies access flags, riding training/use, talent reservations/tier denial and Charge ranks. The fresh fixed-binary proof closes the discovered fast-flight bypass. Other classes and unprivileged travel remain separate gates.",
+    "scope": "Actual native packets, saved auras/state and production-hook regression tests, using GM setup and labeled fabricated AP ingress. Not real-room gameplay, airborne movement, all classes or unprivileged transport."
+  },
+  "6fc8925feb1a": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CRASH_RUNTIME.md",
+      "docs/verification/native-world-crashes.json",
+      ".local/crash-runtime-plan/run-20261019T195228Z-7c423b5d/second-after-restart.json",
+      "docs/LIVE_V2.md",
+      "docs/MERCHANT_LIVE.md",
+      "tests/test_v2_effects_sql.py"
+    ],
+    "verification": "Actual AP connectivity and native purchases persist seed/team/slot/character, immutable rewards, acknowledged checks, voucher balances, stock and purchases. Full preexisting AP/character snapshots remain equal across two actual world SIGKILL/restarts and the owned continuation relogs.",
+    "scope": "Actual world-process crashes, immutable database state and native relogs; a composite proof with the original harness FAIL preserved. Not an AP bridge crash, database crash, or deterministic COMMIT-before-publication test."
+  },
+  "e91b0699ec74": {
+    "status": "verified",
+    "artifacts": [
+      "docs/CRASH_RUNTIME.md",
+      "docs/verification/native-world-crashes.json",
+      ".local/crash-runtime-plan/run-20261019T195228Z-7c423b5d/second-after-restart.json",
+      "docs/LIVE_V2.md",
+      "docs/MERCHANT_LIVE.md",
+      "tests/test_v2_effects_sql.py"
+    ],
+    "verification": "The composite native scenario preserves contiguous indexed bag/voucher receipts before and after two actual SIGKILLs. Exactly two physical bags and ten vouchers persist, with unchanged GUIDs, authorization and placement after two additional seven-second relogs. Existing typed rewards and indexed replay tests cover immutable payload rejection.",
+    "scope": "Actual world-process crashes, immutable database state and native relogs; a composite proof with the original harness FAIL preserved. Not an AP bridge crash, database crash, or deterministic COMMIT-before-publication test."
+  },
+  "a65e97dbc087": {
+    "status": "verified",
+    "artifacts": [
+      "apworld/wowpilago/test/__init__.py",
+      "apworld/wowpilago/data/rewards.json",
+      ".local/reference-arithmetic-apworld.log"
+    ],
+    "verification": "Executed packaged AP tests assert the proposed reference composition exactly: 11 progression, 117 Useful including eight class abilities and two named legendaries, and 172 filler (100 Gold plus 72 Consumable), totaling 300. The same actual test explicitly asserts the filtered Human profile has 213 locations and 49/36 filler after recomputation.",
+    "scope": "Arithmetic audit of the specified 300-item reference baseline, not a claim that every faction/class profile has 300 locations or receives 100/72 filler. Literal filler-count rows remain open."
+  },
+  "ec974d180eaa": {
+    "status": "verified",
+    "artifacts": [
+      "tests/verify_world.py",
+      "docs/verification/published-names.json",
+      ".local/published-names-apworld.log"
+    ],
+    "verification": "Executed packaged AP generation with literal meaningful quest, raid, ability, voucher and cache name assertions against the actual AP client datapackage. Every selected location name resolves to its exact AP ID and appears in the generated spoiler. Named legendary identities remain checked in the same generated artifact.",
+    "scope": "Published names and actual generated spoiler. Does not claim all named checks were completed in gameplay."
+  },
+  "2fa8a3d977e8": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-class-matrix.json",
+      "docs/CLASS_MATRIX.md",
+      ".local/class-matrix-plan/parent-reviewed-seven.json",
+      ".local/class-matrix-plan/parent-reviewed-nine.json"
+    ],
+    "verification": "Independently checked actual bound snapshots for all nine supported normal classes. Every fresh character saved level1 with cap_items0, and each native level11 bypass probe was denied while cap10. Raw login packets, saved learned ranks, contiguous applied receipts and relog/replay state were checked across 90 phase snapshots in two preserved runs.",
+    "scope": "Normal-class initial level/cap and native fixture gates. Does not claim DK AP support, all-class combat viability, GUI training or a legitimate full playthrough."
+  },
+  "b4329d2b6095": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-class-matrix.json",
+      "docs/verification/native-dk-exclusion.json",
+      "docs/CLASS_MATRIX.md",
+      "docs/DK_EXCLUSION_RUNTIME.md"
+    ],
+    "verification": "Nine normal-class native initial-cap/ability gates, saved ranks, baseline preservation, relog and replay were independently checked across 90 phase snapshots, with Orc Horde and Human/Night Elf Alliance profiles. Two normal unbound DK logins then proved ordinary level55 Ebon Hold, talent0, normal starting spells, no binding and pre-Store API rejection.",
+    "scope": "Native fixtures and explicit DK exclusion. Not all-class combat viability, respec/dual-spec paths, GUI, full DK introduction or legitimate AP playthrough."
+  },
+  "346cfaefdaad": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-dk-exclusion.json",
+      "docs/CLASS_SYSTEMS_RUNTIME.md",
+      "docs/verification/native-class-systems.json"
+    ],
+    "verification": "Actual excluded/unbound DK55 preserves ordinary intro map609/zone4298 and native free talent0 on two normal logins without AP binding or effects. Earlier native normal-class hybrid-talent tests establish the 12 reservations, eligibility/banking, six spent points and level80 ceiling71.",
+    "scope": "Native fixtures and explicit DK exclusion. Not all-class combat viability, respec/dual-spec paths, GUI, full DK introduction or legitimate AP playthrough."
+  },
+  "44b12dc083f9": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-transfer-refusals.json",
+      "docs/TRADE_LIVE.md",
+      "docs/TRANSFER_LIVE.md",
+      "docs/CORE_PATCH.md"
+    ],
+    "verification": "Both direct legendary269 and shop285 have persisted per-GUID character/binding authorization and soulbound state. Native trade refusal, current mail refusals and actual auction-sell refusals are recorded for both kinds. Exact phase snapshots prove no transfer/listing/debit. Permanent slot binding and current source-root continuity preserve the boundary.",
+    "scope": "Native fixtures plus explicit source/design comparison. Not stock GUI, all compatibility/item-use/other-transfer paths, procs/stats/set bonuses or legitimate gameplay release proof."
+  },
+  "e7a730ce2291": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-instance-equipment.json",
+      "docs/INSTANCE_EQUIPMENT_RUNTIME.md",
+      "docs/CORE_PATCH.md"
+    ],
+    "verification": "The same level1 player23 equipped authorized item286, entry756 RequiredLevel24, while ordinary unauthorized525 with exactly the same entry received native error1 containing its GUID and required level24. The core hook can skip only RequiredLevel and template-only callers retain normal checks.",
+    "scope": "Native fixtures plus explicit source/design comparison. Not stock GUI, all compatibility/item-use/other-transfer paths, procs/stats/set bonuses or legitimate gameplay release proof."
+  },
+  "20ab8fd19997": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-instance-equipment.json",
+      "docs/INSTANCE_EQUIPMENT_RUNTIME.md"
+    ],
+    "verification": "Actual same-player positive/negative pair: AP286 equips; ordinary525 of entry756 does not. Both instances remain owned by player23, ordinary525 has no authorization, and its denial leaves the entire post-equip saved snapshot identical.",
+    "scope": "Native fixtures plus explicit source/design comparison. Not stock GUI, all compatibility/item-use/other-transfer paths, procs/stats/set bonuses or legitimate gameplay release proof."
+  },
+  "b3c20f33b5d0": {
+    "status": "verified",
+    "artifacts": [
+      "docs/verification/native-transfer-refusals.json",
+      "docs/verification/native-instance-equipment.json",
+      "docs/MERCHANT_LIVE.md",
+      "docs/INSTANCE_EQUIPMENT_RUNTIME.md"
+    ],
+    "verification": "Direct Thunderfury269 used the same per-GUID authorization/low-level native equip path as shop gear. Both direct269 and purchased285 were refused by native trade, mail and auction paths; current trade/item validation source hashes match the prior native trade run. Purchased286 vs same-player ordinary525 confirms no entry-wide exemption.",
+    "scope": "Native fixtures plus explicit source/design comparison. Not stock GUI, all compatibility/item-use/other-transfer paths, procs/stats/set bonuses or legitimate gameplay release proof."
+  },
+  "91ca518f9d9e": {
+    "status": "verified",
+    "artifacts": [
+      "docs/INSTANCE_EQUIPMENT_RUNTIME.md",
+      "docs/RUNTIME_RESEARCH.md",
+      "docs/verification/native-instance-equipment.json"
+    ],
+    "verification": "Compared original-ID per-instance core exemption against alternate copied templates in INSTANCE_EQUIPMENT_RUNTIME.md and original RUNTIME_RESEARCH.md. Implemented/prototyped the per-GUID approach first, then exercised real native low-level positive equip and same-player same-entry ordinary denial. No alternate-template implementation or full GUI/proc behavior is claimed.",
+    "scope": "Native fixtures plus explicit source/design comparison. Not stock GUI, all compatibility/item-use/other-transfer paths, procs/stats/set bonuses or legitimate gameplay release proof."
+  }
+}

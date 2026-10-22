@@ -1,0 +1,69 @@
+{
+  "status": "PASS_COMBINED_NINE_NATIVE_GATES",
+  "prior_seven": ".local/class-matrix-plan/parent-reviewed-seven.json",
+  "final_two": [
+    {
+      "class_id": 9,
+      "guid": 40,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 11,
+      "guid": 41,
+      "phases_checked": 10
+    }
+  ],
+  "all_nine_started_level1_cap_items0": true,
+  "protected_before_equals_after": true,
+  "all_offline": true,
+  "scope": "Two preserved native fixture runs, not one shot, GUI, combat, DK or legitimate AP gameplay.",
+  "classes": [
+    {
+      "class_id": 1,
+      "guid": 32,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 2,
+      "guid": 33,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 3,
+      "guid": 34,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 4,
+      "guid": 35,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 5,
+      "guid": 36,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 7,
+      "guid": 37,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 8,
+      "guid": 38,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 9,
+      "guid": 40,
+      "phases_checked": 10
+    },
+    {
+      "class_id": 11,
+      "guid": 41,
+      "phases_checked": 10
+    }
+  ],
+  "world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+  "phase_snapshots_checked": 90
+}

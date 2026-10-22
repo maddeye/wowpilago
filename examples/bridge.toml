@@ -1,0 +1,13 @@
+# Find the GUID with SELECT guid, name FROM characters;
+protocol_version = 2
+character_guid = 1
+server = "ws://127.0.0.1:38281"
+slot = "Azeroth"
+
+[database]
+host = "127.0.0.1"
+port = 3306
+user = "wowpilago_bridge"
+database = "acore_characters"
+# Supply the database password in WOWPILAGO_DB_PASSWORD.
+# Supply an optional Archipelago room password in WOWPILAGO_AP_PASSWORD.

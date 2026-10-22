@@ -1,0 +1,211 @@
+{
+  "total": 188,
+  "verified": 154,
+  "remaining": [
+    {
+      "id": "647efb6151cc",
+      "section": "0. Agreed design baseline",
+      "text": "Keep baseline class combat functionality available without Archipelago rewards.",
+      "checked": false
+    },
+    {
+      "id": "3401e6ea9fe7",
+      "section": "0. Agreed design baseline",
+      "text": "Allow Archipelago-awarded equipment to be equipped **below its normal required level**, preserving original stats and set bonuses while retaining class/armor/weapon proficiency requirements.",
+      "checked": false
+    },
+    {
+      "id": "e464c4889b34",
+      "section": "1. Project structure & data model",
+      "text": "Make reward application and check reporting idempotent across reconnects, relogs, crashes, and world restarts.",
+      "checked": false
+    },
+    {
+      "id": "45200b6116a8",
+      "section": "2. Archipelago checks (~300 initial target)",
+      "text": "Curate **48 dungeon boss** checks; count each boss only once per AP slot.",
+      "checked": false
+    },
+    {
+      "id": "0042b3b6d55a",
+      "section": "2. Archipelago checks (~300 initial target)",
+      "text": "Ensure starting regions provide roughly **20\u201335 accessible checks** without needing item unlocks; aim for ~30.",
+      "checked": false
+    },
+    {
+      "id": "191074b0d276",
+      "section": "2. Archipelago checks (~300 initial target)",
+      "text": "Balance locations across cap bands (10, 20, 30, 40, 50, 60, 70, 80), adjusting for expansion access.",
+      "checked": false
+    },
+    {
+      "id": "3fb5910642e4",
+      "section": "3. Level caps, XP, expansion access & victory",
+      "text": "Restrict all relevant routes (portals, boats, zeppelins, spells, teleports) in accordance with expansion access flags.",
+      "checked": false
+    },
+    {
+      "id": "00c3544ded0d",
+      "section": "3. Level caps, XP, expansion access & victory",
+      "text": "Keep ordinary Azeroth travel accessible without randomized continent gating.",
+      "checked": false
+    },
+    {
+      "id": "ad1244654053",
+      "section": "4. Riding and flying",
+      "text": "Make **ground-accessible** locations completable without mount unlocks.",
+      "checked": false
+    },
+    {
+      "id": "310be80d250e",
+      "section": "4. Riding and flying",
+      "text": "Verify actual travel and flying restrictions for WotLK 3.3.5a; no ordinary Eastern Kingdoms/Kalimdor flying.",
+      "checked": false
+    },
+    {
+      "id": "95cd973f3680",
+      "section": "6. Major class abilities",
+      "text": "Ensure each class retains a viable baseline rotation, survival tools, and mandatory mechanics.",
+      "checked": false
+    },
+    {
+      "id": "a54e75da792b",
+      "section": "6. Major class abilities",
+      "text": "Queue early ability rewards until eligible; handle trainers, relogs, specialization changes, and internal spell-learning paths.",
+      "checked": false
+    },
+    {
+      "id": "76d4f4b471f8",
+      "section": "7. Randomized equipment vendor",
+      "text": "Handle full bags and disconnects without losing vouchers or duplicating purchases.",
+      "checked": false
+    },
+    {
+      "id": "eb73c0d4dbfa",
+      "section": "7. Randomized equipment vendor",
+      "text": "Preserve original item stats, procs, set bonuses, visuals, and item identity.",
+      "checked": false
+    },
+    {
+      "id": "e7aafa1d43f8",
+      "section": "7. Randomized equipment vendor",
+      "text": "Preserve class, armor-type, weapon-skill/proficiency, and other non-level compatibility rules.",
+      "checked": false
+    },
+    {
+      "id": "340e17cfcd50",
+      "section": "7. Randomized equipment vendor",
+      "text": "Check whether other item/equipment validation paths and unmodified 3.3.5a client behavior need special treatment.",
+      "checked": false
+    },
+    {
+      "id": "68866a5e63d9",
+      "section": "7. Randomized equipment vendor",
+      "text": "Bind AP equipment to the receiving character/slot; block trade, mail transfers, auction house, and other transfer exploits.",
+      "checked": false
+    },
+    {
+      "id": "d7c303b57bcd",
+      "section": "7. Randomized equipment vendor",
+      "text": "Test low-level characters using high-end procs, stats, sockets, enchants, and set bonuses.",
+      "checked": false
+    },
+    {
+      "id": "e842f15e1726",
+      "section": "8. Direct legendary rewards",
+      "text": "Prevent duplicate application after reconnects, AP retransmission, or crashes.",
+      "checked": false
+    },
+    {
+      "id": "9dbf810f31ef",
+      "section": "8. Direct legendary rewards",
+      "text": "Test low-level legendary procs and unusual class/equipment restrictions.",
+      "checked": false
+    },
+    {
+      "id": "8f78051f7815",
+      "section": "9. Seed item-pool composition (current proposed 300 items)",
+      "text": "Include **100** Gold Cache items \u2014 Filler.",
+      "checked": false
+    },
+    {
+      "id": "3808edfd0db9",
+      "section": "9. Seed item-pool composition (current proposed 300 items)",
+      "text": "Include **72** Consumable Cache items \u2014 Filler.",
+      "checked": false
+    },
+    {
+      "id": "80d42f59fb02",
+      "section": "10. APWorld logic and generation",
+      "text": "Use conservative logical level thresholds; physically entering a zone does not mean its checks are completable.",
+      "checked": false
+    },
+    {
+      "id": "82b94c14a99e",
+      "section": "11. AzerothCore bridge, persistence & UX",
+      "text": "Send checks only after confirmed quest turn-in, milestone, exploration, boss defeat, dungeon clear, or raid defeat.",
+      "checked": false
+    },
+    {
+      "id": "ed96d54aabb3",
+      "section": "11. AzerothCore bridge, persistence & UX",
+      "text": "Surface item receipts, cap upgrades, abilities, vouchers, and legendaries clearly in-game.",
+      "checked": false
+    },
+    {
+      "id": "0db7a1e3b8ff",
+      "section": "12. Testing & release criteria",
+      "text": "Test voucher-price economy for realistic early/mid/late check progression.",
+      "checked": false
+    },
+    {
+      "id": "26233758fa48",
+      "section": "12. Testing & release criteria",
+      "text": "Test simultaneous purchases, crashes during purchases, full bags, rollback, and reconnect idempotency.",
+      "checked": false
+    },
+    {
+      "id": "0bc6e0c750ba",
+      "section": "12. Testing & release criteria",
+      "text": "Test normal non-AP equipment still obeys all original item requirements.",
+      "checked": false
+    },
+    {
+      "id": "06433b30b57f",
+      "section": "12. Testing & release criteria",
+      "text": "Test every check type on a live 3.3.5a client, including parties and playerbots.",
+      "checked": false
+    },
+    {
+      "id": "08e7a4a3e3de",
+      "section": "12. Testing & release criteria",
+      "text": "Run a complete solo or playerbot-assisted level-1-to-80 playthrough.",
+      "checked": false
+    },
+    {
+      "id": "b5641a8bab84",
+      "section": "12. Testing & release criteria",
+      "text": "Run a real multiworld session with at least one other Archipelago game.",
+      "checked": false
+    },
+    {
+      "id": "454352441b77",
+      "section": "14. Suggested implementation order",
+      "text": "**M5 \u2014 Equipment depth:** featured sets, 60-entry catalog, full class compatibility, other city vendors, direct legendaries.",
+      "checked": false
+    },
+    {
+      "id": "87fb6fd1ed5b",
+      "section": "14. Suggested implementation order",
+      "text": "**M6 \u2014 Full content:** ~300 checks, all supported classes/factions, dungeons, raids, balance testing.",
+      "checked": false
+    },
+    {
+      "id": "b61ede21ebe8",
+      "section": "14. Suggested implementation order",
+      "text": "**M7 \u2014 Release hardening:** exploit protection, crash recovery, reconnect behavior, multiworld testing, documentation and setup scripts.",
+      "checked": false
+    }
+  ],
+  "errors": []
+}

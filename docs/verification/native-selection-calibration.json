@@ -1,0 +1,53 @@
+{
+  "status": "PASS_NATIVE_LOGIN_SELECTION_AND_PROTECTED_PLAYER_DATA_NOT_GAMEPLAY_ACCEPTANCE",
+  "goal_requirement_complete": false,
+  "report": ".local/goal-61deeb/selection-calibration-corrected/REPORT.md",
+  "operator_result": ".local/goal-61deeb/selection-calibration-corrected/operator-result.json",
+  "parent_audit": ".local/goal-61deeb/selection-calibration-corrected/parent-audit.json",
+  "native_evidence": {
+    "before_submit": ".local/goal-61deeb/selection-calibration-corrected/01-before-submit.png",
+    "selection": ".local/goal-61deeb/selection-calibration-corrected/03-selection-check.png",
+    "observed_selection_by_seconds": 174.148,
+    "account": 1,
+    "selected_name": "Apsjxsocfsik",
+    "world_entries": 0,
+    "character_list_inputs": 0,
+    "casts": 0,
+    "key_and_mouse_hold_seconds": 0.2,
+    "typing_delay_ms": 180
+  },
+  "protection": {
+    "character_tables": 122,
+    "auth_tables": 22,
+    "all42_character_rows_exact": true,
+    "items_inventory_spells_achievements_AP_exact": true,
+    "auth_account1_changed_fields": ["session_key", "last_login"],
+    "auth_playtime_unchanged": true,
+    "other_auth_data_exact": true,
+    "original_room_exact": true,
+    "ambient_audit": ".local/goal-61deeb/selection-calibration-corrected/ambient-audit.json",
+    "ambient_scope": "Unchanged shared AP/trainer/instance/unknown-spawn and protected-worldstate rules; no new table-wide exemption"
+  },
+  "cleanup": {
+    "preclosure": ".local/goal-61deeb/selection-calibration-corrected/preclosure-observation.json",
+    "closure": ".local/goal-61deeb/selection-calibration-corrected/closure.json",
+    "all42_characters_offline_before_closure": true,
+    "account1_online_before_closure": true,
+    "all_accounts_naturally_offline_after_closure": true,
+    "source": "Archived WorldSession constructor/destructor set auth account.online. Session closure precedes natural auth cleanup; character offline-before-close remains mandatory.",
+    "flag_repairs": 0
+  },
+  "retained_failure": {
+    "path": ".local/goal-61deeb/selection-calibration/parent-audit.json",
+    "cause": "Database/AP-fixture credential was mistakenly used for the separate control account.",
+    "retry_in_failed_attempt": false,
+    "protected_player_and_auth_account_rows_exact": true,
+    "correction": "Fresh attempt used existing control-source credential, verified offline against stored SRP before any submission. No password guessing or resets."
+  },
+  "limits": [
+    "No in-world readiness, target selection, command delivery, wrapper cast or queued spell release was tested.",
+    "No corrected native receipt, legitimate item acquisition or AP producer was exercised.",
+    "One startup observation does not guarantee a future world-loading or cleanup budget.",
+    "No gameplay lease or deployment authorization follows. Ledger remains152/188."
+  ]
+}

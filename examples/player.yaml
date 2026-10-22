@@ -1,0 +1,17 @@
+name: Azeroth
+game: World of Warcraft
+World of Warcraft:
+  character_race: human
+  character_class: warrior
+  quests: true
+  exploration: true
+  dungeon_bosses: true
+  dungeon_completions: true
+  level_milestones: true
+  raids: true
+  merchant_stock: 60
+  featured_sets: 3
+  set_piece_probability: 80
+  legendary_count: 2
+  progression_balancing: 50
+  accessibility: full

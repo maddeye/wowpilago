@@ -1,0 +1,35 @@
+{
+  "status": "PASS_LEGITIMATE_DURABLE_CHECK_AND_TWO_REAL_RECONNECTS",
+  "room": ".local/v2-multiworld/run-79mlu0ta",
+  "seed": "98284801054971523741",
+  "parent_audit": ".local/normal-wolves-disconnected/parent-audit.json",
+  "offline_proof": ".local/normal-wolves-disconnected/unacknowledged-proof.json",
+  "native_check": 919505261,
+  "producer": "Actual stock-client quest5261 turn-in with bridge/APserver absent.",
+  "offline_saved_acknowledged": 0,
+  "after_real_reconnect_acknowledged": 1,
+  "second_actual_reconnect": "Native check/reward/progress/stock snapshots exact; no additional receipt.",
+  "real_new_received_item_index": 8,
+  "real_new_item": 919100033,
+  "native_application": "Queued5vouchers while normal4offline; not yet applied.",
+  "earlier8_receipts_unchanged": true,
+  "old_peer_checks_unchanged": true,
+  "historical11_unapplied_rewards_preserved": true,
+  "global_pending_rewards_now": 12,
+  "save_received_items": 9,
+  "save_sha256": "447b591ec2e0c68bb8ff94c927f239fbbf7cb1cef6d8b918e5f8faf5d3a58d7c",
+  "normal_progress": {
+    "level": 2,
+    "xp": 659,
+    "money": 1041,
+    "quest5261": "rewarded",
+    "quest15": "0/8",
+    "quest33": "7/8 Diseased Wolf Pelt50432",
+    "potions": 10
+  },
+  "proof_images": [
+    ".local/normal-wolves-disconnected/ui/25-33-offer.png",
+    ".local/normal-wolves-disconnected/ui/54-logout-state.png"
+  ],
+  "limits": "Real bridge absence, offline durability and two reconnects only. Not all check types, AP-only outage while bridge lives, world crash windows or complete multiworld goals."
+}

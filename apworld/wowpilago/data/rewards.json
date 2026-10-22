@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "rewards": [
+    {"ap_id": 919100001, "name": "Progressive Level Cap", "kind": "level_cap", "value": 10, "classification": "progression", "base_count": 7},
+    {"ap_id": 919100002, "name": "Outland Access", "kind": "expansion", "value": "outland", "classification": "progression", "base_count": 1},
+    {"ap_id": 919100003, "name": "Northrend Access", "kind": "expansion", "value": "northrend", "classification": "progression", "base_count": 1},
+    {"ap_id": 919100010, "name": "Apprentice Riding", "kind": "riding", "value": "apprentice", "classification": "useful", "base_count": 1},
+    {"ap_id": 919100011, "name": "Journeyman Riding", "kind": "riding", "value": "journeyman", "classification": "useful", "base_count": 1},
+    {"ap_id": 919100012, "name": "Expert Riding", "kind": "riding", "value": "expert", "classification": "progression", "base_count": 1},
+    {"ap_id": 919100013, "name": "Artisan Riding", "kind": "riding", "value": "artisan", "classification": "useful", "base_count": 1},
+    {"ap_id": 919100014, "name": "Cold Weather Flying", "kind": "riding", "value": "cold_weather", "classification": "progression", "base_count": 1},
+    {"ap_id": 919100020, "name": "Talent Point Unlock", "kind": "talent", "value": 1, "classification": "useful", "base_count": 12},
+    {"ap_id": 919100031, "name": "Equipment Voucher +1", "kind": "voucher", "value": 1, "classification": "useful", "base_count": 45},
+    {"ap_id": 919100032, "name": "Equipment Voucher +3", "kind": "voucher", "value": 3, "classification": "useful", "base_count": 28},
+    {"ap_id": 919100033, "name": "Equipment Voucher +5", "kind": "voucher", "value": 5, "classification": "useful", "base_count": 15},
+    {"ap_id": 919100040, "name": "Bag Upgrade", "kind": "bag", "value": 4, "classification": "useful", "base_count": 4},
+    {"ap_id": 919100050, "name": "Gold Cache", "kind": "gold", "value": 1, "classification": "filler", "base_count": 100},
+    {"ap_id": 919100051, "name": "Consumable Cache", "kind": "consumables", "value": 1, "classification": "filler", "base_count": 72}
+  ]
+}

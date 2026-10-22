@@ -1,0 +1,77 @@
+{
+  "status": "PASS_SCOPED_NATIVE_CURATED_SUPPORT",
+  "requirement_complete": true,
+  "requirement": "Support curated checks: quests, level milestones, dungeon bosses, dungeon completions, zone exploration, and raid bosses",
+  "catalog": {
+    "quest": 150,
+    "exploration": 60,
+    "boss": 48,
+    "dungeon": 14,
+    "level": 16,
+    "raid": 12,
+    "definitions_changed": false,
+    "all60_exploration_entries_are_top_level_DBC_zones": true,
+    "generated_files_match": true
+  },
+  "fix": {
+    "source": "src/APProgression.cpp",
+    "sha256": "e1fdba3f63b96c73e75395b547f2b231a9ccb8589df22b9241bad020bf86b22b",
+    "reason": "Level-change reconciliation could publish a milestone while the new character level was still unsaved. The pending full save ran later on the five-second scan.",
+    "behavior": "Skip level publication while savePending. After a successful full transaction and matching saved level/last_level/bank/XP, clear pending and reconcile milestones.",
+    "short_logout": "If normal logout saves before the deferred publisher, login reconciliation recovers milestones from the persisted level.",
+    "deployed": true
+  },
+  "build": {
+    "status": "PASS_PINNED_CORE_COMPILE_LINK_DEPLOYED_BOOT_ONLY",
+    "candidate": ".local/v2-build/20261022T153940.104108Z-milestone-durability",
+    "world_sha256": "a20ecb1f7917616a3a84eae1cc9bfcb2dec5e0f504fc647204a1e0695b4b5296",
+    "report": ".local/curated-checks-milestone/build/report.md",
+    "changed_object": "APProgression.cpp.o",
+    "changed_library": "libmodules.a",
+    "core_and_playerbots_libraries_unchanged": true,
+    "real_playerbots_adapter_enabled": true,
+    "parent_source_and_binary_hash_check": "PASS",
+    "initial_attempt": "FAILED preservation check after concurrent parent edits to tests/docs. Retained unchanged; no failed attempt relabeled.",
+    "recovery": "Fresh candidate and logs. Public-file and prior-archive preservation checks passed.",
+    "deployed": true
+  },
+  "deployment": {
+    "status": "PASS_BOUNDED_WORLD_DEPLOYMENT_REVIEW_NOT_NATIVE_BEHAVIOR_ACCEPTANCE",
+    "evidence": ".local/milestone-deploy/20261022T162543.163453Z/REPORT.md",
+    "parent_review": ".local/milestone-deploy/20261022T162543.163453Z/parent-review.json",
+    "actual_proc_exe_sha256": "a20ecb1f7917616a3a84eae1cc9bfcb2dec5e0f504fc647204a1e0695b4b5296",
+    "original42_and_all_AP_tables": "EXACT",
+    "auth_database_and_other_containers": "UNCHANGED",
+    "all144_captures": 4,
+    "exact_tables": 141,
+    "system_differences": "Existing creature_respawn guard passes. Parent independently reviewed the one new boot uptime row and Hallow's End event12 startup timestamp against actual endpoints and pinned core. Original whole-table guard FAIL results remain, no old policy widened or rebaselined.",
+    "native_gameplay": false
+  },
+  "native_acceptance": {
+    "evidence": "docs/verification/native-curated-checks.json",
+    "scope": "Exact deployed binary, new isolated realm, actual stock client. Six representative native kinds,11 committed outbox rows, five same-instance/reset dungeon components, real saved-level lock-wait barrier and normal relog. Administrator-assisted mechanism test, zero AP receipts. No original-realm gameplay.",
+    "review": "Parent artifact audit plus independent read-only sa24 review supports this narrow basic-support requirement. Original4024 ambient guard failure and its bounded source explanation remain recorded."
+  },
+  "regression": {
+    "tests": "tests/test_native_progression.py",
+    "new_cases": 3,
+    "focused_total": 7,
+    "focused_passed": 7,
+    "scope": "Compiled actual level-change, reconciliation, save and flush bodies with bounded Player/database/RecordCheck boundary stubs. No live SQL/core/client observation of the new barrier.",
+    "red": ".local/curated-checks-milestone/stronger-old-source-red.log",
+    "initial_red": ".local/curated-checks-milestone/red-tests.log",
+    "full_log": ".local/curated-checks-milestone/public-final-tests.log",
+    "full_total": 565,
+    "full_passed": 513,
+    "full_skipped": 52,
+    "full_seconds": 83.314,
+    "failures": 0,
+    "errors": 0
+  },
+  "remaining": [],
+  "separate_open_gates": [
+    "All-content curation and playability, normal combat/travel/XP thresholds, parties/playerbots and full playthrough.",
+    "Crash/failed-commit injection, cross-reset negative, heroic/normal25 and new AP transport acceptance.",
+    "Other TODO requirements, completed multiworld goals and release."
+  ]
+}

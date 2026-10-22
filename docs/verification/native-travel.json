@@ -1,0 +1,29 @@
+{
+  "source_artifact": ".local/travel-live/summary.json",
+  "source_sha256": "bcc4abac81065a1bb738c06a262066101e83c14a69da009a7a81a6ead0070b58",
+  "evidence": {
+    "result": {
+      "event": "PASS"
+    },
+    "guid": 24,
+    "checks": [
+      "online access Stormwind -> 0",
+      "online access HellfirePeninsula -> 0",
+      "online access BoreanTundra -> 0",
+      "cast 458 denied 107",
+      "cast 458 speed 11.2",
+      "cast 23227 denied 107",
+      "cast 23227 speed 14.0",
+      "cast 32239 denied 60",
+      "online access HellfirePeninsula -> 530",
+      "cast 32239 speed 17.5",
+      "online access BoreanTundra -> 530",
+      "online access BoreanTundra -> 571",
+      "cast 32239 denied 60",
+      "cast 32239 speed 17.5"
+    ],
+    "protected_unchanged": true,
+    "world_sha256": "6434b132b68a581a2046319c25795f9f5c1211ab2096b56898702a12542d83e8",
+    "label": "fabricated AP ingress; NOT real AP client, gameplay, or release-gate evidence"
+  }
+}

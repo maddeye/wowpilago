@@ -1,0 +1,46 @@
+{
+  "source_artifact": ".local/artisan-runtime-plan/fixed-owner-guard/summary.json",
+  "source_sha256": "226d2d56c457883f9bd1688cbc4c85a6eb848890a50597927fe33ed2392bf8a9",
+  "evidence": {
+    "result": {
+      "event": "PASS"
+    },
+    "guid": 25,
+    "checks": [
+      "online access Stormwind -> 0",
+      "cast 458 speed 11.2",
+      "cast 23227 speed 14.0",
+      "online access HellfirePeninsula -> 530",
+      "cast 32239 speed 17.5",
+      "cast 32242 denied 107",
+      "cast 40192 denied 107",
+      "cast 32242 denied 107",
+      "cast 40192 denied 107",
+      "cast 32242 denied 107",
+      "cast 40192 denied 107",
+      "cast 32242 speed 26.6",
+      "cast 40192 speed 28.7"
+    ],
+    "evidence": {
+      "manifest_sha256": "6ac13239c2b11940904ece49ea6064c72980e433d6ef06aff587f36babc51553",
+      "world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+      "source": "/mnt/sylvanas/dev/probe/wowpilago/.local/v2-build/20261019T191318.518327Z-mail-fixed/source",
+      "source_cpp": "85e1a31476fe3d918dd61bfba685401c520707d72dcc3d4579788c3b4baa83c7",
+      "core_commit": "9fb906bb7296212ff42fc95ff73a92aaf8554f0d",
+      "playerbots_commit": "2f7d9f774987d0157c6a0d0cc08c40bec3db3945",
+      "image_id": "sha256:55bfa1750408af5f5645166e47928aac6ecf0be92dd24005411cd96115f18ed9",
+      "module_files_sha256": {
+        "APCatalog.h": "bf31e41dfd5496c1091755e75fedc3714a88ca36b06d20ecfe425ce49846a0d1",
+        "APDelivery.cpp": "18a12243c9ff27abcc6c8b7dc6b2c074ffb00e3fc16c47829e21fa91130d30ca",
+        "APDelivery.h": "b7742598eca8417ae3f88ab4bc4067388c3876575666b00ef1de0305736138f0",
+        "APMerchant.cpp": "eeee36260fa0b7f9f78ce36ea22577266ed68d0d7b3ca9682bff9092182f05b7",
+        "APMerchant.h": "5c35cae7b584be9c549a9b2ec82679b7d92d808274728d79200fab587a5d0146",
+        "APProgression.cpp": "85e1a31476fe3d918dd61bfba685401c520707d72dcc3d4579788c3b4baa83c7",
+        "APProgression.h": "392ea183bfcfdbf0df2fded5fc7220def1bb45d41d803e6ba50c073c7bc00d99",
+        "mod_archipelago.cpp": "5c13783f9dfde3522acb607fcf6c1745cd3fb7a47149dc783e2f54985197fb25"
+      }
+    },
+    "protected_unchanged": true,
+    "label": "fabricated AP ingress; NOT real AP client, gameplay, or release-gate evidence"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS_SCOPED_NATIVE_LIFECYCLE",
+  "requirement": "45c1b4a9b983",
+  "requirement_complete": true,
+  "parts": {
+    "absent_bridge": {
+      "summary": "Actual stock-client quest5261 turn-in persisted check919505261 at acknowledgement0 without bridge/AP. Reconnect acknowledged it once and added one real receipt. Second reconnect kept receipts, checks, progression and stock exact.",
+      "evidence": "docs/verification/native-check-reconnect.json",
+      "raw_audit": ".local/normal-wolves-disconnected/parent-audit.json"
+    },
+    "unavailable_AP_server": {
+      "summary": "Actual bridge PID3568348 stayed alive through AP-server outage and automatically reconnected. Raw receipt/check/progress/stock data stayed exact.",
+      "evidence": "docs/verification/bridge-reliability.json",
+      "raw_audit": ".local/normal-workers-turnin-offline/automatic-reconnect-proof.json"
+    },
+    "server_restart": {
+      "summary": "Real graceful world restart preserved all42 characters, all AP tables and the pending quest15 check. The check later acknowledged through the original AP room. Existing AP save was reloaded, not regenerated.",
+      "evidence": "docs/verification/bridge-reliability.json",
+      "raw_audit": ".local/normal-workers-turnin-offline/world-restart-proof.json"
+    },
+    "logout": {
+      "summary": "Existing actual native shop acceptance reached character selection through normal logout. Full character/auth captures verified offline saves and protected old data. The new deletion case independently proves all42 offline before closing its selection-only session and natural auth cleanup afterward.",
+      "evidence": "docs/verification/graphical-shop.json",
+      "native_release": ".local/goal-ecbd80/shop-native-cache-fixed/ui/released.json"
+    },
+    "character_deletion": {
+      "summary": "Actual stock-client physical DELETE confirmation removed fresh GUID43. Installed BEFORE DELETE trigger archived/detached binding32 and retained its manifest, progression,60 stock rows and213 enabled checks. All original42 characters and old items/spells/achievements/AP histories stayed exact. Production Store subsequently rejected GUID43.",
+      "evidence": "docs/verification/native-character-delete.json",
+      "raw_audit": ".local/native-delete-case/audit.json",
+      "verification": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python .local/native-delete-case/audit_after.py --check",
+      "nonempty_history_and_rollback": "docs/verification/character-delete-archive.json"
+    }
+  },
+  "review": "Parent inspected original proof files and native screenshots. An independent read-only reviewer compared original raw stage snapshots/logs and found all five parts supported, with no material missing evidence for this requirement alone.",
+  "scope": "Configured single realm, physical CharDelete.Method=0, installed archival trigger. Native deletion used one newly created character with zero world entry and zero received rewards. Nonempty-history, rollback, replacement and effect-rejection coverage is isolated InnoDB proof, not native deletion.",
+  "limits": [
+    "No arbitrary crash/commit-window, deadlock or database-outage acceptance claim.",
+    "No soft-delete/restoration or direct callback instrumentation claim.",
+    "No every-check-type, economy, complete playthrough, full M7 or release acceptance claim.",
+    "Historical failed and partial cases remain unchanged. Original AP room and previous rewards were not replayed."
+  ]
+}

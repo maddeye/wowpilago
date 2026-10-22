@@ -1,0 +1,98 @@
+{
+  "source_artifact": ".local/merchant-live/summary.json",
+  "source_sha256": "1c4a1755d9dd9d5a6c121a8a59ea9cf2fecc023ffd844d5bad0e2835f6e47c2c",
+  "evidence": {
+    "result": {
+      "authorized_thunderfury": 269,
+      "binding": 12,
+      "event": "PASS",
+      "gm": 13,
+      "label": "fabricated AP ingress; NOT real AP client, gameplay, or release-gate evidence",
+      "missing": [
+        "real AP room/playthrough",
+        "cross-trade",
+        "combat procs",
+        "crash recovery"
+      ],
+      "ordinary_thunderfury": 270,
+      "peer": 23,
+      "peer_binding": 13,
+      "price": 1,
+      "primary": 22,
+      "purchased": 285,
+      "stock_index": 0
+    },
+    "run": ".local/merchant-live/20261019T174525Z",
+    "run_sha256": "701eaa733913ac95ca1a36bbb2573e794d24c13202bf7a640dabe92a2527c98d",
+    "control_reuse": {
+      "account": "TEST",
+      "event": "verified_control_reuse",
+      "evidence_sha256": {
+        "before.json": "922993bf7e51a7983b4d2655c4935aa4e07982b8d2d065b0a688b00d78b38b47",
+        "run.jsonl": "75752bcb82f5f63c31b4a0ab4a6e87372f14e5b490a4890d18a94db9e3b65fbf",
+        "summary.json": "5ed744a42ed8e5909a6b48bb8fa6e560cbe2466a1fa5f920d04eb8f7adddbc10"
+      },
+      "guid": 13,
+      "name": "Apsjxsocfsik"
+    },
+    "merchant": {
+      "entry": 900500,
+      "event": "merchant",
+      "runtime_guid": 17379406069905752682,
+      "spawn": 9005000
+    },
+    "ordinary_copy": {
+      "error": 1,
+      "event": "ordinary_copy_refusal",
+      "guid": 23,
+      "item": 270
+    },
+    "full_bag": {
+      "binding": 12,
+      "event": "full_bag_refusal",
+      "guid": 22,
+      "occupied": 16
+    },
+    "offline_fixture_guids": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "accounts": [
+      {
+        "id": 1,
+        "username": "TEST",
+        "online": 0,
+        "security": 3,
+        "characters": 10
+      },
+      {
+        "id": 5,
+        "username": "APV2D",
+        "online": 0,
+        "security": 0,
+        "characters": 4
+      },
+      {
+        "id": 6,
+        "username": "APV2E",
+        "online": 0,
+        "security": 0,
+        "characters": 4
+      }
+    ],
+    "offline_tests": {
+      "merchant": 15,
+      "shared_runtime": 19,
+      "shared_client": 16
+    }
+  }
+}

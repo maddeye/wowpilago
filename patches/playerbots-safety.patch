@@ -1,0 +1,12 @@
+diff --git a/src/Bot/Factory/PlayerbotFactory.cpp b/src/Bot/Factory/PlayerbotFactory.cpp
+--- a/src/Bot/Factory/PlayerbotFactory.cpp
++++ b/src/Bot/Factory/PlayerbotFactory.cpp
+@@ -2698,7 +2698,7 @@ void PlayerbotFactory::EnchantItem(Item* item)
+             uint8 sp = 0;
+             uint8 ap = 0;
+             uint8 tank = 0;
+-            for (uint8 i = ITEM_MOD_MANA; i < MAX_ITEM_MOD; ++i)
++            for (uint8 i = 0; i < MAX_SPELL_ITEM_ENCHANTMENT_EFFECTS; ++i)
+             {
+                 if (enchant->type[i] != ITEM_ENCHANTMENT_TYPE_STAT)
+                     continue;

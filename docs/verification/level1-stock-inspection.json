@@ -1,0 +1,31 @@
+{
+  "status": "PASS_PARENT_LEVEL1_FULL_PERSONAL_INVENTORY_GUI",
+  "guid": 22,
+  "binding": 12,
+  "level": 1,
+  "xp": 55,
+  "money": 10000,
+  "vouchers": 4,
+  "remaining_cost": 55,
+  "stock_rows": 30,
+  "all30_unique_rows_and_prices_match": true,
+  "unsold_rows": 29,
+  "sold_rows": 1,
+  "screenshots_parent_viewed": {
+    ".local/merchant22-gui-inspection/ui/19-weapons-page1.png": "fdc244186793964ffcda44c1f306e8538ae961a117a90fd71c42a8132ab4a23a",
+    ".local/merchant22-gui-inspection/ui/20-weapons-page1-bottom.png": "a2c0d0da899b5b54d7b1f339bb5bf0a105ea3b6ef2e7236f63a476459835a55b",
+    ".local/merchant22-gui-inspection/ui/26-armor-bottom.png": "d2dd769c52212fc9c1daef66cedb4a3b6c931b3cfbdaa7e7d49b6d57a271bf16",
+    ".local/merchant22-gui-inspection/ui/21-weapons-page2.png": "806d23de42f3ec4539b1124b4d2ebea6c9a40a525400649f82ff18262cdbf146",
+    ".local/merchant22-gui-inspection/ui/27-jewelry-page1.png": "9313c162f454738cb939c5b655a39011cb41df29dba27d1f198ac11a548dbebf"
+  },
+  "all_ap_tables_items_inventory_exact": true,
+  "all_other41_and_unrelated_rows_exact": true,
+  "all42_offline": true,
+  "handoff_voucher_zero_was_parent_error": true,
+  "actual_before_after_vouchers4": true,
+  "scope": "GM-preconditioned existing30-row supportedstock. Notdefault60orlegitimateplaythrough/purchase/equip.",
+  "compiled_page_policy": "ActualAPMerchant.h/Page/Selection compiledandtested everycount30..120 andallcategories/pages, no omitted/duplicate rows.",
+  "compiled_test_log": ".local/merchant22-gui-inspection/cpp-pages.txt",
+  "runtime_shared_level_independence": "Merchantmenu usesboundpersonalstock/category/page withoutminimumlevelpredicate; level1clientrenderscompleteconfiguredstock.",
+  "evidence_scope": "Actualstockclient30-row supportedconfiguration atlevel1 pluscompiledproductionpagination30..120; notactualdefault60-rowlevel1GUIorallclasses."
+}

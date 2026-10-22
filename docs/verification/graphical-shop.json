@@ -1,0 +1,50 @@
+{
+  "status": "PASS_NATIVE_COLD_ICONS_AND_ONE_GRAPHICAL_PURCHASE_FULL122_AUTH",
+  "native_world_sha256": "3b9b2bf9f946a1eeef5908e440ed917132c0559c4bc483ba14be199060641809",
+  "addon_sha256": {
+    "Catalog.lua": "8365a1e20d9588509f6195e176861257e889ab9368dff4ab321ec5de9e9767de",
+    "README.md": "9fa4d0cc4e896d7ebdfb189657bd7dce4e1cfabf190bf05b9bf661d3fc13da39",
+    "Shop.lua": "8c2a5fb17de67995762d7d6c16638a9071d2703541164a01930c498237b0dd73",
+    "WoWPilago.lua": "c38ec914d691a807f3f53e6865267fd18dab612829d3de88095bf120ad16e094",
+    "WoWPilago.toc": "7c1fa6d3edc0d4ced9268374f04b9ec570ce520c815611d89ef7a2030f689d25"
+  },
+  "cold_icons_resolved": 12,
+  "cold_icons_observed_by_seconds": 1,
+  "opaque_readable": true,
+  "purchase": {
+    "stock_index": 18,
+    "item_entry": 15991,
+    "item_guid": 591,
+    "price": 1,
+    "vouchers_before": 5,
+    "vouchers_after": 4,
+    "remaining_before": 247,
+    "remaining_after": 246,
+    "bag_guid": 298,
+    "slot": 5,
+    "equipped": false
+  },
+  "character_tables": 122,
+  "auth_tables": 22,
+  "protected_other_characters": 41,
+  "all_preexisting_item_fields_and_inventory_unchanged": true,
+  "all_old_AP_histories_and_frozen11_exact": true,
+  "original_room_sha256": "9276a39d4ae2599d58434427684efba9e7f1fa07cac24e4bb88cd6c2539114b7",
+  "ordinary_bookkeeping": {
+    "played_seconds": 243,
+    "offline_rest_seconds": 1090,
+    "online_rest_seconds": 241,
+    "expected_rest_bonus": 65.36111666666666,
+    "actual_rest_bonus": 65.3611
+  },
+  "normal_logout": true,
+  "input_release_seconds": 575.6085845639464,
+  "limits": [
+    "Native shop acceptance only, not all compatibility, concurrent/crash/full-bag or full-playthrough proof.",
+    "New area-hook candidate is not deployed or exercised.",
+    "Original failed cold probe and consumed purchase intents remain preserved."
+  ],
+  "full_stock_inspection": "docs/verification/graphical-shop-native-inspection.json",
+  "prior_cold_failure": "docs/verification/graphical-shop-cold-failure.json",
+  "private_audit": ".local/goal-ecbd80/shop-native-cache-fixed/parent-audit.json"
+}

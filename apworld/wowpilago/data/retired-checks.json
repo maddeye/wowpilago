@@ -1,0 +1,624 @@
+{
+  "schema_version": 1,
+  "policy": "Permanently reserved. Never reuse these source keys or AP IDs. Do not migrate or rewrite existing realm bindings or check history.",
+  "reason": "Count-preserving local opening repair: 88 later quests replaced by 88 starter-zone quests.",
+  "previous_checks_sha256": "8eceab13eefb8a11d5a0c8fbdd5fbd602e80745e4acc6e26871cc1865559c492",
+  "checks": [
+    {
+      "key": "quest_22",
+      "kind": "quest",
+      "wow_id": 22,
+      "ap_id": 919500022,
+      "name": "Quest: Goretusk Liver Pie [22]"
+    },
+    {
+      "key": "quest_64",
+      "kind": "quest",
+      "wow_id": 64,
+      "ap_id": 919500064,
+      "name": "Quest: The Forgotten Heirloom [64]"
+    },
+    {
+      "key": "quest_102",
+      "kind": "quest",
+      "wow_id": 102,
+      "ap_id": 919500102,
+      "name": "Quest: Patrolling Westfall [102]"
+    },
+    {
+      "key": "quest_151",
+      "kind": "quest",
+      "wow_id": 151,
+      "ap_id": 919500151,
+      "name": "Quest: Poor Old Blanchy [151]"
+    },
+    {
+      "key": "quest_9",
+      "kind": "quest",
+      "wow_id": 9,
+      "ap_id": 919500009,
+      "name": "Quest: The Killing Fields [9]"
+    },
+    {
+      "key": "quest_416",
+      "kind": "quest",
+      "wow_id": 416,
+      "ap_id": 919500416,
+      "name": "Quest: Rat Catching [416]"
+    },
+    {
+      "key": "quest_418",
+      "kind": "quest",
+      "wow_id": 418,
+      "ap_id": 919500418,
+      "name": "Quest: Thelsamar Blood Sausages [418]"
+    },
+    {
+      "key": "quest_224",
+      "kind": "quest",
+      "wow_id": 224,
+      "ap_id": 919500224,
+      "name": "Quest: In Defense of the King's Lands [224]"
+    },
+    {
+      "key": "quest_267",
+      "kind": "quest",
+      "wow_id": 267,
+      "ap_id": 919500267,
+      "name": "Quest: The Trogg Threat [267]"
+    },
+    {
+      "key": "quest_307",
+      "kind": "quest",
+      "wow_id": 307,
+      "ap_id": 919500307,
+      "name": "Quest: Filthy Paws [307]"
+    },
+    {
+      "key": "quest_385",
+      "kind": "quest",
+      "wow_id": 385,
+      "ap_id": 919500385,
+      "name": "Quest: Crocolisk Hunting [385]"
+    },
+    {
+      "key": "quest_871",
+      "kind": "quest",
+      "wow_id": 871,
+      "ap_id": 919500871,
+      "name": "Quest: Disrupt the Attacks [871]"
+    },
+    {
+      "key": "quest_869",
+      "kind": "quest",
+      "wow_id": 869,
+      "ap_id": 919500869,
+      "name": "Quest: Raptor Thieves [869]"
+    },
+    {
+      "key": "quest_870",
+      "kind": "quest",
+      "wow_id": 870,
+      "ap_id": 919500870,
+      "name": "Quest: The Forgotten Pools [870]"
+    },
+    {
+      "key": "quest_855",
+      "kind": "quest",
+      "wow_id": 855,
+      "ap_id": 919500855,
+      "name": "Quest: Centaur Bracers [855]"
+    },
+    {
+      "key": "quest_5041",
+      "kind": "quest",
+      "wow_id": 5041,
+      "ap_id": 919505041,
+      "name": "Quest: Supplies for the Crossroads [5041]"
+    },
+    {
+      "key": "quest_848",
+      "kind": "quest",
+      "wow_id": 848,
+      "ap_id": 919500848,
+      "name": "Quest: Fungal Spores [848]"
+    },
+    {
+      "key": "quest_867",
+      "kind": "quest",
+      "wow_id": 867,
+      "ap_id": 919500867,
+      "name": "Quest: Harpy Raiders [867]"
+    },
+    {
+      "key": "quest_9152",
+      "kind": "quest",
+      "wow_id": 9152,
+      "ap_id": 919509152,
+      "name": "Quest: Tomber's Supplies [9152]"
+    },
+    {
+      "key": "quest_9160",
+      "kind": "quest",
+      "wow_id": 9160,
+      "ap_id": 919509160,
+      "name": "Quest: Investigate An'daroth [9160]"
+    },
+    {
+      "key": "quest_9150",
+      "kind": "quest",
+      "wow_id": 9150,
+      "ap_id": 919509150,
+      "name": "Quest: Salvaging the Past [9150]"
+    },
+    {
+      "key": "quest_9274",
+      "kind": "quest",
+      "wow_id": 9274,
+      "ap_id": 919509274,
+      "name": "Quest: Spirits of the Drowned [9274]"
+    },
+    {
+      "key": "quest_90",
+      "kind": "quest",
+      "wow_id": 90,
+      "ap_id": 919500090,
+      "name": "Quest: Seasoned Wolf Kabobs [90]"
+    },
+    {
+      "key": "quest_174",
+      "kind": "quest",
+      "wow_id": 174,
+      "ap_id": 919500174,
+      "name": "Quest: Look To The Stars [174]"
+    },
+    {
+      "key": "quest_101",
+      "kind": "quest",
+      "wow_id": 101,
+      "ap_id": 919500101,
+      "name": "Quest: The Totem of Infliction [101]"
+    },
+    {
+      "key": "quest_66",
+      "kind": "quest",
+      "wow_id": 66,
+      "ap_id": 919500066,
+      "name": "Quest: The Legend of Stalvan [66]"
+    },
+    {
+      "key": "quest_173",
+      "kind": "quest",
+      "wow_id": 173,
+      "ap_id": 919500173,
+      "name": "Quest: Worgen in the Woods [173]"
+    },
+    {
+      "key": "quest_20",
+      "kind": "quest",
+      "wow_id": 20,
+      "ap_id": 919500020,
+      "name": "Quest: Blackrock Menace [20]"
+    },
+    {
+      "key": "quest_127",
+      "kind": "quest",
+      "wow_id": 127,
+      "ap_id": 919500127,
+      "name": "Quest: Selling Fish [127]"
+    },
+    {
+      "key": "quest_91",
+      "kind": "quest",
+      "wow_id": 91,
+      "ap_id": 919500091,
+      "name": "Quest: Solomon's Law [91]"
+    },
+    {
+      "key": "quest_6462",
+      "kind": "quest",
+      "wow_id": 6462,
+      "ap_id": 919506462,
+      "name": "Quest: Troll Charm [6462]"
+    },
+    {
+      "key": "quest_6301",
+      "kind": "quest",
+      "wow_id": 6301,
+      "ap_id": 919506301,
+      "name": "Quest: Cycle of Rebirth [6301]"
+    },
+    {
+      "key": "quest_1087",
+      "kind": "quest",
+      "wow_id": 1087,
+      "ap_id": 919501087,
+      "name": "Quest: Cenarius' Legacy [1087]"
+    },
+    {
+      "key": "quest_6393",
+      "kind": "quest",
+      "wow_id": 6393,
+      "ap_id": 919506393,
+      "name": "Quest: Elemental War [6393]"
+    },
+    {
+      "key": "quest_1058",
+      "kind": "quest",
+      "wow_id": 1058,
+      "ap_id": 919501058,
+      "name": "Quest: Jin'Zil's Forest Magic [1058]"
+    },
+    {
+      "key": "quest_1078",
+      "kind": "quest",
+      "wow_id": 1078,
+      "ap_id": 919501078,
+      "name": "Quest: Retrieval for Mauren [1078]"
+    },
+    {
+      "key": "quest_1093",
+      "kind": "quest",
+      "wow_id": 1093,
+      "ap_id": 919501093,
+      "name": "Quest: Super Reaper 6000 [1093]"
+    },
+    {
+      "key": "quest_6461",
+      "kind": "quest",
+      "wow_id": 6461,
+      "ap_id": 919506461,
+      "name": "Quest: Blood Feeders [6461]"
+    },
+    {
+      "key": "quest_575",
+      "kind": "quest",
+      "wow_id": 575,
+      "ap_id": 919500575,
+      "name": "Quest: Supply and Demand [575]"
+    },
+    {
+      "key": "quest_201",
+      "kind": "quest",
+      "wow_id": 201,
+      "ap_id": 919500201,
+      "name": "Quest: Investigate the Camp [201]"
+    },
+    {
+      "key": "quest_189",
+      "kind": "quest",
+      "wow_id": 189,
+      "ap_id": 919500189,
+      "name": "Quest: Bloodscalp Ears [189]"
+    },
+    {
+      "key": "quest_605",
+      "kind": "quest",
+      "wow_id": 605,
+      "ap_id": 919500605,
+      "name": "Quest: Singing Blue Shards [605]"
+    },
+    {
+      "key": "quest_213",
+      "kind": "quest",
+      "wow_id": 213,
+      "ap_id": 919500213,
+      "name": "Quest: Hostile Takeover [213]"
+    },
+    {
+      "key": "quest_596",
+      "kind": "quest",
+      "wow_id": 596,
+      "ap_id": 919500596,
+      "name": "Quest: Bloody Bone Necklaces [596]"
+    },
+    {
+      "key": "quest_629",
+      "kind": "quest",
+      "wow_id": 629,
+      "ap_id": 919500629,
+      "name": "Quest: The Vile Reef [629]"
+    },
+    {
+      "key": "quest_9436",
+      "kind": "quest",
+      "wow_id": 9436,
+      "ap_id": 919509436,
+      "name": "Quest: Bloodscalp Insight [9436]"
+    },
+    {
+      "key": "quest_1362",
+      "kind": "quest",
+      "wow_id": 1362,
+      "ap_id": 919501362,
+      "name": "Quest: The Kolkar of Desolace [1362]"
+    },
+    {
+      "key": "quest_5501",
+      "kind": "quest",
+      "wow_id": 5501,
+      "ap_id": 919505501,
+      "name": "Quest: Bone Collector [5501]"
+    },
+    {
+      "key": "quest_261",
+      "kind": "quest",
+      "wow_id": 261,
+      "ap_id": 919500261,
+      "name": "Quest: Down the Scarlet Path [261]"
+    },
+    {
+      "key": "quest_5741",
+      "kind": "quest",
+      "wow_id": 5741,
+      "ap_id": 919505741,
+      "name": "Quest: Sceptre of Light [5741]"
+    },
+    {
+      "key": "quest_1365",
+      "kind": "quest",
+      "wow_id": 1365,
+      "ap_id": 919501365,
+      "name": "Quest: Khan Dez'hepah [1365]"
+    },
+    {
+      "key": "quest_6142",
+      "kind": "quest",
+      "wow_id": 6142,
+      "ap_id": 919506142,
+      "name": "Quest: Clam Bait [6142]"
+    },
+    {
+      "key": "quest_6143",
+      "kind": "quest",
+      "wow_id": 6143,
+      "ap_id": 919506143,
+      "name": "Quest: Other Fish to Fry [6143]"
+    },
+    {
+      "key": "quest_5386",
+      "kind": "quest",
+      "wow_id": 5386,
+      "ap_id": 919505386,
+      "name": "Quest: Catch of the Day [5386]"
+    },
+    {
+      "key": "quest_2975",
+      "kind": "quest",
+      "wow_id": 2975,
+      "ap_id": 919502975,
+      "name": "Quest: The Ogres of Feralas [2975]"
+    },
+    {
+      "key": "quest_2982",
+      "kind": "quest",
+      "wow_id": 2982,
+      "ap_id": 919502982,
+      "name": "Quest: The High Wilderness [2982]"
+    },
+    {
+      "key": "quest_2973",
+      "kind": "quest",
+      "wow_id": 2973,
+      "ap_id": 919502973,
+      "name": "Quest: A New Cloak's Sheen [2973]"
+    },
+    {
+      "key": "quest_2821",
+      "kind": "quest",
+      "wow_id": 2821,
+      "ap_id": 919502821,
+      "name": "Quest: The Mark of Quality [2821]"
+    },
+    {
+      "key": "quest_2822",
+      "kind": "quest",
+      "wow_id": 2822,
+      "ap_id": 919502822,
+      "name": "Quest: The Mark of Quality [2822]"
+    },
+    {
+      "key": "quest_1690",
+      "kind": "quest",
+      "wow_id": 1690,
+      "ap_id": 919501690,
+      "name": "Quest: Wastewander Justice [1690]"
+    },
+    {
+      "key": "quest_2873",
+      "kind": "quest",
+      "wow_id": 2873,
+      "ap_id": 919502873,
+      "name": "Quest: Stoley's Shipment [2873]"
+    },
+    {
+      "key": "quest_8365",
+      "kind": "quest",
+      "wow_id": 8365,
+      "ap_id": 919508365,
+      "name": "Quest: Pirate Hats Ahoy! [8365]"
+    },
+    {
+      "key": "quest_8366",
+      "kind": "quest",
+      "wow_id": 8366,
+      "ap_id": 919508366,
+      "name": "Quest: Southsea Shakedown [8366]"
+    },
+    {
+      "key": "quest_5863",
+      "kind": "quest",
+      "wow_id": 5863,
+      "ap_id": 919505863,
+      "name": "Quest: The Dunemaul Compound [5863]"
+    },
+    {
+      "key": "quest_4984",
+      "kind": "quest",
+      "wow_id": 4984,
+      "ap_id": 919504984,
+      "name": "Quest: The Wildlife Suffers Too [4984]"
+    },
+    {
+      "key": "quest_6004",
+      "kind": "quest",
+      "wow_id": 6004,
+      "ap_id": 919506004,
+      "name": "Quest: Unfinished Business [6004]"
+    },
+    {
+      "key": "quest_5149",
+      "kind": "quest",
+      "wow_id": 5149,
+      "ap_id": 919505149,
+      "name": "Quest: Pamela's Doll [5149]"
+    },
+    {
+      "key": "quest_5211",
+      "kind": "quest",
+      "wow_id": 5211,
+      "ap_id": 919505211,
+      "name": "Quest: Defenders of Darrowshire [5211]"
+    },
+    {
+      "key": "quest_6021",
+      "kind": "quest",
+      "wow_id": 6021,
+      "ap_id": 919506021,
+      "name": "Quest: Zaeldarr the Outcast [6021]"
+    },
+    {
+      "key": "quest_6164",
+      "kind": "quest",
+      "wow_id": 6164,
+      "ap_id": 919506164,
+      "name": "Quest: Augustus' Receipt Book [6164]"
+    },
+    {
+      "key": "quest_6133",
+      "kind": "quest",
+      "wow_id": 6133,
+      "ap_id": 919506133,
+      "name": "Quest: The Ranger Lord's Behest [6133]"
+    },
+    {
+      "key": "quest_6042",
+      "kind": "quest",
+      "wow_id": 6042,
+      "ap_id": 919506042,
+      "name": "Quest: Un-Life's Little Annoyances [6042]"
+    },
+    {
+      "key": "quest_9474",
+      "kind": "quest",
+      "wow_id": 9474,
+      "ap_id": 919509474,
+      "name": "Quest: The Mark of the Lightbringer [9474]"
+    },
+    {
+      "key": "quest_4504",
+      "kind": "quest",
+      "wow_id": 4504,
+      "ap_id": 919504504,
+      "name": "Quest: Super Sticky [4504]"
+    },
+    {
+      "key": "quest_9747",
+      "kind": "quest",
+      "wow_id": 9747,
+      "ap_id": 919509747,
+      "name": "Quest: The Umbrafen Tribe [9747]"
+    },
+    {
+      "key": "quest_9782",
+      "kind": "quest",
+      "wow_id": 9782,
+      "ap_id": 919509782,
+      "name": "Quest: The Dead Mire [9782]"
+    },
+    {
+      "key": "quest_9992",
+      "kind": "quest",
+      "wow_id": 9992,
+      "ap_id": 919509992,
+      "name": "Quest: Olemba Seeds [9992]"
+    },
+    {
+      "key": "quest_9993",
+      "kind": "quest",
+      "wow_id": 9993,
+      "ap_id": 919509993,
+      "name": "Quest: Olemba Seed Oil [9993]"
+    },
+    {
+      "key": "quest_9800",
+      "kind": "quest",
+      "wow_id": 9800,
+      "ap_id": 919509800,
+      "name": "Quest: A Rare Bean [9800]"
+    },
+    {
+      "key": "quest_9854",
+      "kind": "quest",
+      "wow_id": 9854,
+      "ap_id": 919509854,
+      "name": "Quest: Windroc Mastery [9854]"
+    },
+    {
+      "key": "quest_9857",
+      "kind": "quest",
+      "wow_id": 9857,
+      "ap_id": 919509857,
+      "name": "Quest: Talbuk Mastery [9857]"
+    },
+    {
+      "key": "quest_9789",
+      "kind": "quest",
+      "wow_id": 9789,
+      "ap_id": 919509789,
+      "name": "Quest: Clefthoof Mastery [9789]"
+    },
+    {
+      "key": "quest_9815",
+      "kind": "quest",
+      "wow_id": 9815,
+      "ap_id": 919509815,
+      "name": "Quest: Muck Diving [9815]"
+    },
+    {
+      "key": "quest_9818",
+      "kind": "quest",
+      "wow_id": 9818,
+      "ap_id": 919509818,
+      "name": "Quest: The Underneath [9818]"
+    },
+    {
+      "key": "quest_11564",
+      "kind": "quest",
+      "wow_id": 11564,
+      "ap_id": 919511564,
+      "name": "Quest: Succulent Orca Stew [11564]"
+    },
+    {
+      "key": "quest_11569",
+      "kind": "quest",
+      "wow_id": 11569,
+      "ap_id": 919511569,
+      "name": "Quest: Keymaster Urmgrgl [11569]"
+    },
+    {
+      "key": "quest_11594",
+      "kind": "quest",
+      "wow_id": 11594,
+      "ap_id": 919511594,
+      "name": "Quest: Put Them to Rest [11594]"
+    },
+    {
+      "key": "quest_11157",
+      "kind": "quest",
+      "wow_id": 11157,
+      "ap_id": 919511157,
+      "name": "Quest: The Clutches of Evil [11157]"
+    }
+  ]
+}
